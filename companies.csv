@@ -1,0 +1,1866 @@
+Ticker,Name,Size,Sector,Industry
+AXL,American Axle & Manufacturing Holdings Inc,Small,Consumer Discretionary,Auto Components
+ALV,Autoliv Inc,Mid,Consumer Discretionary,Auto Components
+BWA,BorgWarner Inc,Mid,Consumer Discretionary,Auto Components
+CTB,Cooper Tire & Rubber Co,Small,Consumer Discretionary,Auto Components
+CPS,Cooper-Standard Holdings Inc,Small,Consumer Discretionary,Auto Components
+DAN,Dana Holding Corp,Small,Consumer Discretionary,Auto Components
+DLPH,Delphi Automotive PLC,Large,Consumer Discretionary,Auto Components
+DORM,Dorman Products Inc,Small,Consumer Discretionary,Auto Components
+DW,Drew Industries Inc,Small,Consumer Discretionary,Auto Components
+FDML,Federal-Mogul Holdings Corp,Small,Consumer Discretionary,Auto Components
+GNTX,Gentex Corp,Mid,Consumer Discretionary,Auto Components
+THRM,Gentherm Inc,Small,Consumer Discretionary,Auto Components
+GT,Goodyear Tire & Rubber Co,Mid,Consumer Discretionary,Auto Components
+JCI,Johnson Controls Inc,Large,Consumer Discretionary,Auto Components
+LEA,Lear Corp,Mid,Consumer Discretionary,Auto Components
+MGA,Magna International Inc,Mid,Consumer Discretionary,Auto Components
+MPG,Metaldyne Performance Group Inc,Small,Consumer Discretionary,Auto Components
+TEN,Tenneco Inc,Small,Consumer Discretionary,Auto Components
+VC,Visteon Corp,Small,Consumer Discretionary,Auto Components
+RACE,Ferrari NV,Mid,Consumer Discretionary,Automobiles
+FCAU,Fiat Chrysler Automobiles NV,Mid,Consumer Discretionary,Automobiles
+F,Ford Motor Co,Large,Consumer Discretionary,Automobiles
+GM,General Motors Co,Large,Consumer Discretionary,Automobiles
+HOG,Harley-Davidson Inc,Mid,Consumer Discretionary,Automobiles
+TSLA,Tesla Motors Inc,Large,Consumer Discretionary,Automobiles
+THO,Thor Industries Inc,Small,Consumer Discretionary,Automobiles
+CORE,Core-Mark Holding Company Inc,Small,Consumer Discretionary,Distributors
+GPC,Genuine Parts Co,Mid,Consumer Discretionary,Distributors
+LKQ,LKQ Corp,Mid,Consumer Discretionary,Distributors
+POOL,Pool Corp,Mid,Consumer Discretionary,Distributors
+TWOU,2U Inc,Small,Consumer Discretionary,Consumer Services
+BFAM,Bright Horizons Family Solutions Inc,Mid,Consumer Discretionary,Consumer Services
+DV,DeVry Education Group Inc,Small,Consumer Discretionary,Consumer Services
+GHC,Graham Holdings Co,Small,Consumer Discretionary,Consumer Services
+LOPE,Grand Canyon Education Inc,Small,Consumer Discretionary,Consumer Services
+HRB,H & R Block Inc,Mid,Consumer Discretionary,Consumer Services
+HMHC,Houghton Mifflin Harcourt Co,Small,Consumer Discretionary,Consumer Services
+LOCK,LifeLock Inc,Small,Consumer Discretionary,Consumer Services
+NORD,Nord Anglia Education Inc,Small,Consumer Discretionary,Consumer Services
+SCI,Service Corporation International,Mid,Consumer Discretionary,Consumer Services
+SERV,Servicemaster Global Holdings Inc,Mid,Consumer Discretionary,Consumer Services
+BID,Sotheby's,Small,Consumer Discretionary,Consumer Services
+ARMK,Aramark,Mid,Consumer Discretionary,Travel and Leisure
+BEL,Belmond Ltd,Small,Consumer Discretionary,Travel and Leisure
+BJRI,BJ's Restaurants Inc,Small,Consumer Discretionary,Travel and Leisure
+BLMN,Bloomin' Brands Inc,Small,Consumer Discretionary,Travel and Leisure
+BYD,Boyd Gaming Corp,Small,Consumer Discretionary,Travel and Leisure
+EAT,Brinker International Inc,Small,Consumer Discretionary,Travel and Leisure
+BWLD,Buffalo Wild Wings Inc,Small,Consumer Discretionary,Travel and Leisure
+CCL,Carnival Corp,Large,Consumer Discretionary,Travel and Leisure
+FUN,Cedar Fair LP,Small,Consumer Discretionary,Travel and Leisure
+CAKE,Cheesecake Factory Inc,Small,Consumer Discretionary,Travel and Leisure
+CMG,Chipotle Mexican Grill Inc,Mid,Consumer Discretionary,Travel and Leisure
+CHH,Choice Hotels International Inc,Small,Consumer Discretionary,Travel and Leisure
+CHDN,Churchill Downs Inc,Small,Consumer Discretionary,Travel and Leisure
+CBRL,Cracker Barrel Old Country Store Inc,Mid,Consumer Discretionary,Travel and Leisure
+DRI,Darden Restaurants Inc,Mid,Consumer Discretionary,Travel and Leisure
+PLAY,Dave & Buster's Entertainment Inc,Small,Consumer Discretionary,Travel and Leisure
+DRII,Diamond Resorts International Inc,Small,Consumer Discretionary,Travel and Leisure
+DIN,DineEquity Inc,Small,Consumer Discretionary,Travel and Leisure
+DPZ,Domino's Pizza Inc,Mid,Consumer Discretionary,Travel and Leisure
+DNKN,Dunkin' Brands Group Inc,Mid,Consumer Discretionary,Travel and Leisure
+STAY,Extended Stay America Inc,Small,Consumer Discretionary,Travel and Leisure
+HLT,Hilton Worldwide Holdings Inc,Large,Consumer Discretionary,Travel and Leisure
+H,Hyatt Hotels Corp,Mid,Consumer Discretionary,Travel and Leisure
+IGT,International Game Technology PLC,Mid,Consumer Discretionary,Travel and Leisure
+ISCA,International Speedway Corp,Small,Consumer Discretionary,Travel and Leisure
+JACK,Jack in the Box Inc,Small,Consumer Discretionary,Travel and Leisure
+LQ,La Quinta Holdings Inc,Small,Consumer Discretionary,Travel and Leisure
+LVS,Las Vegas Sands Corp,Large,Consumer Discretionary,Travel and Leisure
+MAR,Marriott International Inc,Mid,Consumer Discretionary,Travel and Leisure
+VAC,Marriott Vacations Worldwide Corp,Small,Consumer Discretionary,Travel and Leisure
+MCD,McDonald's Corp,Large,Consumer Discretionary,Travel and Leisure
+MGM,MGM Resorts International,Mid,Consumer Discretionary,Travel and Leisure
+NCLH,Norwegian Cruise Line Holdings Ltd,Mid,Consumer Discretionary,Travel and Leisure
+PNRA,Panera Bread Co,Mid,Consumer Discretionary,Travel and Leisure
+PZZA,Papa John's International Inc,Small,Consumer Discretionary,Travel and Leisure
+PENN,Penn National Gaming Inc,Small,Consumer Discretionary,Travel and Leisure
+PNK,Pinnacle Entertainment Inc,Small,Consumer Discretionary,Travel and Leisure
+PLNT,Planet Fitness Inc,Small,Consumer Discretionary,Travel and Leisure
+PLKI,Popeyes Louisiana Kitchen Inc,Small,Consumer Discretionary,Travel and Leisure
+RCL,Royal Caribbean Cruises Ltd,Mid,Consumer Discretionary,Travel and Leisure
+SEAS,SeaWorld Entertainment Inc,Small,Consumer Discretionary,Travel and Leisure
+SHAK,Shake Shack Inc,Small,Consumer Discretionary,Travel and Leisure
+SIX,Six Flags Entertainment Corp,Mid,Consumer Discretionary,Travel and Leisure
+SONC,Sonic Corp,Small,Consumer Discretionary,Travel and Leisure
+SBUX,Starbucks Corp,Large,Consumer Discretionary,Travel and Leisure
+HOT,Starwood Hotels & Resorts Worldwide Inc,Mid,Consumer Discretionary,Travel and Leisure
+TXRH,Texas Roadhouse Inc,Small,Consumer Discretionary,Travel and Leisure
+MTN,Vail Resorts Inc,Mid,Consumer Discretionary,Travel and Leisure
+WEN,Wendys Co,Small,Consumer Discretionary,Travel and Leisure
+WYN,Wyndham Worldwide Corp,Mid,Consumer Discretionary,Travel and Leisure
+WYNN,Wynn Resorts Ltd,Mid,Consumer Discretionary,Travel and Leisure
+YUM,Yum! Brands Inc,Large,Consumer Discretionary,Travel and Leisure
+CAA,CalAtlantic Group Inc,Mid,Consumer Discretionary,Household Durables
+DHI,D.R. Horton Inc,Mid,Consumer Discretionary,Household Durables
+GRMN,Garmin Ltd,Mid,Consumer Discretionary,Household Durables
+GPRO,GoPro Inc,Small,Consumer Discretionary,Household Durables
+HAR,Harman International Industries Inc,Mid,Consumer Discretionary,Household Durables
+HELE,Helen of Troy Ltd,Small,Consumer Discretionary,Household Durables
+IRBT,iRobot Corp,Small,Consumer Discretionary,Household Durables
+JAH,Jarden Corp,Mid,Consumer Discretionary,Household Durables
+KBH,KB Home,Small,Consumer Discretionary,Household Durables
+LZB,La-Z-Boy Inc,Small,Consumer Discretionary,Household Durables
+LEG,Leggett & Platt Inc,Mid,Consumer Discretionary,Household Durables
+LEN,Lennar Corp,Mid,Consumer Discretionary,Household Durables
+MDC,MDC Holdings Inc,Small,Consumer Discretionary,Household Durables
+MTH,Meritage Homes Corp,Small,Consumer Discretionary,Household Durables
+MHK,Mohawk Industries Inc,Mid,Consumer Discretionary,Household Durables
+NWL,Newell Rubbermaid Inc,Mid,Consumer Discretionary,Household Durables
+NVR,NVR Inc,Mid,Consumer Discretionary,Household Durables
+PHM,PulteGroup Inc,Mid,Consumer Discretionary,Household Durables
+TMHC,Taylor Morrison Home Corp,Small,Consumer Discretionary,Household Durables
+TPX,Tempur Sealy International Inc,Mid,Consumer Discretionary,Household Durables
+TOL,Toll Brothers Inc,Mid,Consumer Discretionary,Household Durables
+BLD,TopBuild Corp,Small,Consumer Discretionary,Household Durables
+TPH,TRI Pointe Group Inc,Small,Consumer Discretionary,Household Durables
+TUP,Tupperware Brands Corp,Small,Consumer Discretionary,Household Durables
+WHR,Whirlpool Corp,Mid,Consumer Discretionary,Household Durables
+AMZN,Amazon.com Inc,Large,Consumer Discretionary,Retail
+CNV,Cnova NV,Small,Consumer Discretionary,Retail
+EXPE,Expedia Inc,Mid,Consumer Discretionary,Retail
+GRPN,Groupon Inc,Small,Consumer Discretionary,Retail
+HSNI,HSN Inc,Small,Consumer Discretionary,Retail
+LVNTA,Liberty Interactive Corp,Mid,Consumer Discretionary,Retail
+QVCA,Liberty Interactive Corp,Mid,Consumer Discretionary,Retail
+LTRPA,Liberty Tripadvisor Holdings Inc,Small,Consumer Discretionary,Retail
+NFLX,Netflix Inc,Large,Consumer Discretionary,Retail
+PCLN,Priceline Group Inc,Large,Consumer Discretionary,Retail
+SFLY,Shutterfly Inc,Small,Consumer Discretionary,Retail
+TRIP,TripAdvisor Inc,Mid,Consumer Discretionary,Retail
+W,Wayfair Inc,Mid,Consumer Discretionary,Retail
+BC,Brunswick Corp,Mid,Consumer Discretionary,Leisure Products
+HAS,Hasbro Inc,Mid,Consumer Discretionary,Leisure Products
+MAT,Mattel Inc,Mid,Consumer Discretionary,Leisure Products
+PII,Polaris Industries Inc,Mid,Consumer Discretionary,Leisure Products
+SWHC,Smith & Wesson Holding Corp,Small,Consumer Discretionary,Leisure Products
+RGR,Sturm Ruger & Co Inc,Small,Consumer Discretionary,Leisure Products
+VSTO,Vista Outdoor Inc,Small,Consumer Discretionary,Leisure Products
+AMC,AMC Entertainment Holdings Inc,Small,Consumer Discretionary,Media
+AMCX,AMC Networks Inc,Mid,Consumer Discretionary,Media
+CABO,Cable ONE Inc,Small,Consumer Discretionary,Media
+CVC,Cablevision Systems Corp,Mid,Consumer Discretionary,Media
+CBS,CBS Corp,Large,Consumer Discretionary,Media
+CHTR,Charter Communications Inc,Large,Consumer Discretionary,Media
+CNK,Cinemark Holdings Inc,Mid,Consumer Discretionary,Media
+CCO,Clear Channel Outdoor Holdings Inc,Small,Consumer Discretionary,Media
+CMCSA,Comcast Corp,Large,Consumer Discretionary,Media
+CRWN,Crown Media Holdings Inc,Small,Consumer Discretionary,Media
+DISCA,Discovery Communications Inc,Mid,Consumer Discretionary,Media
+DISH,DISH Network Corp,Large,Consumer Discretionary,Media
+DWA,DreamWorks Animation SKG Inc,Small,Consumer Discretionary,Media
+SSP,E. W. Scripps Co,Small,Consumer Discretionary,Media
+GCI,Gannett Co Inc,Small,Consumer Discretionary,Media
+IMAX,IMAX Corp,Small,Consumer Discretionary,Media
+IPG,Interpublic Group of Companies Inc,Mid,Consumer Discretionary,Media
+LBRDA,Liberty Broadband Corp,Small,Consumer Discretionary,Media
+LBTYA,Liberty Global PLC,Mid,Consumer Discretionary,Media
+LMCA,Liberty Media Corp,Mid,Consumer Discretionary,Media
+LGF,Lions Gate Entertainment Corp,Small,Consumer Discretionary,Media
+LYV,Live Nation Entertainment Inc,Mid,Consumer Discretionary,Media
+MSG,Madison Square Garden Co,Mid,Consumer Discretionary,Media
+MANU,Manchester United PLC,Small,Consumer Discretionary,Media
+MDCA,MDC Partners Inc,Small,Consumer Discretionary,Media
+MDP,Meredith Corp,Small,Consumer Discretionary,Media
+MSGN,MSG Networks Inc,Small,Consumer Discretionary,Media
+NERO,Neuromama Ltd,Mid,Consumer Discretionary,Media
+NYT,New York Times Co,Small,Consumer Discretionary,Media
+NWSA,News Corp,Mid,Consumer Discretionary,Media
+NXST,Nexstar Broadcasting Group Inc,Small,Consumer Discretionary,Media
+OMC,Omnicom Group Inc,Large,Consumer Discretionary,Media
+RGC,Regal Entertainment Group,Small,Consumer Discretionary,Media
+SCHL,Scholastic Corp,Small,Consumer Discretionary,Media
+SNI,Scripps Networks Interactive Inc,Mid,Consumer Discretionary,Media
+SJR,Shaw Communications Inc,Mid,Consumer Discretionary,Media
+SBGI,Sinclair Broadcast Group Inc,Small,Consumer Discretionary,Media
+SIRI,Sirius XM Holdings Inc,Large,Consumer Discretionary,Media
+STRZA,Starz,Small,Consumer Discretionary,Media
+TGNA,Tegna Inc,Mid,Consumer Discretionary,Media
+TRI,Thomson Reuters Corp,Large,Consumer Discretionary,Media
+TIME,Time Inc,Small,Consumer Discretionary,Media
+TWC,Time Warner Cable Inc,Large,Consumer Discretionary,Media
+TWX,Time Warner Inc,Large,Consumer Discretionary,Media
+FOXA,Twenty-First Century Fox Inc,Large,Consumer Discretionary,Media
+VIAB,Viacom Inc,Mid,Consumer Discretionary,Media
+DIS,Walt Disney Co,Large,Consumer Discretionary,Media
+WWE,World Wrestling Entertainment Inc,Small,Consumer Discretionary,Media
+BIG,Big Lots Inc,Small,Consumer Discretionary,Multiline Retail
+DDS,Dillard's Inc,Small,Consumer Discretionary,Multiline Retail
+DG,Dollar General Corp,Large,Consumer Discretionary,Multiline Retail
+DLTR,Dollar Tree Inc,Large,Consumer Discretionary,Multiline Retail
+JCP,J C Penney Company Inc,Small,Consumer Discretionary,Multiline Retail
+KSS,Kohls Corp,Mid,Consumer Discretionary,Multiline Retail
+M,Macys Inc,Mid,Consumer Discretionary,Multiline Retail
+JWN,Nordstrom Inc,Mid,Consumer Discretionary,Multiline Retail
+OLLI,Ollie's Bargain Outlet Holdings Inc,Small,Consumer Discretionary,Multiline Retail
+SHLD,Sears Holdings Corp,Small,Consumer Discretionary,Multiline Retail
+TGT,Target Corp,Large,Consumer Discretionary,Multiline Retail
+AAN,Aaron's Inc,Small,Consumer Discretionary,Specialty Retail
+ANF,Abercrombie & Fitch Co,Small,Consumer Discretionary,Specialty Retail
+AAP,Advance Auto Parts Inc,Mid,Consumer Discretionary,Specialty Retail
+AEO,American Eagle Outfitters Inc,Small,Consumer Discretionary,Specialty Retail
+ABG,Asbury Automotive Group Inc,Small,Consumer Discretionary,Specialty Retail
+ASNA,Ascena Retail Group Inc,Small,Consumer Discretionary,Specialty Retail
+AN,AutoNation Inc,Mid,Consumer Discretionary,Specialty Retail
+AZO,Autozone Inc,Large,Consumer Discretionary,Specialty Retail
+BBBY,Bed Bath & Beyond Inc,Mid,Consumer Discretionary,Specialty Retail
+BBY,Best Buy Co Inc,Mid,Consumer Discretionary,Specialty Retail
+BKE,Buckle Inc,Small,Consumer Discretionary,Specialty Retail
+BURL,Burlington Stores Inc,Mid,Consumer Discretionary,Specialty Retail
+CAB,Cabela's Inc,Small,Consumer Discretionary,Specialty Retail
+CAL,Caleres Inc,Small,Consumer Discretionary,Specialty Retail
+KMX,Carmax Inc,Mid,Consumer Discretionary,Specialty Retail
+CATO,Cato Corp,Small,Consumer Discretionary,Specialty Retail
+CHS,Chico's FAS Inc,Small,Consumer Discretionary,Specialty Retail
+PLCE,Childrens Place Inc,Small,Consumer Discretionary,Specialty Retail
+CST,CST Brands Inc,Small,Consumer Discretionary,Specialty Retail
+DKS,Dick's Sporting Goods Inc,Mid,Consumer Discretionary,Specialty Retail
+DSW,DSW Inc,Small,Consumer Discretionary,Specialty Retail
+EXPR,Express Inc,Small,Consumer Discretionary,Specialty Retail
+FIVE,Five Below Inc,Small,Consumer Discretionary,Specialty Retail
+FL,Foot Locker Inc,Mid,Consumer Discretionary,Specialty Retail
+GME,GameStop Corp,Small,Consumer Discretionary,Specialty Retail
+GPS,Gap Inc,Mid,Consumer Discretionary,Specialty Retail
+GCO,Genesco Inc,Small,Consumer Discretionary,Specialty Retail
+GNC,GNC Holdings Inc,Small,Consumer Discretionary,Specialty Retail
+GPI,Group 1 Automotive Inc,Small,Consumer Discretionary,Specialty Retail
+GES,Guess? Inc,Small,Consumer Discretionary,Specialty Retail
+HD,Home Depot Inc,Large,Consumer Discretionary,Specialty Retail
+LB,L Brands Inc,Large,Consumer Discretionary,Specialty Retail
+LAD,Lithia Motors Inc,Small,Consumer Discretionary,Specialty Retail
+LOW,Lowe's Companies Inc,Large,Consumer Discretionary,Specialty Retail
+MFRM,Mattress Firm Holding Corp,Small,Consumer Discretionary,Specialty Retail
+MIK,Michaels Companies Inc,Mid,Consumer Discretionary,Specialty Retail
+MNRO,Monro Muffler Brake Inc,Small,Consumer Discretionary,Specialty Retail
+MUSA,Murphy USA Inc,Small,Consumer Discretionary,Specialty Retail
+ORLY,O'Reilly Automotive Inc,Large,Consumer Discretionary,Specialty Retail
+ODP,Office Depot Inc,Mid,Consumer Discretionary,Specialty Retail
+PRTY,Party City Holdco Inc,Small,Consumer Discretionary,Specialty Retail
+PAG,Penske Automotive Group Inc,Small,Consumer Discretionary,Specialty Retail
+RH,Restoration Hardware Holdings Inc,Small,Consumer Discretionary,Specialty Retail
+ROST,Ross Stores Inc,Large,Consumer Discretionary,Specialty Retail
+SBH,Sally Beauty Holdings Inc,Mid,Consumer Discretionary,Specialty Retail
+SIG,Signet Jewelers Ltd,Mid,Consumer Discretionary,Specialty Retail
+SPLS,Staples Inc,Mid,Consumer Discretionary,Specialty Retail
+TIF,Tiffany & Co,Mid,Consumer Discretionary,Specialty Retail
+TJX,TJX Companies Inc,Large,Consumer Discretionary,Specialty Retail
+TSCO,Tractor Supply Co,Mid,Consumer Discretionary,Specialty Retail
+ULTA,Ulta Salon Cosmetics and Fragrance Inc,Mid,Consumer Discretionary,Specialty Retail
+URBN,Urban Outfitters Inc,Mid,Consumer Discretionary,Specialty Retail
+WSM,Williams-Sonoma Inc,Mid,Consumer Discretionary,Specialty Retail
+CRI,Carter's Inc,Mid,Consumer Discretionary,Apparel
+COH,Coach Inc,Mid,Consumer Discretionary,Apparel
+COLM,Columbia Sportswear Co,Mid,Consumer Discretionary,Apparel
+DECK,Deckers Outdoor Corp,Small,Consumer Discretionary,Apparel
+FOSL,Fossil Group Inc,Small,Consumer Discretionary,Apparel
+GIII,G-III Apparel Group Ltd,Small,Consumer Discretionary,Apparel
+GIL,Gildan Activewear Inc,Mid,Consumer Discretionary,Apparel
+HBI,HanesBrands Inc,Mid,Consumer Discretionary,Apparel
+KATE,Kate Spade & Co,Small,Consumer Discretionary,Apparel
+LULU,Lululemon Athletica Inc,Mid,Consumer Discretionary,Apparel
+KORS,Michael Kors Holdings Ltd,Mid,Consumer Discretionary,Apparel
+NKE,Nike Inc,Large,Consumer Discretionary,Apparel
+OXM,Oxford Industries Inc,Small,Consumer Discretionary,Apparel
+PVH,PVH Corp,Mid,Consumer Discretionary,Apparel
+RL,Ralph Lauren Corp,Mid,Consumer Discretionary,Apparel
+SKX,Skechers USA Inc,Mid,Consumer Discretionary,Apparel
+SHOO,Steven Madden Ltd,Small,Consumer Discretionary,Apparel
+TUMI,Tumi Holdings Inc,Small,Consumer Discretionary,Apparel
+UA,Under Armour Inc,Large,Consumer Discretionary,Apparel
+VFC,VF Corp,Large,Consumer Discretionary,Apparel
+WWW,Wolverine World Wide Inc,Small,Consumer Discretionary,Apparel
+SAM,Boston Beer Co Inc,Small,Consumer Staples,Beverages
+COKE,Coca Cola Bottling Co Consolidated,Small,Consumer Staples,Beverages
+KO,Coca-Cola Co,Large,Consumer Staples,Beverages
+CCE,Coca-Cola Enterprises Inc,Mid,Consumer Staples,Beverages
+STZ,Constellation Brands Inc,Large,Consumer Staples,Beverages
+COT,Cott Corp,Small,Consumer Staples,Beverages
+DPS,Dr Pepper Snapple Group Inc,Mid,Consumer Staples,Beverages
+TAP,Molson Coors Brewing Co,Large,Consumer Staples,Beverages
+MNST,Monster Beverage Corp,Large,Consumer Staples,Beverages
+FIZZ,National Beverage Corp,Small,Consumer Staples,Beverages
+PEP,PepsiCo Inc,Large,Consumer Staples,Beverages
+CASY,Caseys General Stores Inc,Mid,Consumer Staples,Staples
+COST,Costco Wholesale Corp,Large,Consumer Staples,Staples
+CVS,CVS Health Corp,Large,Consumer Staples,Staples
+TFM,Fresh Market Inc,Small,Consumer Staples,Staples
+PFGC,Performance Food Group Co,Small,Consumer Staples,Staples
+PSMT,PriceSmart Inc,Small,Consumer Staples,Staples
+RAD,Rite Aid Corp,Mid,Consumer Staples,Staples
+SFS,Smart & Final Stores Inc,Small,Consumer Staples,Staples
+SPTN,SpartanNash Co,Small,Consumer Staples,Staples
+SFM,Sprouts Farmers Market Inc,Mid,Consumer Staples,Staples
+SVU,Supervalu Inc,Small,Consumer Staples,Staples
+SYY,Sysco Corp,Large,Consumer Staples,Staples
+KR,The Kroger Co,Large,Consumer Staples,Staples
+UNFI,United Natural Foods Inc,Small,Consumer Staples,Staples
+WMT,Wal Mart Stores Inc,Large,Consumer Staples,Staples
+WBA,Walgreens Boots Alliance Inc,Large,Consumer Staples,Staples
+WMK,Weis Markets Inc,Small,Consumer Staples,Staples
+WFM,Whole Foods Market Inc,Mid,Consumer Staples,Staples
+AGRO,Adecoagro SA,Small,Consumer Staples,Food Products
+BETR,Amplify Snack Brands Inc,Small,Consumer Staples,Food Products
+ADM,Archer Daniels Midland Co,Large,Consumer Staples,Food Products
+BGS,B&G Foods Inc,Small,Consumer Staples,Food Products
+BUFF,Blue Buffalo Pet Products Inc,Mid,Consumer Staples,Food Products
+BG,Bunge Ltd,Mid,Consumer Staples,Food Products
+CALM,Cal-Maine Foods Inc,Small,Consumer Staples,Food Products
+CPB,Campbell Soup Co,Large,Consumer Staples,Food Products
+CAG,ConAgra Foods Inc,Large,Consumer Staples,Food Products
+DAR,Darling Ingredients Inc,Small,Consumer Staples,Food Products
+DF,Dean Foods Co,Small,Consumer Staples,Food Products
+FLO,Flowers Foods Inc,Mid,Consumer Staples,Food Products
+FDP,Fresh Del Monte Produce Inc,Small,Consumer Staples,Food Products
+GIS,General Mills Inc,Large,Consumer Staples,Food Products
+HAIN,Hain Celestial Group Inc,Mid,Consumer Staples,Food Products
+HSY,Hershey Co,Mid,Consumer Staples,Food Products
+HRL,Hormel Foods Corp,Large,Consumer Staples,Food Products
+INGR,Ingredion Inc,Mid,Consumer Staples,Food Products
+JJSF,J & J Snack Foods Corp,Small,Consumer Staples,Food Products
+SJM,J M Smucker Co,Mid,Consumer Staples,Food Products
+K,Kellogg Co,Large,Consumer Staples,Food Products
+KHC,Kraft Heinz Co,Large,Consumer Staples,Food Products
+LANC,Lancaster Colony Corp,Small,Consumer Staples,Food Products
+MKC,McCormick & Company Inc,Mid,Consumer Staples,Food Products
+MJN,Mead Johnson Nutrition Co,Mid,Consumer Staples,Food Products
+MDLZ,Mondelez International Inc,Large,Consumer Staples,Food Products
+NOMD,Nomad Foods Ltd,Small,Consumer Staples,Food Products
+PPC,Pilgrims Pride Corp,Mid,Consumer Staples,Food Products
+PF,Pinnacle Foods Inc,Mid,Consumer Staples,Food Products
+POST,Post Holdings Inc,Mid,Consumer Staples,Food Products
+SAFM,Sanderson Farms Inc,Small,Consumer Staples,Food Products
+SEB,Seaboard Corp,Mid,Consumer Staples,Food Products
+LNCE,Snyder's-Lance Inc,Small,Consumer Staples,Food Products
+TR,Tootsie Roll Industries Inc,Small,Consumer Staples,Food Products
+THS,TreeHouse Foods Inc,Mid,Consumer Staples,Food Products
+TSN,Tyson Foods Inc,Large,Consumer Staples,Food Products
+WWAV,WhiteWave Foods Co,Mid,Consumer Staples,Food Products
+CHD,Church & Dwight Co Inc,Mid,Consumer Staples,Household Products
+CLX,Clorox Co,Mid,Consumer Staples,Household Products
+CL,Colgate-Palmolive Co,Large,Consumer Staples,Household Products
+ENR,Energizer Holdings Inc,Small,Consumer Staples,Household Products
+HRG,HRG Group Inc,Small,Consumer Staples,Household Products
+KMB,Kimberly-Clark Corp,Large,Consumer Staples,Household Products
+PG,Procter & Gamble Co,Large,Consumer Staples,Household Products
+SPB,Spectrum Brands Holdings Inc,Mid,Consumer Staples,Household Products
+WDFC,WD-40 Co,Small,Consumer Staples,Household Products
+AVP,Avon Products Inc,Small,Consumer Staples,Personal Products
+COTY,Coty Inc,Mid,Consumer Staples,Personal Products
+EPC,Edgewell Personal Care Co,Mid,Consumer Staples,Personal Products
+EL,Estee Lauder Companies Inc,Large,Consumer Staples,Personal Products
+HLF,Herbalife Ltd,Mid,Consumer Staples,Personal Products
+NUS,NU Skin Enterprises Inc,Small,Consumer Staples,Personal Products
+REV,Revlon Inc,Small,Consumer Staples,Personal Products
+UN,Unilever NV,Large,Consumer Staples,Personal Products
+USNA,USANA Health Sciences Inc,Small,Consumer Staples,Personal Products
+MO,Altria Group Inc,Large,Consumer Staples,Tobacco
+PM,Philip Morris International Inc,Large,Consumer Staples,Tobacco
+RAI,Reynolds American Inc,Large,Consumer Staples,Tobacco
+UVV,Universal Corp,Small,Consumer Staples,Tobacco
+VGR,Vector Group Ltd,Small,Consumer Staples,Tobacco
+BHI,Baker Hughes Inc,Large,Energy,Energy Equipment
+CAM,Cameron International Corp,Mid,Energy,Energy Equipment
+CLB,Core Laboratories NV,Mid,Energy,Energy Equipment
+DO,Diamond Offshore Drilling Inc,Small,Energy,Energy Equipment
+DRQ,Dril-Quip Inc,Small,Energy,Energy Equipment
+FTI,FMC Technologies Inc,Mid,Energy,Energy Equipment
+FET,Forum Energy Technologies Inc,Small,Energy,Energy Equipment
+FI,Frank's International NV,Small,Energy,Energy Equipment
+HAL,Halliburton Co,Large,Energy,Energy Equipment
+HP,Helmerich and Payne Inc,Mid,Energy,Energy Equipment
+NBR,Nabors Industries Ltd,Small,Energy,Energy Equipment
+NOV,National Oilwell Varco Inc,Mid,Energy,Energy Equipment
+NE,Noble Corporation PLC,Small,Energy,Energy Equipment
+OII,Oceaneering International Inc,Small,Energy,Energy Equipment
+OIS,Oil States International Inc,Small,Energy,Energy Equipment
+PTEN,Patterson-UTI Energy Inc,Small,Energy,Energy Equipment
+PDS,Precision Drilling Corp,Small,Energy,Energy Equipment
+RDC,Rowan Companies PLC,Small,Energy,Energy Equipment
+RES,RPC Inc,Small,Energy,Energy Equipment
+SLB,Schlumberger NV,Large,Energy,Energy Equipment
+SDRL,Seadrill Ltd,Small,Energy,Energy Equipment
+SPN,Superior Energy Services Inc,Small,Energy,Energy Equipment
+RIG,Transocean Ltd,Small,Energy,Energy Equipment
+SLCA,U.S. Silica Holdings Inc,Small,Energy,Energy Equipment
+APC,Anadarko Petroleum Corp,Large,Energy,Oil & Gas
+AM,Antero Midstream Partners LP,Mid,Energy,Oil & Gas
+AR,Antero Resources Corp,Mid,Energy,Oil & Gas
+APA,Apache Corp,Mid,Energy,Oil & Gas
+BSM,Black Stone Minerals LP,Small,Energy,Oil & Gas
+BWP,Boardwalk Pipeline Partners LP,Mid,Energy,Oil & Gas
+BPL,Buckeye Partners LP,Mid,Energy,Oil & Gas
+COG,Cabot Oil & Gas Corp,Mid,Energy,Oil & Gas
+CCJ,Cameco Corp,Mid,Energy,Oil & Gas
+CNQ,Canadian Natural Resources Ltd,Large,Energy,Oil & Gas
+CRZO,Carrizo Oil & Gas Inc,Small,Energy,Oil & Gas
+CVE,Cenovus Energy Inc,Mid,Energy,Oil & Gas
+LNG,Cheniere Energy Inc,Mid,Energy,Oil & Gas
+CQP,Cheniere Energy Partners LP,Mid,Energy,Oil & Gas
+CQH,Cheniere Energy Partners LP Holdings LLC,Mid,Energy,Oil & Gas
+CHK,Chesapeake Energy Corp,Small,Energy,Oil & Gas
+CVX,Chevron Corp,Large,Energy,Oil & Gas
+XEC,Cimarex Energy Co,Mid,Energy,Oil & Gas
+CIE,Cobalt International Energy Inc,Small,Energy,Oil & Gas
+CPGX,Columbia Pipeline Group Inc,Mid,Energy,Oil & Gas
+CPPL,Columbia Pipeline Partners LP,Small,Energy,Oil & Gas
+CXO,Concho Resources Inc,Mid,Energy,Oil & Gas
+COP,ConocoPhillips,Large,Energy,Oil & Gas
+CNX,CONSOL Energy Inc,Small,Energy,Oil & Gas
+CLR,Continental Resources Inc,Mid,Energy,Oil & Gas
+CZZ,Cosan Limited,Small,Energy,Oil & Gas
+CVI,CVR Energy Inc,Small,Energy,Oil & Gas
+CVRR,CVR Refining LP,Small,Energy,Oil & Gas
+DPM,DCP Midstream Partners LP,Small,Energy,Oil & Gas
+DVN,Devon Energy Corp,Mid,Energy,Oil & Gas
+FANG,Diamondback Energy Inc,Mid,Energy,Oil & Gas
+DM,Dominion Midstream Partners LP,Small,Energy,Oil & Gas
+ENBL,Enable Midstream Partners LP,Small,Energy,Oil & Gas
+EEQ,Enbridge Energy Management LLC,Small,Energy,Oil & Gas
+EEP,Enbridge Energy Partners LP,Mid,Energy,Oil & Gas
+ENB,Enbridge Inc,Large,Energy,Oil & Gas
+ECA,Encana Corporation,Mid,Energy,Oil & Gas
+EGN,Energen Corp,Mid,Energy,Oil & Gas
+ETE,Energy Transfer Equity LP,Mid,Energy,Oil & Gas
+ETP,Energy Transfer Partners LP,Mid,Energy,Oil & Gas
+ENLC,EnLink Midstream LLC,Small,Energy,Oil & Gas
+ENLK,EnLink Midstream Partners LP,Mid,Energy,Oil & Gas
+EPD,Enterprise Products Partners LP,Large,Energy,Oil & Gas
+EOG,EOG Resources Inc,Large,Energy,Oil & Gas
+EPE,EP Energy Corp,Small,Energy,Oil & Gas
+EQT,EQT Corp,Mid,Energy,Oil & Gas
+EQGP,EQT GP Holdings LP,Mid,Energy,Oil & Gas
+EQM,EQT Midstream Partners LP,Mid,Energy,Oil & Gas
+XOM,Exxon Mobil Corp,Large,Energy,Oil & Gas
+FRO,Frontline Ltd,Small,Energy,Oil & Gas
+GEL,Genesis Energy LP,Small,Energy,Oil & Gas
+GPOR,Gulfport Energy Corp,Small,Energy,Oil & Gas
+HES,Hess Corp,Mid,Energy,Oil & Gas
+HEP,Holly Energy Partners LP,Small,Energy,Oil & Gas
+HFC,HollyFrontier Corp,Mid,Energy,Oil & Gas
+IMO,Imperial Oil Ltd,Large,Energy,Oil & Gas
+IOC,InterOil Corp,Small,Energy,Oil & Gas
+KMI,Kinder Morgan Inc,Large,Energy,Oil & Gas
+KOS,Kosmos Energy Ltd,Small,Energy,Oil & Gas
+LPI,Laredo Petroleum Inc,Small,Energy,Oil & Gas
+MMP,Magellan Midstream Partners LP,Mid,Energy,Oil & Gas
+MRO,Marathon Oil Corp,Mid,Energy,Oil & Gas
+MPC,Marathon Petroleum Corp,Large,Energy,Oil & Gas
+MTDR,Matador Resources Co,Small,Energy,Oil & Gas
+MRD,Memorial Resource Development Corp,Small,Energy,Oil & Gas
+MPLX,MPLX LP,Mid,Energy,Oil & Gas
+MUR,Murphy Oil Corp,Mid,Energy,Oil & Gas
+NFX,Newfield Exploration Co,Mid,Energy,Oil & Gas
+NBL,Noble Energy Inc,Mid,Energy,Oil & Gas
+NAT,Nordic American Tanker Ltd,Small,Energy,Oil & Gas
+NTI,Northern Tier Energy LP,Small,Energy,Oil & Gas
+NS,NuStar Energy LP,Small,Energy,Oil & Gas
+OAS,Oasis Petroleum Inc,Small,Energy,Oil & Gas
+OXY,Occidental Petroleum Corp,Large,Energy,Oil & Gas
+OKE,ONEOK Inc,Mid,Energy,Oil & Gas
+OKS,ONEOK Partners LP,Mid,Energy,Oil & Gas
+PE,Parsley Energy Inc,Mid,Energy,Oil & Gas
+PBF,PBF Energy Inc,Small,Energy,Oil & Gas
+PDCE,PDC Energy Inc,Small,Energy,Oil & Gas
+PSX,Phillips 66,Large,Energy,Oil & Gas
+PSXP,Phillips 66 Partners LP,Mid,Energy,Oil & Gas
+PXD,Pioneer Natural Resources Co,Large,Energy,Oil & Gas
+PAA,Plains All American Pipeline LP,Mid,Energy,Oil & Gas
+PAGP,Plains GP Holdings LP,Mid,Energy,Oil & Gas
+QEP,QEP Resources Inc,Small,Energy,Oil & Gas
+RRC,Range Resources Corp,Mid,Energy,Oil & Gas
+RICE,Rice Energy Inc,Small,Energy,Oil & Gas
+RMP,Rice Midstream Partners LP,Small,Energy,Oil & Gas
+RSPP,RSP Permian Inc,Small,Energy,Oil & Gas
+SHLX,Shell Midstream Partners LP,Mid,Energy,Oil & Gas
+SFL,Ship Finance International Ltd,Small,Energy,Oil & Gas
+SM,SM Energy Co,Small,Energy,Oil & Gas
+SWN,Southwestern Energy Co,Small,Energy,Oil & Gas
+SE,Spectra Energy Corp,Large,Energy,Oil & Gas
+SEP,Spectra Energy Partners LP,Mid,Energy,Oil & Gas
+SMLP,Summit Midstream Partners LP,Small,Energy,Oil & Gas
+SU,Suncor Energy Inc,Large,Energy,Oil & Gas
+SXL,Sunoco Logistics Partners LP,Mid,Energy,Oil & Gas
+SUN,Sunoco LP,Small,Energy,Oil & Gas
+TEGP,Tallgrass Energy GP LP,Small,Energy,Oil & Gas
+TEP,Tallgrass Energy Partners LP,Small,Energy,Oil & Gas
+TRGP,Targa Resources Corp,Mid,Energy,Oil & Gas
+TCP,TC PipeLines LP,Small,Energy,Oil & Gas
+TSO,Tesoro Corp,Mid,Energy,Oil & Gas
+TLLP,Tesoro Logistics LP,Mid,Energy,Oil & Gas
+TRP,TransCanada Corp,Large,Energy,Oil & Gas
+VLO,Valero Energy Corp,Large,Energy,Oil & Gas
+VLP,Valero Energy Partners LP,Small,Energy,Oil & Gas
+VNOM,Viper Energy Partners LP,Small,Energy,Oil & Gas
+WGP,Western Gas Equity Partners LP,Mid,Energy,Oil & Gas
+WES,Western Gas Partners LP,Mid,Energy,Oil & Gas
+WNR,Western Refining Inc,Small,Energy,Oil & Gas
+WNRL,Western Refining Logistics LP,Small,Energy,Oil & Gas
+WLL,Whiting Petroleum Corp,Small,Energy,Oil & Gas
+WMB,Williams Companies Inc,Mid,Energy,Oil & Gas
+WPZ,Williams Partners LP,Mid,Energy,Oil & Gas
+INT,World Fuel Services Corp,Small,Energy,Oil & Gas
+WPX,WPX Energy Inc,Small,Energy,Oil & Gas
+ASB,Associated Banc-Corp,Small,Financials,Banks
+BXS,BancorpSouth Inc,Small,Financials,Banks
+BAC,Bank of America Corp,Large,Financials,Banks
+BOH,Bank of Hawaii Corp,Small,Financials,Banks
+BMO,Bank of Montreal,Large,Financials,Banks
+BNS,Bank of Nova Scotia,Large,Financials,Banks
+OZRK,Bank of The Ozarks Inc,Mid,Financials,Banks
+BKU,BankUnited Inc,Mid,Financials,Banks
+BANR,Banner Corp,Small,Financials,Banks
+BBT,BB&T Corp,Large,Financials,Banks
+BBCN,BBCN Bancorp Inc,Small,Financials,Banks
+BOKF,BOK Financial Corp,Small,Financials,Banks
+CM,Canadian Imperial Bank of Commerce,Large,Financials,Banks
+CBF,Capital Bank Financial Corp,Small,Financials,Banks
+CATY,Cathay General Bancorp,Small,Financials,Banks
+CHFC,Chemical Financial Corp,Small,Financials,Banks
+CIT,CIT Group Inc,Mid,Financials,Banks
+C,Citigroup Inc,Large,Financials,Banks
+CFG,Citizens Financial Group Inc,Mid,Financials,Banks
+COLB,Columbia Banking System Inc,Small,Financials,Banks
+CMA,Comerica Inc,Mid,Financials,Banks
+CBSH,Commerce Bancshares Inc,Mid,Financials,Banks
+CBU,Community Bank System Inc,Small,Financials,Banks
+BAP,Credicorp Ltd,Mid,Financials,Banks
+CFR,Cullen/Frost Bankers Inc,Small,Financials,Banks
+CVBF,CVB Financial Corp,Small,Financials,Banks
+EGBN,Eagle Bancorp Inc,Small,Financials,Banks
+EWBC,East West Bancorp Inc,Mid,Financials,Banks
+FNB,F.N.B. Corp,Small,Financials,Banks
+FCB,FCB Financial Holdings Inc,Small,Financials,Banks
+FITB,Fifth Third Bancorp,Mid,Financials,Banks
+FCNCA,First Citizens BancShares Inc,Small,Financials,Banks
+FFBC,First Financial Bancorp,Small,Financials,Banks
+FFIN,First Financial Bankshares Inc,Small,Financials,Banks
+FHN,First Horizon National Corp,Small,Financials,Banks
+FIBK,First Interstate BancSystem Inc,Small,Financials,Banks
+FMBI,First Midwest Bancorp Inc,Small,Financials,Banks
+FNFG,First Niagara Financial Group Inc,Small,Financials,Banks
+FRC,First Republic Bank,Mid,Financials,Banks
+FMER,FirstMerit Corp,Small,Financials,Banks
+FULT,Fulton Financial Corp,Small,Financials,Banks
+GBCI,Glacier Bancorp Inc,Small,Financials,Banks
+GWB,Great Western Bancorp Inc,Small,Financials,Banks
+HBHC,Hancock Holding Co,Small,Financials,Banks
+HTH,Hilltop Holdings Inc,Small,Financials,Banks
+HOMB,Home BancShares Inc,Small,Financials,Banks
+HBAN,Huntington Bancshares Inc,Mid,Financials,Banks
+IBKC,IBERIABANK Corp,Small,Financials,Banks
+INDB,Independent Bank Corp,Small,Financials,Banks
+IBOC,International Bancshares Corp,Small,Financials,Banks
+ISBC,Investors Bancorp Inc,Mid,Financials,Banks
+JPM,JPMorgan Chase and Co,Large,Financials,Banks
+KEY,KeyCorp,Mid,Financials,Banks
+MTB,M&T Bank Corp,Mid,Financials,Banks
+MBFI,MB Financial Inc,Small,Financials,Banks
+NPBC,National Penn Bancshares Inc,Small,Financials,Banks
+NBTB,NBT Bancorp Inc,Small,Financials,Banks
+ONB,Old National Bancorp,Small,Financials,Banks
+PACW,PacWest Bancorp,Mid,Financials,Banks
+PRK,Park National Corp,Small,Financials,Banks
+PBCT,People's United Financial Inc,Mid,Financials,Banks
+PNFP,Pinnacle Financial Partners Inc,Small,Financials,Banks
+PNC,PNC Financial Services Group Inc,Large,Financials,Banks
+BPOP,Popular Inc,Small,Financials,Banks
+PVTB,PrivateBancorp Inc,Small,Financials,Banks
+PB,Prosperity Bancshares Inc,Small,Financials,Banks
+RF,Regions Financial Corp,Mid,Financials,Banks
+RNST,Renasant Corp,Small,Financials,Banks
+RY,Royal Bank of Canada,Large,Financials,Banks
+SFBS,ServisFirst Bancshares Inc,Small,Financials,Banks
+SBNY,Signature Bank,Mid,Financials,Banks
+SFNC,Simmons First National Corp,Small,Financials,Banks
+SSB,South State Corp,Small,Financials,Banks
+STL,Sterling Bancorp,Small,Financials,Banks
+STI,SunTrust Banks Inc,Large,Financials,Banks
+SIVB,SVB Financial Group,Mid,Financials,Banks
+SNV,Synovus Financial Corp,Mid,Financials,Banks
+TLMR,Talmer Bancorp Inc,Small,Financials,Banks
+TCB,TCF Financial Corp,Small,Financials,Banks
+TCBI,Texas Capital Bancshares Inc,Small,Financials,Banks
+TD,Toronto-Dominion Bank,Large,Financials,Banks
+TRMK,Trustmark Corp,Small,Financials,Banks
+USB,U.S. Bancorp,Large,Financials,Banks
+UMBF,UMB Financial Corp,Small,Financials,Banks
+UMPQ,Umpqua Holdings Corp,Small,Financials,Banks
+UBSH,Union Bankshares Corp,Small,Financials,Banks
+UBSI,United Bankshares Inc,Small,Financials,Banks
+UCBI,United Community Banks Inc,Small,Financials,Banks
+VLY,Valley National Bancorp,Small,Financials,Banks
+WBS,Webster Financial Corp,Small,Financials,Banks
+WFC,Wells Fargo & Co,Large,Financials,Banks
+WSBC,WesBanco Inc,Small,Financials,Banks
+WABC,Westamerica Bancorp,Small,Financials,Banks
+WAL,Western Alliance Bancorporation,Small,Financials,Banks
+WTFC,Wintrust Financial Corp,Small,Financials,Banks
+YDKN,Yadkin Financial Corp,Small,Financials,Banks
+ZION,Zions Bancorporation,Mid,Financials,Banks
+AMG,Affiliated Managers Group Inc,Mid,Financials,Capital Markets
+AB,AllianceBernstein Holding LP,Small,Financials,Capital Markets
+ACAS,American Capital Ltd,Mid,Financials,Capital Markets
+AMP,Ameriprise Financial Inc,Mid,Financials,Capital Markets
+APO,Apollo Global Management LLC,Small,Financials,Capital Markets
+AINV,Apollo Investment Corp,Small,Financials,Capital Markets
+ARCC,Ares Capital Corp,Mid,Financials,Capital Markets
+ARES,Ares Management LP,Small,Financials,Capital Markets
+APAM,Artisan Partners Asset Management Inc,Small,Financials,Capital Markets
+BK,Bank of New York Mellon Corp,Large,Financials,Capital Markets
+BGCP,BGC Partners Inc,Small,Financials,Capital Markets
+BLK,BlackRock Inc,Large,Financials,Capital Markets
+BX,Blackstone Group LP,Large,Financials,Capital Markets
+CG,Carlyle Group LP,Mid,Financials,Capital Markets
+SCHW,Charles Schwab Corp,Large,Financials,Capital Markets
+CNS,Cohen & Steers Inc,Small,Financials,Capital Markets
+DB,Deutsche Bank AG,Large,Financials,Capital Markets
+ETFC,E*TRADE Financial Corp,Mid,Financials,Capital Markets
+EV,Eaton Vance Corp,Mid,Financials,Capital Markets
+EVR,Evercore Partners Inc,Small,Financials,Capital Markets
+FII,Federated Investors Inc,Small,Financials,Capital Markets
+FNGN,Financial Engines Inc,Small,Financials,Capital Markets
+FIG,Fortress Investment Group LLC,Small,Financials,Capital Markets
+BEN,Franklin Resources Inc,Large,Financials,Capital Markets
+FSIC,FS Investment Corp,Small,Financials,Capital Markets
+GBL,GAMCO Investors Inc,Small,Financials,Capital Markets
+GS,Goldman Sachs Group Inc,Large,Financials,Capital Markets
+HF,HFF Inc,Small,Financials,Capital Markets
+HLI,Houlihan Lokey Inc,Small,Financials,Capital Markets
+IBKR,Interactive Brokers Group Inc,Mid,Financials,Capital Markets
+IVZ,Invesco Ltd,Mid,Financials,Capital Markets
+JNS,Janus Capital Group Inc,Small,Financials,Capital Markets
+KCG,KCG Holdings Inc,Small,Financials,Capital Markets
+KKR,KKR & Co LP,Mid,Financials,Capital Markets
+LAZ,Lazard Ltd,Mid,Financials,Capital Markets
+LM,Legg Mason Inc,Mid,Financials,Capital Markets
+LPLA,LPL Financial Holdings Inc,Small,Financials,Capital Markets
+MAIN,Main Street Capital Corp,Small,Financials,Capital Markets
+MC,Moelis & Co,Small,Financials,Capital Markets
+MS,Morgan Stanley,Large,Financials,Capital Markets
+NTRS,Northern Trust Corp,Mid,Financials,Capital Markets
+NSAM,NorthStar Asset Management Group Inc,Small,Financials,Capital Markets
+OAK,Oaktree Capital Group LLC,Mid,Financials,Capital Markets
+OMAM,OM Asset Management PLC,Small,Financials,Capital Markets
+PSEC,Prospect Capital Corp,Small,Financials,Capital Markets
+RJF,Raymond James Financial Inc,Mid,Financials,Capital Markets
+SEIC,SEI Investments Co,Mid,Financials,Capital Markets
+STT,State Street Corp,Large,Financials,Capital Markets
+SF,Stifel Financial Corp,Small,Financials,Capital Markets
+TROW,T. Rowe Price Group Inc,Large,Financials,Capital Markets
+AMTD,TD Ameritrade Holding Corp,Mid,Financials,Capital Markets
+UBS,UBS Group AG,Large,Financials,Capital Markets
+VIRT,Virtu Financial Inc,Small,Financials,Capital Markets
+WDR,Waddell & Reed Financial Inc,Small,Financials,Capital Markets
+WETF,WisdomTree Investments Inc,Small,Financials,Capital Markets
+ALLY,Ally Financial Inc,Mid,Financials,Consumer Finance
+AXP,American Express Co,Large,Financials,Consumer Finance
+COF,Capital One Financial Corp,Large,Financials,Consumer Finance
+CACC,Credit Acceptance Corp,Mid,Financials,Consumer Finance
+DFS,Discover Financial Services,Large,Financials,Consumer Finance
+FCFS,First Cash Financial Services Inc,Small,Financials,Consumer Finance
+GDOT,Green Dot Corp,Small,Financials,Consumer Finance
+LC,LendingClub Corp,Small,Financials,Consumer Finance
+NAVI,Navient Corp,Mid,Financials,Consumer Finance
+NNI,Nelnet Inc,Small,Financials,Consumer Finance
+OMF,OneMain Holdings Inc,Mid,Financials,Consumer Finance
+PRAA,PRA Group Inc,Small,Financials,Consumer Finance
+SC,Santander Consumer USA Holdings Inc,Mid,Financials,Consumer Finance
+SLM,SLM Corp,Small,Financials,Consumer Finance
+SYF,Synchrony Financial,Large,Financials,Consumer Finance
+CBOE,CBOE Holdings Inc,Mid,Financials,Diversified Financial Services
+CME,CME Group Inc,Large,Financials,Diversified Financial Services
+FDS,FactSet Research Systems Inc,Mid,Financials,Diversified Financial Services
+ICE,Intercontinental Exchange Inc,Large,Financials,Diversified Financial Services
+LUK,Leucadia National Corp,Mid,Financials,Diversified Financial Services
+MKTX,Marketaxess Holdings Inc,Mid,Financials,Diversified Financial Services
+MRKT,Markit Ltd,Mid,Financials,Diversified Financial Services
+MHFI,McGraw Hill Financial Inc,Large,Financials,Diversified Financial Services
+MCO,Moody's Corp,Large,Financials,Diversified Financial Services
+MORN,Morningstar Inc,Mid,Financials,Diversified Financial Services
+MSCI,MSCI Inc,Mid,Financials,Diversified Financial Services
+NDAQ,Nasdaq Inc,Mid,Financials,Diversified Financial Services
+TPL,Texas Pacific Land Trust,Small,Financials,Diversified Financial Services
+VOYA,Voya Financial Inc,Mid,Financials,Diversified Financial Services
+AEG,Aegon NV,Mid,Financials,Insurance
+AFL,Aflac Inc,Large,Financials,Insurance
+Y,Alleghany Corp,Mid,Financials,Insurance
+AWH,Allied World Assurance Company Holdings Ltd,Small,Financials,Insurance
+ALL,Allstate Corp,Large,Financials,Insurance
+AEL,American Equity Investment Life Holding Co,Small,Financials,Insurance
+AFG,American Financial Group Inc,Mid,Financials,Insurance
+AIG,American International Group Inc,Large,Financials,Insurance
+ANAT,American National Insurance Co,Small,Financials,Insurance
+AOREF,American Overseas Group Ltd,Small,Financials,Insurance
+AFSI,AmTrust Financial Services Inc,Mid,Financials,Insurance
+AON,Aon PLC,Large,Financials,Insurance
+ACGL,Arch Capital Group Ltd,Mid,Financials,Insurance
+AGII,Argo Group International Holdings Ltd,Small,Financials,Insurance
+AJG,Arthur J Gallagher & Co,Mid,Financials,Insurance
+AHL,Aspen Insurance Holdings Ltd,Small,Financials,Insurance
+AIZ,Assurant Inc,Mid,Financials,Insurance
+AGO,Assured Guaranty Ltd,Small,Financials,Insurance
+AXS,AXIS Capital Holdings Ltd,Mid,Financials,Insurance
+BRO,Brown & Brown Inc,Mid,Financials,Insurance
+CB,Chubb Ltd,Large,Financials,Insurance
+CINF,Cincinnati Financial Corp,Mid,Financials,Insurance
+CNA,CNA Financial Corp,Mid,Financials,Insurance
+CNO,CNO Financial Group Inc,Small,Financials,Insurance
+ENH,Endurance Specialty Holdings Ltd,Mid,Financials,Insurance
+ESGR,Enstar Group Ltd,Small,Financials,Insurance
+ERIE,Erie Indemnity Co,Mid,Financials,Insurance
+RE,Everest Re Group Ltd,Mid,Financials,Insurance
+FRFHF,Fairfax Financial Holdings Ltd,Mid,Financials,Insurance
+FFG,FBL Financial Group Inc,Small,Financials,Insurance
+FGL,Fidelity & Guaranty Life,Small,Financials,Insurance
+FNF,Fidelity National Financial Inc,Mid,Financials,Insurance
+FAF,First American Financial Corp,Mid,Financials,Insurance
+GNW,Genworth Financial Inc,Small,Financials,Insurance
+THG,Hanover Insurance Group Inc,Mid,Financials,Insurance
+HIG,Hartford Financial Services Group Inc,Large,Financials,Insurance
+HMN,Horace Mann Educators Corp,Small,Financials,Insurance
+KMPR,Kemper Corp,Small,Financials,Insurance
+LNC,Lincoln National Corp,Mid,Financials,Insurance
+L,Loews Corp,Mid,Financials,Insurance
+MFC,Manulife Financial Corp,Large,Financials,Insurance
+MKL,Markel Corp,Mid,Financials,Insurance
+MMC,Marsh & McLennan Companies Inc,Large,Financials,Insurance
+MBI,MBIA Inc,Small,Financials,Insurance
+MCY,Mercury General Corp,Small,Financials,Insurance
+MET,Metlife Inc,Large,Financials,Insurance
+NGHC,National General Holdings Corp,Small,Financials,Insurance
+NAVG,Navigators Group Inc,Small,Financials,Insurance
+ORI,Old Republic International Corp,Mid,Financials,Insurance
+OB,OneBeacon Insurance Group Ltd,Small,Financials,Insurance
+PRI,Primerica Inc,Small,Financials,Insurance
+PFG,Principal Financial Group Inc,Mid,Financials,Insurance
+PRA,ProAssurance Corp,Small,Financials,Insurance
+PGR,Progressive Corp,Large,Financials,Insurance
+PRU,Prudential Financial Inc,Large,Financials,Insurance
+RGA,Reinsurance Group of America Inc,Mid,Financials,Insurance
+RNR,Renaissancere Holdings Ltd,Mid,Financials,Insurance
+RLI,RLI Corp,Small,Financials,Insurance
+SIGI,Selective Insurance Group Inc,Small,Financials,Insurance
+SLF,Sun Life Financial Inc,Large,Financials,Insurance
+TPRE,Third Point Reinsurance Ltd,Small,Financials,Insurance
+TMK,Torchmark Corp,Mid,Financials,Insurance
+TRV,Travelers Companies Inc,Large,Financials,Insurance
+UFCS,United Fire Group Inc,Small,Financials,Insurance
+UNM,Unum Group,Mid,Financials,Insurance
+VR,Validus Holdings Ltd,Mid,Financials,Insurance
+WRB,W. R. Berkley Corp,Mid,Financials,Insurance
+WTM,White Mountains Insurance Group Ltd,Mid,Financials,Insurance
+WLTW,Willis Towers Watson PLC,Mid,Financials,Insurance
+XL,XL Group PLC,Mid,Financials,Insurance
+AKR,Acadia Realty Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+ALX,Alexander's Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+ARE,Alexandria Real Estate Equities Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+AAT,American Assets Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+ACC,American Campus Communities Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+AGNC,American Capital Agency Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+AMH,American Homes 4 Rent,Small,Financials,Real Estate Investment Trusts (REITs)
+NLY,Annaly Capital Management Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+AIV,Apartment Investment and Management Co,Mid,Financials,Real Estate Investment Trusts (REITs)
+ARI,Apollo Commercial Real Estate Finance Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+APLE,Apple Hospitality REIT Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+AVB,AvalonBay Communities Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+BXMT,Blackstone Mortgage Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+BOWFF,Boardwalk Real Estate Investment Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+BXP,Boston Properties Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+BDN,Brandywine Realty Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+BRX,Brixmor Property Group Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+CPT,Camden Property Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+CCP,Care Capital Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+CBL,CBL & Associates Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+CHSP,Chesapeake Lodging Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+CIM,Chimera Investment Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+CMCT,CIM Commercial Trust Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+CLNY,Colony Capital Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+SFR,Colony Starwood Homes,Small,Financials,Real Estate Investment Trusts (REITs)
+CXP,Columbia Property Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+CSAL,Communications Sales & Leasing Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+COR,CoreSite Realty Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+OFC,Corporate Office Properties Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+CXW,Corrections Corp of America,Mid,Financials,Real Estate Investment Trusts (REITs)
+CUZ,Cousins Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+CUBE,CubeSmart,Mid,Financials,Real Estate Investment Trusts (REITs)
+CONE,CyrusOne Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+CYS,CYS Investments Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+DCT,DCT Industrial Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+DDR,DDR Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+DRH,DiamondRock Hospitality Co,Small,Financials,Real Estate Investment Trusts (REITs)
+DLR,Digital Realty Trust Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+DEI,Douglas Emmett Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+DRE,Duke Realty Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+DFT,DuPont Fabros Technology Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+EGP,Eastgroup Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+EDR,Education Realty Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+ESRT,Empire State Realty Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+EPR,EPR Properties,Mid,Financials,Real Estate Investment Trusts (REITs)
+EQC,Equity Commonwealth,Small,Financials,Real Estate Investment Trusts (REITs)
+ELS,Equity LifeStyle Properties Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+EQY,Equity One Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+EQR,Equity Residential,Large,Financials,Real Estate Investment Trusts (REITs)
+ESS,Essex Property Trust Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+EXR,Extra Space Storage Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+FRT,Federal Realty Investment Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+FCH,Felcor Lodging Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+FR,First Industrial Realty Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+FCPT,Four Corners Property Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+FSP,Franklin Street Properties Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+GLPI,Gaming and Leisure Properties Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+GGP,General Growth Properties Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+GEO,Geo Group Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+GNL,Global Net Lease Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+GOV,Government Properties Income Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+GPT,Gramercy Property Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+HTS,Hatteras Financial Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+HCP,HCP Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+HR,Healthcare Realty Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+HTA,Healthcare Trust Of America Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+HIW,Highwoods Properties Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+HPT,Hospitality Properties Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+HST,Host Hotels & Resorts Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+HPP,Hudson Pacific Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+HIFR,InfraREIT Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+IVR,Invesco Mortgage Capital Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+KRC,Kilroy Realty Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+KIM,Kimco Realty Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+KRG,Kite Realty Group Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+LADR,Ladder Capital Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+LHO,LaSalle Hotel Properties,Small,Financials,Real Estate Investment Trusts (REITs)
+LXP,Lexington Realty Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+LPT,Liberty Property Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+LTC,LTC Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+MAC,Macerich Co,Mid,Financials,Real Estate Investment Trusts (REITs)
+CLI,Mack-Cali Realty Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+MPW,Medical Properties Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+MFA,MFA Financial Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+MAA,Mid-America Apartment Communities Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+MORE,Monogram Residential Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+NHI,National Health Investors Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+NNN,National Retail Properties Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+NRZ,New Residential Investment Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+NYRT,New York REIT Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+NRF,Northstar Realty Finance Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+OHI,Omega Healthcare Investors Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+OUT,OUTFRONT Media Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+PGRE,Paramount Group Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+PKY,Parkway Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+PEB,Pebblebrook Hotel Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+PEI,Pennsylvania Real Estate Investment Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+DOC,Physicians Realty Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+PDM,Piedmont Office Realty Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+PPS,Post Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+PCH,Potlatch Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+PLD,Prologis Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+PSB,PS Business Parks Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+PSA,Public Storage,Large,Financials,Real Estate Investment Trusts (REITs)
+QTS,QTS Realty Trust Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+RPT,Ramco-Gershenson Properties Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+RYN,Rayonier Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+O,Realty Income Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+REG,Regency Centers Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+ROIC,Retail Opportunity Investments Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+RPAI,Retail Properties of America Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+RLJ,RLJ Lodging Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+RSE,Rouse Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+RHP,Ryman Hospitality Properties Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+SBRA,Sabra Health Care REIT Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+BFS,Saul Centers Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+SIR,Select Income Reit,Small,Financials,Real Estate Investment Trusts (REITs)
+SNH,Senior Housing Properties Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+SRG,Seritage Growth Properties,Small,Financials,Real Estate Investment Trusts (REITs)
+SPG,Simon Property Group Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+SLG,SL Green Realty Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+SSS,Sovran Self Storage Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+SRC,Spirit Realty Capital Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+STAG,STAG Industrial Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+STWD,Starwood Property Trust Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+STOR,Store Capital Corp,Mid,Financials,Real Estate Investment Trusts (REITs)
+SUI,Sun Communities Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+SHO,Sunstone Hotel Investors Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+SKT,Tanger Factory Outlet Centers Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+TCO,Taubman Centers Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+TRNO,Terreno Realty Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+TWO,Two Harbors Investment Corp,Small,Financials,Real Estate Investment Trusts (REITs)
+UDR,UDR Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+UE,Urban Edge Properties,Small,Financials,Real Estate Investment Trusts (REITs)
+VTR,Ventas Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+VER,Vereit Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+VNO,Vornado Realty Trust,Mid,Financials,Real Estate Investment Trusts (REITs)
+WPC,W. P. Carey Inc,Mid,Financials,Real Estate Investment Trusts (REITs)
+WRE,Washington Real Estate Investment Trust,Small,Financials,Real Estate Investment Trusts (REITs)
+WRI,Weingarten Realty Investors,Mid,Financials,Real Estate Investment Trusts (REITs)
+HCN,Welltower Inc,Large,Financials,Real Estate Investment Trusts (REITs)
+WY,Weyerhaeuser Co,Large,Financials,Real Estate Investment Trusts (REITs)
+WPG,WP Glimcher Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+XHR,Xenia Hotels & Resorts Inc,Small,Financials,Real Estate Investment Trusts (REITs)
+ALEX,Alexander & Baldwin Inc,Small,Financials,Real Estate Development
+BAM,Brookfield Asset Management Inc,Large,Financials,Real Estate Development
+BPY,Brookfield Property Partners LP,Mid,Financials,Real Estate Development
+CBG,CBRE Group Inc,Mid,Financials,Real Estate Development
+CIGI,Colliers International Group Inc,Small,Financials,Real Estate Development
+HHC,Howard Hughes Corp,Mid,Financials,Real Estate Development
+JLL,Jones Lang LaSalle Inc,Mid,Financials,Real Estate Development
+KW,Kennedy-Wilson Holdings Inc,Small,Financials,Real Estate Development
+RLGY,Realogy Holdings Corp,Mid,Financials,Real Estate Development
+JOE,St. Joe Co,Small,Financials,Real Estate Development
+AF,Astoria Financial Corp,Small,Financials,Mortgage Finance
+BOFI,BofI Holding Inc,Small,Financials,Mortgage Finance
+CFFN,Capitol Federal Financial Inc,Small,Financials,Mortgage Finance
+ESNT,Essent Group Ltd,Small,Financials,Mortgage Finance
+EVER,EverBank Financial Corp,Small,Financials,Mortgage Finance
+FBC,Flagstar Bancorp Inc,Small,Financials,Mortgage Finance
+KRNY,Kearny Financial Corp,Small,Financials,Mortgage Finance
+TREE,LendingTree Inc,Small,Financials,Mortgage Finance
+MTG,MGIC Investment Corp,Small,Financials,Mortgage Finance
+NSM,Nationstar Mortgage Holdings Inc,Small,Financials,Mortgage Finance
+NYCB,New York Community Bancorp Inc,Mid,Financials,Mortgage Finance
+NWBI,Northwest Bancshares Inc,Small,Financials,Mortgage Finance
+PFS,Provident Financial Services Inc,Small,Financials,Mortgage Finance
+RDN,Radian Group Inc,Small,Financials,Mortgage Finance
+TFSL,TFS Financial Corp,Mid,Financials,Mortgage Finance
+WAFD,Washington Federal Inc,Small,Financials,Mortgage Finance
+ABBV,AbbVie Inc,Large,Health Care,Biotechnology
+ACAD,ACADIA Pharmaceuticals Inc,Small,Health Care,Biotechnology
+ACHN,Achillion Pharmaceuticals Inc,Small,Health Care,Biotechnology
+ACOR,Acorda Therapeutics Inc,Small,Health Care,Biotechnology
+AGIO,Agios Pharmaceuticals Inc,Small,Health Care,Biotechnology
+ALDR,Alder Biopharmaceuticals Inc,Small,Health Care,Biotechnology
+ALXN,Alexion Pharmaceuticals Inc,Large,Health Care,Biotechnology
+ALKS,Alkermes Plc,Mid,Health Care,Biotechnology
+ALNY,Alnylam Pharmaceuticals Inc,Mid,Health Care,Biotechnology
+ALSE,Alseres Pharmaceuticals Inc,Small,Health Care,Biotechnology
+AMGN,Amgen Inc,Large,Health Care,Biotechnology
+FOLD,Amicus Therapeutics Inc,Small,Health Care,Biotechnology
+ANAC,Anacor Pharmaceuticals Inc,Small,Health Care,Biotechnology
+ARIA,ARIAD Pharmaceuticals Inc,Small,Health Care,Biotechnology
+AXON,Axovant Sciences Ltd,Small,Health Care,Biotechnology
+BXLT,Baxalta Inc,Large,Health Care,Biotechnology
+BIIB,Biogen Inc,Large,Health Care,Biotechnology
+BMRN,Biomarin Pharmaceutical Inc,Mid,Health Care,Biotechnology
+BLUE,bluebird bio Inc,Small,Health Care,Biotechnology
+CELG,Celgene Corp,Large,Health Care,Biotechnology
+CPHD,Cepheid,Small,Health Care,Biotechnology
+CBPO,China Biologic Products Inc,Small,Health Care,Biotechnology
+EDIT,Editas Medicine Inc,Small,Health Care,Biotechnology
+EBS,Emergent BioSolutions Inc,Small,Health Care,Biotechnology
+FGEN,FibroGen Inc,Small,Health Care,Biotechnology
+FPRX,Five Prime Therapeutics Inc,Small,Health Care,Biotechnology
+GILD,Gilead Sciences Inc,Large,Health Care,Biotechnology
+HALO,Halozyme Therapeutics Inc,Small,Health Care,Biotechnology
+INCY,Incyte Corp,Mid,Health Care,Biotechnology
+INSY,INSYS Therapeutics Inc,Small,Health Care,Biotechnology
+ICPT,Intercept Pharmaceuticals Inc,Small,Health Care,Biotechnology
+XON,Intrexon Corp,Mid,Health Care,Biotechnology
+IONS,Ionis Pharmaceuticals Inc,Mid,Health Care,Biotechnology
+IRWD,Ironwood Pharmaceuticals Inc,Small,Health Care,Biotechnology
+JUNO,Juno Therapeutics Inc,Mid,Health Care,Biotechnology
+KITE,Kite Pharma Inc,Small,Health Care,Biotechnology
+LXRX,Lexicon Pharmaceuticals Inc,Small,Health Care,Biotechnology
+LGND,Ligand Pharmaceuticals Inc,Small,Health Care,Biotechnology
+MDVN,Medivation Inc,Mid,Health Care,Biotechnology
+MYGN,Myriad Genetics Inc,Small,Health Care,Biotechnology
+NBIX,Neurocrine Biosciences Inc,Mid,Health Care,Biotechnology
+NVAX,Novavax Inc,Small,Health Care,Biotechnology
+OPHT,Ophthotech Corp,Small,Health Care,Biotechnology
+OPK,OPKO Health Inc,Mid,Health Care,Biotechnology
+PTLA,Portola Pharmaceuticals Inc,Small,Health Care,Biotechnology
+PRTA,Prothena Corporation PLC,Small,Health Care,Biotechnology
+RDUS,Radius Health Inc,Small,Health Care,Biotechnology
+REGN,Regeneron Pharmaceuticals Inc,Large,Health Care,Biotechnology
+SAGE,SAGE Therapeutics Inc,Small,Health Care,Biotechnology
+SGEN,Seattle Genetics Inc,Mid,Health Care,Biotechnology
+MCRB,Seres Therapeutics Inc,Small,Health Care,Biotechnology
+TSRO,TESARO Inc,Small,Health Care,Biotechnology
+RARE,Ultragenyx Pharmaceutical Inc,Small,Health Care,Biotechnology
+UTHR,United Therapeutics Corp,Mid,Health Care,Biotechnology
+VRTX,Vertex Pharmaceuticals Inc,Large,Health Care,Biotechnology
+ABT,Abbott Laboratories,Large,Health Care,Healthcare Equipment
+ABMD,Abiomed Inc,Mid,Health Care,Healthcare Equipment
+ALR,Alere Inc,Mid,Health Care,Healthcare Equipment
+ALGN,Align Technology Inc,Mid,Health Care,Healthcare Equipment
+BAX,Baxter International Inc,Large,Health Care,Healthcare Equipment
+BDX,Becton Dickinson and Co,Large,Health Care,Healthcare Equipment
+BSX,Boston Scientific Corp,Large,Health Care,Healthcare Equipment
+BCR,C R Bard Inc,Mid,Health Care,Healthcare Equipment
+CMN,Cantel Medical Corp,Small,Health Care,Healthcare Equipment
+CNMD,Conmed Corp,Small,Health Care,Healthcare Equipment
+COO,Cooper Companies Inc,Mid,Health Care,Healthcare Equipment
+CYNO,Cynosure Inc,Small,Health Care,Healthcare Equipment
+XRAY,Dentsply Sirona Inc,Mid,Health Care,Healthcare Equipment
+DXCM,DexCom Inc,Mid,Health Care,Healthcare Equipment
+EW,Edwards Lifesciences Corp,Large,Health Care,Healthcare Equipment
+GMED,Globus Medical Inc,Small,Health Care,Healthcare Equipment
+GB,Greatbatch Inc,Small,Health Care,Healthcare Equipment
+HAE,Haemonetics Corp,Small,Health Care,Healthcare Equipment
+HYH,Halyard Health Inc,Small,Health Care,Healthcare Equipment
+HRC,Hill-Rom Holdings Inc,Small,Health Care,Healthcare Equipment
+HOLX,Hologic Inc,Mid,Health Care,Healthcare Equipment
+ICUI,ICU Medical Inc,Small,Health Care,Healthcare Equipment
+IDXX,IDEXX Laboratories Inc,Mid,Health Care,Healthcare Equipment
+PODD,Insulet Corp,Small,Health Care,Healthcare Equipment
+IART,Integra LifeSciences Holdings Corp,Small,Health Care,Healthcare Equipment
+ISRG,Intuitive Surgical Inc,Large,Health Care,Healthcare Equipment
+MASI,Masimo Corp,Small,Health Care,Healthcare Equipment
+BABY,Natus Medical Inc,Small,Health Care,Healthcare Equipment
+NEOG,Neogen Corp,Small,Health Care,Healthcare Equipment
+NVRO,Nevro Corp,Small,Health Care,Healthcare Equipment
+NVCR,Novocure Ltd,Small,Health Care,Healthcare Equipment
+NUVA,NuVasive Inc,Small,Health Care,Healthcare Equipment
+PEN,Penumbra Inc,Small,Health Care,Healthcare Equipment
+RMD,ResMed Inc,Mid,Health Care,Healthcare Equipment
+STJ,St. Jude Medical Inc,Mid,Health Care,Healthcare Equipment
+STE,STERIS plc,Mid,Health Care,Healthcare Equipment
+SYK,Stryker Corp,Large,Health Care,Healthcare Equipment
+TFX,Teleflex Inc,Mid,Health Care,Healthcare Equipment
+VAR,Varian Medical Systems Inc,Mid,Health Care,Healthcare Equipment
+WST,West Pharmaceutical Services Inc,Mid,Health Care,Healthcare Equipment
+ZLTQ,ZELTIQ Aesthetics Inc,Small,Health Care,Healthcare Equipment
+ZBH,Zimmer Biomet Holdings Inc,Large,Health Care,Healthcare Equipment
+ACHC,Acadia Healthcare Company Inc,Mid,Health Care,Healthcare Providers
+ADPT,Adeptus Health Inc,Small,Health Care,Healthcare Providers
+AET,Aetna Inc,Large,Health Care,Healthcare Providers
+AIRM,Air Methods Corp,Small,Health Care,Healthcare Providers
+AMED,Amedisys Inc,Small,Health Care,Healthcare Providers
+ABC,AmerisourceBergen Corp,Large,Health Care,Healthcare Providers
+AHS,AMN Healthcare Services Inc,Small,Health Care,Healthcare Providers
+AMSG,AmSurg Corp,Mid,Health Care,Healthcare Providers
+ANTM,Anthem Inc,Large,Health Care,Healthcare Providers
+BKD,Brookdale Senior Living Inc,Small,Health Care,Healthcare Providers
+CAH,Cardinal Health Inc,Large,Health Care,Healthcare Providers
+CNC,Centene Corp,Mid,Health Care,Healthcare Providers
+CHE,Chemed Corp,Small,Health Care,Healthcare Providers
+CI,Cigna Corp,Large,Health Care,Healthcare Providers
+CYH,Community Health Systems Inc,Small,Health Care,Healthcare Providers
+DVA,DaVita HealthCare Partners Inc,Mid,Health Care,Healthcare Providers
+DPLO,Diplomat Pharmacy Inc,Small,Health Care,Healthcare Providers
+ENSG,Ensign Group Inc,Small,Health Care,Healthcare Providers
+EVHC,Envision Healthcare Holdings Inc,Mid,Health Care,Healthcare Providers
+EXAM,ExamWorks Group Inc,Small,Health Care,Healthcare Providers
+ESRX,Express Scripts Holding Co,Large,Health Care,Healthcare Providers
+HCA,HCA Holdings Inc,Large,Health Care,Healthcare Providers
+HQY,HealthEquity Inc,Small,Health Care,Healthcare Providers
+HLS,HealthSouth Corp,Small,Health Care,Healthcare Providers
+HSIC,Henry Schein Inc,Mid,Health Care,Healthcare Providers
+HUM,Humana Inc,Large,Health Care,Healthcare Providers
+KND,Kindred Healthcare Inc,Small,Health Care,Healthcare Providers
+LH,Laboratory Corporation of America Holdings,Mid,Health Care,Healthcare Providers
+LPNT,LifePoint Health Inc,Small,Health Care,Healthcare Providers
+MGLN,Magellan Health Inc,Small,Health Care,Healthcare Providers
+MCK,McKesson Corp,Large,Health Care,Healthcare Providers
+MD,MEDNAX Inc,Mid,Health Care,Healthcare Providers
+MOH,Molina Healthcare Inc,Mid,Health Care,Healthcare Providers
+OMI,Owens & Minor Inc,Small,Health Care,Healthcare Providers
+PDCO,Patterson Companies Inc,Mid,Health Care,Healthcare Providers
+PINC,Premier Inc,Mid,Health Care,Healthcare Providers
+DGX,Quest Diagnostics Inc,Mid,Health Care,Healthcare Providers
+SEM,Select Medical Holdings Corp,Small,Health Care,Healthcare Providers
+SCAI,Surgical Care Affiliates Inc,Small,Health Care,Healthcare Providers
+TMH,TeamHealth Holdings Inc,Small,Health Care,Healthcare Providers
+THC,Tenet Healthcare Corp,Small,Health Care,Healthcare Providers
+UNH,UnitedHealth Group Inc,Large,Health Care,Healthcare Providers
+UHS,Universal Health Services Inc,Mid,Health Care,Healthcare Providers
+WOOF,VCA Inc,Mid,Health Care,Healthcare Providers
+WCG,WellCare Health Plans Inc,Mid,Health Care,Healthcare Providers
+MDRX,Allscripts Healthcare Solutions Inc,Small,Health Care,Health Care Technology
+ATHN,athenahealth Inc,Mid,Health Care,Health Care Technology
+CERN,Cerner Corp,Large,Health Care,Health Care Technology
+HMSY,HMS Holdings Corp,Small,Health Care,Health Care Technology
+IMS,IMS Health Holdings Inc,Mid,Health Care,Health Care Technology
+INOV,Inovalon Holdings Inc,Small,Health Care,Health Care Technology
+MDSO,Medidata Solutions Inc,Small,Health Care,Health Care Technology
+PGND,Press Ganey Holdings Inc,Small,Health Care,Health Care Technology
+VEEV,Veeva Systems Inc,Small,Health Care,Health Care Technology
+A,Agilent Technologies Inc,Mid,Health Care,Life Sciences
+BIO,Bio Rad Laboratories Inc,Small,Health Care,Life Sciences
+TECH,Bio-Techne Corp,Small,Health Care,Life Sciences
+BRKR,Bruker Corp,Mid,Health Care,Life Sciences
+CBM,Cambrex Corp,Small,Health Care,Life Sciences
+CRL,Charles River Laboratories International Inc,Mid,Health Care,Life Sciences
+ICLR,ICON PLC,Mid,Health Care,Life Sciences
+ILMN,Illumina Inc,Large,Health Care,Life Sciences
+INCR,INC Research Holdings Inc,Small,Health Care,Life Sciences
+MTD,Mettler-Toledo International Inc,Mid,Health Care,Life Sciences
+PRXL,PAREXEL International Corp,Small,Health Care,Life Sciences
+PKI,PerkinElmer Inc,Mid,Health Care,Life Sciences
+PRAH,PRA Health Sciences Inc,Small,Health Care,Life Sciences
+QGEN,Qiagen NV,Mid,Health Care,Life Sciences
+Q,Quintiles Transnational Holdings Inc,Mid,Health Care,Life Sciences
+TMO,Thermo Fisher Scientific Inc,Large,Health Care,Life Sciences
+VWR,VWR Corp,Small,Health Care,Life Sciences
+WAT,Waters Corp,Mid,Health Care,Life Sciences
+AKRX,Akorn Inc,Small,Health Care,Pharmaceuticals
+AGN,Allergan plc,Large,Health Care,Pharmaceuticals
+BMY,Bristol-Myers Squibb Co,Large,Health Care,Pharmaceuticals
+CTLT,Catalent Inc,Small,Health Care,Pharmaceuticals
+LLY,Eli Lilly and Co,Large,Health Care,Pharmaceuticals
+ENDP,Endo International PLC,Mid,Health Care,Pharmaceuticals
+IPXL,Impax Laboratories Inc,Small,Health Care,Pharmaceuticals
+INVA,Innoviva Inc,Small,Health Care,Pharmaceuticals
+ITCI,Intra-Cellular Therapies Inc,Small,Health Care,Pharmaceuticals
+JAZZ,Jazz Pharmaceuticals PLC,Mid,Health Care,Pharmaceuticals
+JNJ,Johnson & Johnson,Large,Health Care,Pharmaceuticals
+MNK,Mallinckrodt Plc,Mid,Health Care,Pharmaceuticals
+MDCO,Medicines Co,Small,Health Care,Pharmaceuticals
+MRK,Merck & Co Inc,Large,Health Care,Pharmaceuticals
+NKTR,Nektar Therapeutics,Small,Health Care,Pharmaceuticals
+PCRX,Pacira Pharmaceuticals Inc,Small,Health Care,Pharmaceuticals
+PRGO,Perrigo Company PLC,Mid,Health Care,Pharmaceuticals
+PFE,Pfizer Inc,Large,Health Care,Pharmaceuticals
+PAHC,Phibro Animal Health Corp,Small,Health Care,Pharmaceuticals
+PBH,Prestige Brands Holdings Inc,Small,Health Care,Pharmaceuticals
+TARO,Taro Pharmaceutical Industries Ltd,Mid,Health Care,Pharmaceuticals
+TXMD,TherapeuticsMD Inc,Small,Health Care,Pharmaceuticals
+VRX,Valeant Pharmaceuticals International Inc,Mid,Health Care,Pharmaceuticals
+ZTS,Zoetis Inc,Large,Health Care,Pharmaceuticals
+AJRD,Aerojet Rocketdyne Holdings Inc,Small,Industrials,Aerospace & Defense
+BEAV,B/E Aerospace Inc,Mid,Industrials,Aerospace & Defense
+BA,Boeing Co,Large,Industrials,Aerospace & Defense
+BWXT,BWX Technologies Inc,Small,Industrials,Aerospace & Defense
+CAE,CAE Inc,Small,Industrials,Aerospace & Defense
+CUB,Cubic Corp,Small,Industrials,Aerospace & Defense
+CW,Curtiss-Wright Corp,Small,Industrials,Aerospace & Defense
+DGI,DigitalGlobe Inc,Small,Industrials,Aerospace & Defense
+ESLT,Elbit Systems Ltd,Mid,Industrials,Aerospace & Defense
+ESL,Esterline Technologies Corp,Small,Industrials,Aerospace & Defense
+GD,General Dynamics Corp,Large,Industrials,Aerospace & Defense
+HEI,Heico Corp,Small,Industrials,Aerospace & Defense
+HXL,Hexcel Corp,Mid,Industrials,Aerospace & Defense
+HON,Honeywell International Inc,Large,Industrials,Aerospace & Defense
+HII,Huntington Ingalls Industries Inc,Mid,Industrials,Aerospace & Defense
+KLXI,KLX Inc,Small,Industrials,Aerospace & Defense
+LLL,L-3 Communications Holdings Inc,Mid,Industrials,Aerospace & Defense
+LMT,Lockheed Martin Corp,Large,Industrials,Aerospace & Defense
+NOC,NORTHROP GRUMMAN CORP,Large,Industrials,Aerospace & Defense
+OA,Orbital ATK Inc,Mid,Industrials,Aerospace & Defense
+RTN,Raytheon Co,Large,Industrials,Aerospace & Defense
+COL,Rockwell Collins Inc,Mid,Industrials,Aerospace & Defense
+SPR,Spirit AeroSystems Holdings Inc,Mid,Industrials,Aerospace & Defense
+TASR,TASER International Inc,Small,Industrials,Aerospace & Defense
+TDY,Teledyne Technologies Inc,Small,Industrials,Aerospace & Defense
+TXT,Textron Inc,Mid,Industrials,Aerospace & Defense
+TDG,TransDigm Group Inc,Mid,Industrials,Aerospace & Defense
+TGI,Triumph Group Inc,Small,Industrials,Aerospace & Defense
+UTX,United Technologies Corp,Large,Industrials,Aerospace & Defense
+CHRW,C.H. Robinson Worldwide Inc,Mid,Industrials,Logistics
+EXPD,Expeditors International of Washington Inc,Mid,Industrials,Logistics
+FDX,FedEx Corp,Large,Industrials,Logistics
+FWRD,Forward Air Corp,Small,Industrials,Logistics
+HUBG,Hub Group Inc,Small,Industrials,Logistics
+UPS,United Parcel Service Inc,Large,Industrials,Logistics
+XPO,XPO Logistics Inc,Small,Industrials,Logistics
+ALK,Alaska Air Group Inc,Mid,Industrials,Airlines
+ALGT,Allegiant Travel Co,Small,Industrials,Airlines
+AAL,American Airlines Group Inc,Large,Industrials,Airlines
+CPA,Copa Holdings SA,Small,Industrials,Airlines
+DAL,Delta Air Lines Inc,Large,Industrials,Airlines
+HA,Hawaiian Holdings Inc,Small,Industrials,Airlines
+JBLU,JetBlue Airways Corp,Mid,Industrials,Airlines
+LUV,Southwest Airlines Co,Large,Industrials,Airlines
+SAVE,Spirit Airlines Inc,Small,Industrials,Airlines
+UAL,United Continental Holdings Inc,Large,Industrials,Airlines
+VA,Virgin America Inc,Small,Industrials,Airlines
+AOS,A. O. Smith Corp,Mid,Industrials,Building Products
+AAON,AAON Inc,Small,Industrials,Building Products
+WMS,Advanced Drainage Systems Inc,Small,Industrials,Building Products
+ALLE,Allegion PLC,Mid,Industrials,Building Products
+AMWD,American Woodmark Corp,Small,Industrials,Building Products
+APOG,Apogee Enterprises Inc,Small,Industrials,Building Products
+AWI,Armstrong World Industries Inc,Small,Industrials,Building Products
+BLDR,Builders FirstSource Inc,Small,Industrials,Building Products
+CSTE,Caesarstone Sdot-Yam Ltd,Small,Industrials,Building Products
+FBHS,Fortune Brands Home & Security Inc,Mid,Industrials,Building Products
+LII,Lennox International Inc,Mid,Industrials,Building Products
+MAS,Masco Corp,Mid,Industrials,Building Products
+DOOR,Masonite International Corp,Small,Industrials,Building Products
+NCS,NCI Building Systems Inc,Small,Industrials,Building Products
+OC,Owens Corning,Mid,Industrials,Building Products
+SSD,Simpson Manufacturing Co Inc,Small,Industrials,Building Products
+TREX,Trex Co Inc,Small,Industrials,Building Products
+UFPI,Universal Forest Products Inc,Small,Industrials,Building Products
+USG,USG Corp,Mid,Industrials,Building Products
+ABM,ABM Industries Inc,Small,Industrials,Commercial Services
+ADT,ADT Corp,Mid,Industrials,Commercial Services
+BRC,Brady Corp,Small,Industrials,Commercial Services
+BCO,Brinks Co,Small,Industrials,Commercial Services
+CTAS,Cintas Corp,Mid,Industrials,Commercial Services
+CLH,Clean Harbors Inc,Small,Industrials,Commercial Services
+CPRT,Copart Inc,Mid,Industrials,Commercial Services
+CVA,Covanta Holding Corp,Small,Industrials,Commercial Services
+DLX,Deluxe Corp,Small,Industrials,Commercial Services
+ESND,Essendant Inc,Small,Industrials,Commercial Services
+GK,G&K Services Inc,Small,Industrials,Commercial Services
+HCSG,Healthcare Services Group Inc,Small,Industrials,Commercial Services
+MLHR,Herman Miller Inc,Small,Industrials,Commercial Services
+HNI,HNI Corp,Small,Industrials,Commercial Services
+TILE,Interface Inc,Small,Industrials,Commercial Services
+KAR,KAR Auction Services Inc,Mid,Industrials,Commercial Services
+KNL,Knoll Inc,Small,Industrials,Commercial Services
+MATW,Matthews International Corp,Small,Industrials,Commercial Services
+MINI,Mobile Mini Inc,Small,Industrials,Commercial Services
+MSA,MSA Safety Inc,Small,Industrials,Commercial Services
+PBI,Pitney Bowes Inc,Mid,Industrials,Commercial Services
+BIN,Progressive Waste Solutions Ltd,Small,Industrials,Commercial Services
+RSG,Republic Services Inc,Mid,Industrials,Commercial Services
+RBA,Ritchie Bros. Auctioneers Inc,Small,Industrials,Commercial Services
+ROL,Rollins Inc,Mid,Industrials,Commercial Services
+RRD,RR Donnelley & Sons Co,Small,Industrials,Commercial Services
+SCS,Steelcase Inc,Small,Industrials,Commercial Services
+SRCL,Stericycle Inc,Mid,Industrials,Commercial Services
+TTEK,Tetra Tech Inc,Small,Industrials,Commercial Services
+TYC,Tyco International PLC,Mid,Industrials,Commercial Services
+UNF,UniFirst Corp,Small,Industrials,Commercial Services
+WCN,Waste Connections Inc,Mid,Industrials,Commercial Services
+WM,Waste Management Inc,Large,Industrials,Commercial Services
+WSTC,West Corp,Small,Industrials,Commercial Services
+ACM,AECOM Technology Corp,Mid,Industrials,Construction & Engineering
+ARCAY,Arcadis NV,Small,Industrials,Construction & Engineering
+CBI,Chicago Bridge & Iron Company NV,Mid,Industrials,Construction & Engineering
+FIX,Comfort Systems USA Inc,Small,Industrials,Construction & Engineering
+DY,Dycom Industries Inc,Small,Industrials,Construction & Engineering
+EME,EMCOR Group Inc,Small,Industrials,Construction & Engineering
+FLR,Fluor Corp,Mid,Industrials,Construction & Engineering
+GVA,Granite Construction Inc,Small,Industrials,Construction & Engineering
+JEC,Jacobs Engineering Group Inc,Mid,Industrials,Construction & Engineering
+KBR,KBR Inc,Small,Industrials,Construction & Engineering
+MTZ,MasTec Inc,Small,Industrials,Construction & Engineering
+PRIM,Primoris Services Corp,Small,Industrials,Construction & Engineering
+PWR,Quanta Services Inc,Mid,Industrials,Construction & Engineering
+VMI,Valmont Industries Inc,Small,Industrials,Construction & Engineering
+AYI,Acuity Brands Inc,Mid,Industrials,Electrical Equipment
+AME,Ametek Inc,Mid,Industrials,Electrical Equipment
+AZZ,AZZ Inc,Small,Industrials,Electrical Equipment
+BW,Babcock & Wilcox Enterprises Inc,Small,Industrials,Electrical Equipment
+ETN,Eaton Corporation PLC,Large,Industrials,Electrical Equipment
+EMR,Emerson Electric Co,Large,Industrials,Electrical Equipment
+ENS,EnerSys,Small,Industrials,Electrical Equipment
+FELE,Franklin Electric Co Inc,Small,Industrials,Electrical Equipment
+GNRC,Generac Holdings Inc,Small,Industrials,Electrical Equipment
+HUBB,Hubbell Inc,Mid,Industrials,Electrical Equipment
+RBC,Regal Beloit Corp,Small,Industrials,Electrical Equipment
+ROK,Rockwell Automation Inc,Mid,Industrials,Electrical Equipment
+ST,Sensata Technologies Holding NV,Mid,Industrials,Electrical Equipment
+SCTY,SolarCity Corp,Small,Industrials,Electrical Equipment
+MMM,3M Co,Large,Industrials,Industrial Conglomerates
+CSL,Carlisle Companies Inc,Mid,Industrials,Industrial Conglomerates
+DHR,Danaher Corp,Large,Industrials,Industrial Conglomerates
+GE,General Electric Co,Large,Industrials,Industrial Conglomerates
+IEP,Icahn Enterprises LP,Mid,Industrials,Industrial Conglomerates
+PHG,Koninklijke Philips NV,Large,Industrials,Industrial Conglomerates
+ROP,Roper Technologies Inc,Large,Industrials,Industrial Conglomerates
+ATU,Actuant Corp,Small,Industrials,Machinery
+AGCO,AGCO Corp,Mid,Industrials,Machinery
+AIN,Albany International Corp,Small,Industrials,Machinery
+ALSN,Allison Transmission Holdings Inc,Mid,Industrials,Machinery
+ASTE,Astec Industries Inc,Small,Industrials,Machinery
+B,Barnes Group Inc,Small,Industrials,Machinery
+BGG,Briggs & Stratton Corp,Small,Industrials,Machinery
+CAT,Caterpillar Inc,Large,Industrials,Machinery
+CLC,CLARCOR Inc,Small,Industrials,Machinery
+CNHI,CNH Industrial NV,Mid,Industrials,Machinery
+CFX,Colfax Corp,Mid,Industrials,Machinery
+CR,Crane Co,Small,Industrials,Machinery
+CMI,Cummins Inc,Large,Industrials,Machinery
+DE,Deere & Co,Large,Industrials,Machinery
+DCI,Donaldson Company Inc,Mid,Industrials,Machinery
+DOV,Dover Corp,Mid,Industrials,Machinery
+NPO,EnPro Industries Inc,Small,Industrials,Machinery
+FLS,Flowserve Corp,Mid,Industrials,Machinery
+GGG,Graco Inc,Mid,Industrials,Machinery
+HI,Hillenbrand Inc,Small,Industrials,Machinery
+HY,Hyster-Yale Materials Handling Inc,Small,Industrials,Machinery
+IEX,IDEX Corp,Mid,Industrials,Machinery
+ITW,Illinois Tool Works Inc,Large,Industrials,Machinery
+IR,Ingersoll-Rand PLC,Mid,Industrials,Machinery
+ITT,ITT Corp,Small,Industrials,Machinery
+JBT,John Bean Technologies Corp,Small,Industrials,Machinery
+JOY,Joy Global Inc,Small,Industrials,Machinery
+KMT,Kennametal Inc,Small,Industrials,Machinery
+LECO,Lincoln Electric Holdings Inc,Mid,Industrials,Machinery
+MFS,Manitowoc Foodservice Inc,Small,Industrials,Machinery
+MIDD,Middleby Corp,Mid,Industrials,Machinery
+MCRN,Milacron Holdings Corp,Small,Industrials,Machinery
+MLI,Mueller Industries Inc,Small,Industrials,Machinery
+MWA,Mueller Water Products Inc,Small,Industrials,Machinery
+NDSN,Nordson Corp,Mid,Industrials,Machinery
+OSK,Oshkosh Corp,Small,Industrials,Machinery
+PCAR,PACCAR Inc,Large,Industrials,Machinery
+PH,Parker-Hannifin Corp,Mid,Industrials,Machinery
+PNR,Pentair plc,Mid,Industrials,Machinery
+PRLB,Proto Labs Inc,Small,Industrials,Machinery
+ROLL,RBC Bearings Inc,Small,Industrials,Machinery
+RXN,Rexnord Corp,Small,Industrials,Machinery
+SNA,Snap-On Inc,Mid,Industrials,Machinery
+SWK,Stanley Black & Decker Inc,Mid,Industrials,Machinery
+TEX,Terex Corp,Small,Industrials,Machinery
+TKR,Timken Co,Small,Industrials,Machinery
+TTC,Toro Co,Mid,Industrials,Machinery
+TRN,Trinity Industries Inc,Small,Industrials,Machinery
+WBC,WABCO Holdings Inc,Mid,Industrials,Machinery
+WTS,Watts Water Technologies Inc,Small,Industrials,Machinery
+WAB,Westinghouse Air Brake Technologies Corp,Mid,Industrials,Machinery
+WWD,Woodward Inc,Small,Industrials,Machinery
+XYL,Xylem Inc,Mid,Industrials,Machinery
+KEX,Kirby Corp,Small,Industrials,Marine
+MATX,Matson Inc,Small,Industrials,Marine
+SSW,Seaspan Corp,Small,Industrials,Marine
+ABCO,Advisory Board Co,Small,Industrials,Professional Services
+CEB,CEB Inc,Small,Industrials,Professional Services
+DNB,Dun & Bradstreet Corp,Mid,Industrials,Professional Services
+EFX,Equifax Inc,Mid,Industrials,Professional Services
+EXPO,Exponent Inc,Small,Industrials,Professional Services
+FCN,FTI Consulting Inc,Small,Industrials,Professional Services
+HURN,Huron Consulting Group Inc,Small,Industrials,Professional Services
+IHS,IHS Inc,Mid,Industrials,Professional Services
+NSP,Insperity Inc,Small,Industrials,Professional Services
+KFY,Korn/Ferry International,Small,Industrials,Professional Services
+MAN,ManpowerGroup Inc,Mid,Industrials,Professional Services
+NLSN,Nielsen Holdings PLC,Large,Industrials,Professional Services
+ASGN,On Assignment Inc,Small,Industrials,Professional Services
+RHI,Robert Half International Inc,Mid,Industrials,Professional Services
+STN,Stantec Inc,Small,Industrials,Professional Services
+TRU,TransUnion,Mid,Industrials,Professional Services
+TNET,TriNet Group Inc,Small,Industrials,Professional Services
+TBI,TrueBlue Inc,Small,Industrials,Professional Services
+VRSK,Verisk Analytics Inc,Mid,Industrials,Professional Services
+WAGE,WageWorks Inc,Small,Industrials,Professional Services
+UHAL,Amerco,Mid,Industrials,Road & Rail
+CAR,Avis Budget Group Inc,Small,Industrials,Road & Rail
+CNI,Canadian National Railway Co,Large,Industrials,Road & Rail
+CP,Canadian Pacific Railway Ltd,Large,Industrials,Road & Rail
+CSX,CSX Corp,Large,Industrials,Road & Rail
+GWR,Genesee & Wyoming Inc,Mid,Industrials,Road & Rail
+HTLD,Heartland Express Inc,Small,Industrials,Road & Rail
+HTZ,Hertz Global Holdings Inc,Mid,Industrials,Road & Rail
+JBHT,J B Hunt Transport Services Inc,Mid,Industrials,Road & Rail
+KSU,Kansas City Southern,Mid,Industrials,Road & Rail
+KNX,Knight Transportation Inc,Small,Industrials,Road & Rail
+LSTR,Landstar System Inc,Small,Industrials,Road & Rail
+NSC,Norfolk Southern Corp,Large,Industrials,Road & Rail
+ODFL,Old Dominion Freight Line Inc,Mid,Industrials,Road & Rail
+R,Ryder System Inc,Small,Industrials,Road & Rail
+SWFT,Swift Transportation Co,Small,Industrials,Road & Rail
+UNP,Union Pacific Corp,Large,Industrials,Road & Rail
+WERN,Werner Enterprises Inc,Small,Industrials,Road & Rail
+AER,AerCap Holdings NV,Mid,Industrials,Trading Companies
+AL,Air Lease Corp,Small,Industrials,Trading Companies
+AYR,Aircastle Ltd,Small,Industrials,Trading Companies
+AIT,Applied Industrial Technologies Inc,Small,Industrials,Trading Companies
+BECN,Beacon Roofing Supply Inc,Small,Industrials,Trading Companies
+STCK,BMC Stock Holdings Inc,Small,Industrials,Trading Companies
+FAST,Fastenal Co,Mid,Industrials,Trading Companies
+GMT,GATX Corp,Small,Industrials,Trading Companies
+HDS,HD Supply Holdings Inc,Mid,Industrials,Trading Companies
+KAMN,Kaman Corp,Small,Industrials,Trading Companies
+MRC,MRC Global Inc,Small,Industrials,Trading Companies
+MSM,MSC Industrial Direct Co Inc,Mid,Industrials,Trading Companies
+DNOW,NOW Inc,Small,Industrials,Trading Companies
+URI,United Rentals Inc,Mid,Industrials,Trading Companies
+UNVR,Univar Inc,Small,Industrials,Trading Companies
+GWW,W W Grainger Inc,Mid,Industrials,Trading Companies
+WSO,Watsco Inc,Mid,Industrials,Trading Companies
+WCC,Wesco International Inc,Small,Industrials,Trading Companies
+MIC,Macquarie Infrastructure Corp,Mid,Industrials,Transportation Infrastructure
+WAIR,Wesco Aircraft Holdings Inc,Small,Industrials,Transportation Infrastructure
+AGU,Agrium Inc,Mid,Materials,Chemicals
+APD,Air Products and Chemicals Inc,Large,Materials,Chemicals
+ARG,Airgas Inc,Mid,Materials,Chemicals
+ALB,Albemarle Corp,Mid,Materials,Chemicals
+ASH,Ashland Inc,Mid,Materials,Chemicals
+AXTA,Axalta Coating Systems Ltd,Mid,Materials,Chemicals
+AXLL,Axiall Corp,Small,Materials,Chemicals
+BCPC,Balchem Corp,Small,Materials,Chemicals
+CBT,Cabot Corp,Small,Materials,Chemicals
+CE,Celanese Corp,Mid,Materials,Chemicals
+CF,CF Industries Holdings Inc,Mid,Materials,Chemicals
+CC,Chemours Co,Small,Materials,Chemicals
+CHMT,Chemtura Corp,Small,Materials,Chemicals
+DOW,Dow Chemical Co,Large,Materials,Chemicals
+DD,E I du Pont de Nemours and Co,Large,Materials,Chemicals
+EMN,Eastman Chemical Co,Mid,Materials,Chemicals
+ECL,Ecolab Inc,Large,Materials,Chemicals
+FMC,FMC Corp,Mid,Materials,Chemicals
+GCP,GCP Applied Technologies Inc,Small,Materials,Chemicals
+FUL,HB Fuller Co,Small,Materials,Chemicals
+HUN,Huntsman Corp,Small,Materials,Chemicals
+IOSP,Innospec Inc,Small,Materials,Chemicals
+IFF,International Flavors & Fragrances Inc,Mid,Materials,Chemicals
+LYB,LyondellBasell Industries NV,Large,Materials,Chemicals
+MEOH,Methanex Corp,Small,Materials,Chemicals
+MTX,Minerals Technologies Inc,Small,Materials,Chemicals
+MON,Monsanto Co,Large,Materials,Chemicals
+MOS,Mosaic Co,Mid,Materials,Chemicals
+NEU,NewMarket Corp,Mid,Materials,Chemicals
+OLN,Olin Corp,Small,Materials,Chemicals
+PAH,Platform Specialty Products Corp,Small,Materials,Chemicals
+POL,PolyOne Corp,Small,Materials,Chemicals
+POT,Potash Corporation of Saskatchewan Inc,Mid,Materials,Chemicals
+PPG,PPG Industries Inc,Large,Materials,Chemicals
+PX,Praxair Inc,Large,Materials,Chemicals
+KWR,Quaker Chemical Corp,Small,Materials,Chemicals
+RPM,RPM International Inc,Mid,Materials,Chemicals
+SMG,Scotts Miracle-Gro Co,Mid,Materials,Chemicals
+SXT,Sensient Technologies Corp,Small,Materials,Chemicals
+SHW,Sherwin-Williams Co,Large,Materials,Chemicals
+SCL,Stepan Co,Small,Materials,Chemicals
+TNH,Terra Nitrogen Company LP,Small,Materials,Chemicals
+TSE,Trinseo SA,Small,Materials,Chemicals
+VAL,Valspar Corp,Mid,Materials,Chemicals
+GRA,W. R. Grace & Co,Mid,Materials,Chemicals
+WLK,Westlake Chemical Corp,Mid,Materials,Chemicals
+EXP,Eagle Materials Inc,Small,Materials,Construction Materials
+HW,Headwaters Inc,Small,Materials,Construction Materials
+MLM,Martin Marietta Materials Inc,Mid,Materials,Construction Materials
+SUM,Summit Materials Inc,Small,Materials,Construction Materials
+VMC,Vulcan Materials Co,Mid,Materials,Construction Materials
+ATR,Aptargroup Inc,Mid,Materials,Packaging
+AVY,Avery Dennison Corp,Mid,Materials,Packaging
+BLL,Ball Corp,Mid,Materials,Packaging
+BMS,Bemis Company Inc,Mid,Materials,Packaging
+BERY,Berry Plastics Group Inc,Mid,Materials,Packaging
+CCK,Crown Holdings Inc,Mid,Materials,Packaging
+GPK,Graphic Packaging Holding Co,Mid,Materials,Packaging
+IP,International Paper Co,Mid,Materials,Packaging
+MPSX,Multi Packaging Solutions International Ltd,Small,Materials,Packaging
+OI,Owens-Illinois Inc,Small,Materials,Packaging
+PKG,Packaging Corp of America,Mid,Materials,Packaging
+SEE,Sealed Air Corp,Mid,Materials,Packaging
+SLGN,Silgan Holdings Inc,Small,Materials,Packaging
+SON,Sonoco Products Co,Mid,Materials,Packaging
+WRK,WestRock Co,Mid,Materials,Packaging
+AEM,Agnico Eagle Mines Ltd,Mid,Materials,Metals & Mining
+AA,Alcoa Inc,Mid,Materials,Metals & Mining
+ATI,Allegheny Technologies Inc,Small,Materials,Metals & Mining
+MT,ArcelorMittal SA,Mid,Materials,Metals & Mining
+ABX,Barrick Gold Corp,Mid,Materials,Metals & Mining
+CRS,Carpenter Technology Corp,Small,Materials,Metals & Mining
+CMC,Commercial Metals Co,Small,Materials,Metals & Mining
+CMP,Compass Minerals International Inc,Small,Materials,Metals & Mining
+EGO,Eldorado Gold Corp,Small,Materials,Metals & Mining
+GSM,Ferroglobe PLC,Small,Materials,Metals & Mining
+FCX,Freeport-McMoRan Inc,Mid,Materials,Metals & Mining
+GG,Goldcorp Inc,Mid,Materials,Metals & Mining
+HL,Hecla Mining Co,Small,Materials,Metals & Mining
+KALU,Kaiser Aluminum Corp,Small,Materials,Metals & Mining
+KGC,Kinross Gold Corp,Mid,Materials,Metals & Mining
+NGD,New Gold Inc,Small,Materials,Metals & Mining
+NEM,Newmont Mining Corp,Mid,Materials,Metals & Mining
+NG,NovaGold Resources Inc,Small,Materials,Metals & Mining
+NUE,Nucor Corp,Mid,Materials,Metals & Mining
+PAAS,Pan American Silver Corp,Small,Materials,Metals & Mining
+RS,Reliance Steel & Aluminum Co,Mid,Materials,Metals & Mining
+RGLD,Royal Gold Inc,Small,Materials,Metals & Mining
+SLW,Silver Wheaton Corp,Mid,Materials,Metals & Mining
+SCCO,Southern Copper Corp,Large,Materials,Metals & Mining
+STLD,Steel Dynamics Inc,Mid,Materials,Metals & Mining
+SWC,Stillwater Mining Co,Small,Materials,Metals & Mining
+TCK,Teck Resources Ltd,Mid,Materials,Metals & Mining
+TRQ,Turquoise Hill Resources Ltd,Mid,Materials,Metals & Mining
+X,United States Steel Corp,Small,Materials,Metals & Mining
+WOR,Worthington Industries Inc,Small,Materials,Metals & Mining
+AUY,Yamana Gold Inc,Small,Materials,Metals & Mining
+UFS,Domtar Corp,Small,Materials,Paper Products
+KS,KapStone Paper and Packaging Corp,Small,Materials,Paper Products
+LPX,Louisiana-Pacific Corp,Small,Materials,Paper Products
+NP,Neenah Paper Inc,Small,Materials,Paper Products
+ANET,Arista Networks Inc,Mid,Information Technology,Communications Equipment
+ARRS,Arris International PLC,Mid,Information Technology,Communications Equipment
+BRCD,Brocade Communications Systems Inc,Mid,Information Technology,Communications Equipment
+CIEN,Ciena Corp,Small,Information Technology,Communications Equipment
+CSCO,Cisco Systems Inc,Large,Information Technology,Communications Equipment
+COMM,CommScope Holding Company Inc,Mid,Information Technology,Communications Equipment
+SATS,EchoStar Corp,Mid,Information Technology,Communications Equipment
+FFIV,F5 Networks Inc,Mid,Information Technology,Communications Equipment
+FNSR,Finisar Corp,Small,Information Technology,Communications Equipment
+HRS,Harris Corp,Mid,Information Technology,Communications Equipment
+INFN,Infinera Corp,Small,Information Technology,Communications Equipment
+IDCC,InterDigital Inc,Small,Information Technology,Communications Equipment
+JNPR,Juniper Networks Inc,Mid,Information Technology,Communications Equipment
+LITE,Lumentum Holdings Inc,Small,Information Technology,Communications Equipment
+MSI,Motorola Solutions Inc,Mid,Information Technology,Communications Equipment
+NTGR,NETGEAR Inc,Small,Information Technology,Communications Equipment
+NTCT,NetScout Systems Inc,Small,Information Technology,Communications Equipment
+PANW,Palo Alto Networks Inc,Mid,Information Technology,Communications Equipment
+PLT,Plantronics Inc,Small,Information Technology,Communications Equipment
+PLCM,Polycom Inc,Small,Information Technology,Communications Equipment
+UBNT,Ubiquiti Networks Inc,Small,Information Technology,Communications Equipment
+VSAT,ViaSat Inc,Mid,Information Technology,Communications Equipment
+VIAV,Viavi Solutions Inc,Small,Information Technology,Communications Equipment
+APH,Amphenol Corp,Mid,Information Technology,Electronics
+AXE,Anixter International Inc,Small,Information Technology,Electronics
+ARW,Arrow Electronics Inc,Mid,Information Technology,Electronics
+AVT,Avnet Inc,Mid,Information Technology,Electronics
+AVX,AVX Corp,Small,Information Technology,Electronics
+BDC,Belden Inc,Small,Information Technology,Electronics
+BHE,Benchmark Electronics Inc,Small,Information Technology,Electronics
+CDW,CDW Corp,Mid,Information Technology,Electronics
+CLS,Celestica Inc,Small,Information Technology,Electronics
+CGNX,Cognex Corp,Small,Information Technology,Electronics
+COHR,Coherent Inc,Small,Information Technology,Electronics
+GLW,Corning Inc,Large,Information Technology,Electronics
+DLB,Dolby Laboratories Inc,Mid,Information Technology,Electronics
+FN,Fabrinet,Small,Information Technology,Electronics
+FEIC,FEI Co,Mid,Information Technology,Electronics
+FIT,Fitbit Inc,Small,Information Technology,Electronics
+FLEX,Flextronics International Ltd,Mid,Information Technology,Electronics
+FLIR,FLIR Systems Inc,Mid,Information Technology,Electronics
+HOLI,Hollysys Automation Technologies Ltd,Small,Information Technology,Electronics
+IIVI,II-VI Inc,Small,Information Technology,Electronics
+IM,Ingram Micro Inc,Mid,Information Technology,Electronics
+NSIT,Insight Enterprises Inc,Small,Information Technology,Electronics
+IPGP,IPG Photonics Corp,Mid,Information Technology,Electronics
+ITRI,Itron Inc,Small,Information Technology,Electronics
+JBL,Jabil Circuit Inc,Mid,Information Technology,Electronics
+KEYS,Keysight Technologies Inc,Mid,Information Technology,Electronics
+KN,Knowles Corp,Small,Information Technology,Electronics
+LFUS,Littelfuse Inc,Small,Information Technology,Electronics
+MEI,Methode Electronics Inc,Small,Information Technology,Electronics
+NATI,National Instruments Corp,Mid,Information Technology,Electronics
+OSIS,OSI Systems Inc,Small,Information Technology,Electronics
+PLXS,Plexus Corp,Small,Information Technology,Electronics
+QLGC,QLogic Corp,Small,Information Technology,Electronics
+ROG,Rogers Corp,Small,Information Technology,Electronics
+SANM,Sanmina Corp,Small,Information Technology,Electronics
+SCSC,ScanSource Inc,Small,Information Technology,Electronics
+SNX,SYNNEX Corp,Mid,Information Technology,Electronics
+TEL,TE Connectivity Ltd,Large,Information Technology,Electronics
+TECD,Tech Data Corp,Small,Information Technology,Electronics
+TRMB,Trimble Navigation Ltd,Mid,Information Technology,Electronics
+OLED,Universal Display Corp,Small,Information Technology,Electronics
+PAY,VeriFone Systems Inc,Small,Information Technology,Electronics
+VSH,Vishay Intertechnology Inc,Small,Information Technology,Electronics
+ZBRA,Zebra Technologies Corp,Small,Information Technology,Electronics
+AKAM,Akamai Technologies Inc,Mid,Information Technology,Internet Services
+ALRM,Alarm.com Holdings Inc,Small,Information Technology,Internet Services
+GOOGL,Alphabet Inc,Large,Information Technology,Internet Services
+BOX,Box Inc,Small,Information Technology,Internet Services
+CMPR,Cimpress NV,Small,Information Technology,Internet Services
+SCOR,Comscore Inc,Small,Information Technology,Internet Services
+CSOD,Cornerstone OnDemand Inc,Small,Information Technology,Internet Services
+CSGP,CoStar Group Inc,Mid,Information Technology,Internet Services
+DWRE,Demandware Inc,Small,Information Technology,Internet Services
+EBAY,eBay Inc,Large,Information Technology,Internet Services
+EIGI,Endurance International Group Holdings Inc,Small,Information Technology,Internet Services
+ENV,Envestnet Inc,Small,Information Technology,Internet Services
+FB,Facebook Inc,Large,Information Technology,Internet Services
+GDDY,GoDaddy Inc,Mid,Information Technology,Internet Services
+GRUB,GrubHub Inc,Small,Information Technology,Internet Services
+IAC,IAC/InterActiveCorp,Mid,Information Technology,Internet Services
+JCOM,J2 Global Inc,Small,Information Technology,Internet Services
+LNKD,LinkedIn Corp,Mid,Information Technology,Internet Services
+LOGM,LogMeIn Inc,Small,Information Technology,Internet Services
+MTCH,Match Group Inc,Small,Information Technology,Internet Services
+MELI,MercadoLibre Inc,Mid,Information Technology,Internet Services
+NEWR,New Relic Inc,Small,Information Technology,Internet Services
+EGOV,NIC Inc,Small,Information Technology,Internet Services
+P,Pandora Media Inc,Small,Information Technology,Internet Services
+RAX,Rackspace Hosting Inc,Small,Information Technology,Internet Services
+SHOP,Shopify Inc,Small,Information Technology,Internet Services
+SSTK,Shutterstock Inc,Small,Information Technology,Internet Services
+SINA,SINA Corp,Small,Information Technology,Internet Services
+SOHU,Sohu.Com Inc,Small,Information Technology,Internet Services
+STMP,Stamps.com Inc,Small,Information Technology,Internet Services
+TWTR,Twitter Inc,Mid,Information Technology,Internet Services
+VRSN,Verisign Inc,Mid,Information Technology,Internet Services
+WBMD,WebMD Health Corp,Small,Information Technology,Internet Services
+YHOO,Yahoo! Inc,Large,Information Technology,Internet Services
+YNDX,Yandex NV,Mid,Information Technology,Internet Services
+YELP,Yelp Inc,Small,Information Technology,Internet Services
+ZG,Zillow Group Inc,Small,Information Technology,Internet Services
+ACN,Accenture PLC,Large,Information Technology,IT Services
+ACXM,Acxiom Corp,Small,Information Technology,IT Services
+ADS,Alliance Data Systems Corp,Mid,Information Technology,IT Services
+DOX,Amdocs Ltd,Mid,Information Technology,IT Services
+ADP,Automatic Data Processing Inc,Large,Information Technology,IT Services
+BKFS,Black Knight Financial Services Inc,Mid,Information Technology,IT Services
+HAWK,Blackhawk Network Holdings Inc,Small,Information Technology,IT Services
+BAH,Booz Allen Hamilton Holding Corp,Mid,Information Technology,IT Services
+BR,Broadridge Financial Solutions Inc,Mid,Information Technology,IT Services
+CACI,CACI International Inc,Small,Information Technology,IT Services
+CATM,Cardtronics Inc,Small,Information Technology,IT Services
+GIB,CGI Group Inc,Mid,Information Technology,IT Services
+CTSH,Cognizant Technology Solutions Corp,Large,Information Technology,IT Services
+CSC,Computer Sciences Corp,Mid,Information Technology,IT Services
+CVG,Convergys Corp,Small,Information Technology,IT Services
+CLGX,Corelogic Inc,Small,Information Technology,IT Services
+CSGS,CSG Systems International Inc,Small,Information Technology,IT Services
+CSRA,CSRA Inc,Mid,Information Technology,IT Services
+DST,DST Systems Inc,Mid,Information Technology,IT Services
+EPAM,EPAM Systems Inc,Mid,Information Technology,IT Services
+EEFT,Euronet Worldwide Inc,Mid,Information Technology,IT Services
+EVTC,Evertec Inc,Small,Information Technology,IT Services
+EXLS,Exlservice Holdings Inc,Small,Information Technology,IT Services
+FIS,Fidelity National Information Services Inc,Large,Information Technology,IT Services
+FDC,First Data Corp,Mid,Information Technology,IT Services
+FISV,Fiserv Inc,Large,Information Technology,IT Services
+FLT,Fleetcor Technologies Inc,Mid,Information Technology,IT Services
+IT,Gartner Inc,Mid,Information Technology,IT Services
+G,Genpact Ltd,Mid,Information Technology,IT Services
+GPN,Global Payments Inc,Mid,Information Technology,IT Services
+HPY,Heartland Payment Systems Inc,Mid,Information Technology,IT Services
+IBM,International Business Machines Corp,Large,Information Technology,IT Services
+INXN,InterXion Holding NV,Small,Information Technology,IT Services
+JKHY,Jack Henry & Associates Inc,Mid,Information Technology,IT Services
+LDOS,Leidos Holdings Inc,Mid,Information Technology,IT Services
+LXFT,Luxoft Holding Inc,Small,Information Technology,IT Services
+MANT,ManTech International Corp,Small,Information Technology,IT Services
+MA,MasterCard Inc,Large,Information Technology,IT Services
+MMS,Maximus Inc,Small,Information Technology,IT Services
+NSR,Neustar Inc,Small,Information Technology,IT Services
+PAYX,Paychex Inc,Large,Information Technology,IT Services
+PYPL,PayPal Holdings Inc,Large,Information Technology,IT Services
+SABR,Sabre Corp,Mid,Information Technology,IT Services
+SAIC,Science Applications International Corp,Small,Information Technology,IT Services
+SQ,Square Inc,Mid,Information Technology,IT Services
+SYKE,Sykes Enterprises Inc,Small,Information Technology,IT Services
+SYNT,Syntel Inc,Mid,Information Technology,IT Services
+TTEC,TeleTech Holdings Inc,Small,Information Technology,IT Services
+TDC,Teradata Corp,Small,Information Technology,IT Services
+TSS,Total System Services Inc,Mid,Information Technology,IT Services
+TVPT,Travelport Worldwide Ltd,Small,Information Technology,IT Services
+VNTV,Vantiv Inc,Mid,Information Technology,IT Services
+VRTU,Virtusa Corp,Small,Information Technology,IT Services
+V,Visa Inc,Large,Information Technology,IT Services
+WU,Western Union Co,Mid,Information Technology,IT Services
+WEX,WEX Inc,Small,Information Technology,IT Services
+XRX,Xerox Corp,Mid,Information Technology,IT Services
+AEIS,Advanced Energy Industries Inc,Small,Information Technology,Hardware
+AMD,Advanced Micro Devices Inc,Small,Information Technology,Hardware
+AMBA,Ambarella Inc,Small,Information Technology,Hardware
+AMKR,Amkor Technology Inc,Small,Information Technology,Hardware
+ADI,Analog Devices Inc,Large,Information Technology,Hardware
+AMAT,Applied Materials Inc,Large,Information Technology,Hardware
+ASML,ASML Holding NV,Large,Information Technology,Hardware
+ATML,Atmel Corp,Small,Information Technology,Hardware
+BESIY,BE Semiconductor Industries NV,Small,Information Technology,Hardware
+AVGO,Broadcom Ltd,Large,Information Technology,Hardware
+CSIQ,Canadian Solar Inc,Small,Information Technology,Hardware
+CAVM,Cavium Inc,Mid,Information Technology,Hardware
+CRUS,Cirrus Logic Inc,Small,Information Technology,Hardware
+CREE,Cree Inc,Small,Information Technology,Hardware
+CY,Cypress Semiconductor Corp,Small,Information Technology,Hardware
+ENTG,Entegris Inc,Small,Information Technology,Hardware
+FCS,Fairchild Semiconductor International Inc,Small,Information Technology,Hardware
+FSLR,First Solar Inc,Mid,Information Technology,Hardware
+IPHI,Inphi Corp,Small,Information Technology,Hardware
+IDTI,Integrated Device Technology Inc,Small,Information Technology,Hardware
+INTC,Intel Corp,Large,Information Technology,Hardware
+ISIL,Intersil Corp,Small,Information Technology,Hardware
+KLAC,KLA-Tencor Corp,Mid,Information Technology,Hardware
+LRCX,Lam Research Corp,Mid,Information Technology,Hardware
+LLTC,Linear Technology Corp,Mid,Information Technology,Hardware
+MTSI,M/A-COM Technology Solutions Holdings Inc,Small,Information Technology,Hardware
+MRVL,Marvell Technology Group Ltd,Mid,Information Technology,Hardware
+MXIM,Maxim Integrated Products Inc,Mid,Information Technology,Hardware
+MXL,MaxLinear Inc,Small,Information Technology,Hardware
+MLNX,Mellanox Technologies Ltd,Small,Information Technology,Hardware
+MCHP,Microchip Technology Inc,Mid,Information Technology,Hardware
+MU,Micron Technology Inc,Mid,Information Technology,Hardware
+MSCC,Microsemi Corp,Mid,Information Technology,Hardware
+MKSI,MKS Instruments Inc,Small,Information Technology,Hardware
+MPWR,Monolithic Power Systems Inc,Small,Information Technology,Hardware
+NVDA,NVIDIA Corp,Large,Information Technology,Hardware
+NXPI,NXP Semiconductors NV,Large,Information Technology,Hardware
+ON,ON Semiconductor Corp,Mid,Information Technology,Hardware
+POWI,Power Integrations Inc,Small,Information Technology,Hardware
+QRVO,Qorvo Inc,Mid,Information Technology,Hardware
+QCOM,Qualcomm Inc,Large,Information Technology,Hardware
+RMBS,Rambus Inc,Small,Information Technology,Hardware
+SMTC,Semtech Corp,Small,Information Technology,Hardware
+SLAB,Silicon Laboratories Inc,Small,Information Technology,Hardware
+SWKS,Skyworks Solutions Inc,Mid,Information Technology,Hardware
+STM,STMicroelectronics NV,Mid,Information Technology,Hardware
+SPWR,SunPower Corp,Small,Information Technology,Hardware
+SYNA,Synaptics Inc,Small,Information Technology,Hardware
+TER,Teradyne Inc,Mid,Information Technology,Hardware
+TSRA,Tessera Technologies Inc,Small,Information Technology,Hardware
+TXN,Texas Instruments Inc,Large,Information Technology,Hardware
+XLNX,Xilinx Inc,Mid,Information Technology,Hardware
+ACIW,ACI Worldwide Inc,Small,Information Technology,Software
+ATVI,Activision Blizzard Inc,Large,Information Technology,Software
+ADBE,Adobe Systems Inc,Large,Information Technology,Software
+ANSS,ANSYS Inc,Mid,Information Technology,Software
+AZPN,Aspen Technology Inc,Small,Information Technology,Software
+TEAM,Atlassian Corporation PLC,Mid,Information Technology,Software
+ADSK,Autodesk Inc,Mid,Information Technology,Software
+AVG,AVG Technologies NV,Small,Information Technology,Software
+BLKB,Blackbaud Inc,Small,Information Technology,Software
+EPAY,Bottomline Technologies (DE) Inc,Small,Information Technology,Software
+BSFT,BroadSoft Inc,Small,Information Technology,Software
+CA,CA Inc,Mid,Information Technology,Software
+CDNS,Cadence Design Systems Inc,Mid,Information Technology,Software
+CDK,CDK Global Inc,Mid,Information Technology,Software
+CHKP,Check Point Software Technologies Ltd,Mid,Information Technology,Software
+CTXS,Citrix Systems Inc,Mid,Information Technology,Software
+CVLT,CommVault Systems Inc,Small,Information Technology,Software
+CYBR,Cyberark Software Ltd,Small,Information Technology,Software
+DSGX,Descartes Systems Group Inc,Small,Information Technology,Software
+EBIX,Ebix Inc,Small,Information Technology,Software
+EA,Electronic Arts Inc,Large,Information Technology,Software
+ELLI,Ellie Mae Inc,Small,Information Technology,Software
+FICO,Fair Isaac Corp,Small,Information Technology,Software
+FEYE,FireEye Inc,Small,Information Technology,Software
+FLTX,Fleetmatics Group PLC,Small,Information Technology,Software
+FTNT,Fortinet Inc,Mid,Information Technology,Software
+GIMO,Gigamon Inc,Small,Information Technology,Software
+GLOB,Globant SA,Small,Information Technology,Software
+GWRE,Guidewire Software Inc,Mid,Information Technology,Software
+HUBS,HubSpot Inc,Small,Information Technology,Software
+IMPV,Imperva Inc,Small,Information Technology,Software
+INTU,Intuit Inc,Large,Information Technology,Software
+MANH,Manhattan Associates Inc,Mid,Information Technology,Software
+MENT,Mentor Graphics Corp,Small,Information Technology,Software
+MSFT,Microsoft Corp,Large,Information Technology,Software
+MSTR,MicroStrategy Inc,Small,Information Technology,Software
+MBLY,Mobileye NV,Mid,Information Technology,Software
+N,NetSuite Inc,Mid,Information Technology,Software
+NUAN,Nuance Communications Inc,Mid,Information Technology,Software
+OTEX,Open Text Corp,Mid,Information Technology,Software
+ORCL,Oracle Corp,Large,Information Technology,Software
+PAYC,Paycom Software Inc,Small,Information Technology,Software
+PCTY,Paylocity Holding Corp,Small,Information Technology,Software
+PEGA,Pegasystems Inc,Small,Information Technology,Software
+PRGS,Progress Software Corp,Small,Information Technology,Software
+PFPT,Proofpoint Inc,Small,Information Technology,Software
+PTC,PTC Inc,Mid,Information Technology,Software
+QLIK,Qlik Technologies Inc,Small,Information Technology,Software
+RP,RealPage Inc,Small,Information Technology,Software
+RHT,Red Hat Inc,Mid,Information Technology,Software
+RNG,RingCentral Inc,Small,Information Technology,Software
+ROVI,Rovi Corp,Small,Information Technology,Software
+CRM,Salesforce.com Inc,Large,Information Technology,Software
+NOW,ServiceNow Inc,Mid,Information Technology,Software
+SPLK,Splunk Inc,Mid,Information Technology,Software
+SSNC,SS&C Technologies Holdings Inc,Mid,Information Technology,Software
+SYMC,Symantec Corp,Mid,Information Technology,Software
+SNCR,Synchronoss Technologies Inc,Small,Information Technology,Software
+SNPS,Synopsys Inc,Mid,Information Technology,Software
+DATA,Tableau Software Inc,Small,Information Technology,Software
+TTWO,Take-Two Interactive Software Inc,Small,Information Technology,Software
+TYL,Tyler Technologies Inc,Mid,Information Technology,Software
+ULTI,Ultimate Software Group Inc,Mid,Information Technology,Software
+VRNT,Verint Systems Inc,Small,Information Technology,Software
+VMW,VMware Inc,Large,Information Technology,Software
+WDAY,Workday Inc,Mid,Information Technology,Software
+ZEN,Zendesk Inc,Small,Information Technology,Software
+ZNGA,Zynga Inc,Small,Information Technology,Software
+DDD,3D Systems Corp,Small,Information Technology,Peripherals
+AAPL,Apple Inc,Large,Information Technology,Peripherals
+BBRY,BlackBerry,Mid,Information Technology,Peripherals
+CRAY,Cray Inc,Small,Information Technology,Peripherals
+DBD,Diebold Inc,Small,Information Technology,Peripherals
+EFII,Electronics for Imaging Inc,Small,Information Technology,Peripherals
+EMC,EMC Corp,Large,Information Technology,Peripherals
+HPE,Hewlett Packard Enterprise Co,Large,Information Technology,Peripherals
+HPQ,HP Inc,Large,Information Technology,Peripherals
+LXK,Lexmark International Inc,Small,Information Technology,Peripherals
+LOGI,Logitech International SA,Small,Information Technology,Peripherals
+NCR,NCR Corp,Mid,Information Technology,Peripherals
+NTAP,NetApp Inc,Mid,Information Technology,Peripherals
+PSTG,Pure Storage Inc,Small,Information Technology,Peripherals
+SNDK,SanDisk Corp,Mid,Information Technology,Peripherals
+STX,Seagate Technology PLC,Mid,Information Technology,Peripherals
+SSYS,Stratasys Ltd,Small,Information Technology,Peripherals
+SMCI,Super Micro Computer Inc,Small,Information Technology,Peripherals
+WDC,Western Digital Corp,Mid,Information Technology,Peripherals
+T,AT&T Inc,Large,Telecommunication Services,Diversified Telecom
+ATNI,Atlantic Tele-Network Inc,Small,Telecommunication Services,Diversified Telecom
+BCE,Bce Inc,Large,Telecommunication Services,Diversified Telecom
+CTL,CenturyLink Inc,Mid,Telecommunication Services,Diversified Telecom
+CCOI,Cogent Communications Holdings Inc,Small,Telecommunication Services,Diversified Telecom
+CNSL,Consolidated Communications Holdings Inc,Small,Telecommunication Services,Diversified Telecom
+FTR,Frontier Communications Corp,Mid,Telecommunication Services,Diversified Telecom
+GSAT,Globalstar Inc,Small,Telecommunication Services,Diversified Telecom
+LVLT,Level 3 Communications Inc,Large,Telecommunication Services,Diversified Telecom
+SBAC,SBA Communications Corp,Mid,Telecommunication Services,Diversified Telecom
+TU,Telus Corp,Large,Telecommunication Services,Diversified Telecom
+VZ,Verizon Communications Inc,Large,Telecommunication Services,Diversified Telecom
+ZAYO,Zayo Group Holdings Inc,Mid,Telecommunication Services,Diversified Telecom
+MIICF,Millicom International Cellular SA,Mid,Telecommunication Services,Wireless Telecom
+RCI,Rogers Communications Inc,Mid,Telecommunication Services,Wireless Telecom
+SHEN,Shenandoah Telecommunications Co,Small,Telecommunication Services,Wireless Telecom
+S,Sprint Corp,Mid,Telecommunication Services,Wireless Telecom
+TMUS,T-Mobile US Inc,Large,Telecommunication Services,Wireless Telecom
+TDS,Telephone and Data Systems Inc,Small,Telecommunication Services,Wireless Telecom
+USM,United States Cellular Corp,Mid,Telecommunication Services,Wireless Telecom
+ALE,ALLETE Inc,Small,Utilities,Electric Utilities
+AEP,American Electric Power Company Inc,Large,Utilities,Electric Utilities
+AGR,Avangrid Inc,Mid,Utilities,Electric Utilities
+BIP,Brookfield Infrastructure Partners LP,Mid,Utilities,Electric Utilities
+CNL,Cleco Corp,Small,Utilities,Electric Utilities
+DUK,Duke Energy Corp,Large,Utilities,Electric Utilities
+EIX,Edison International,Large,Utilities,Electric Utilities
+EE,El Paso Electric Co,Small,Utilities,Electric Utilities
+EDE,Empire District Electric Co,Small,Utilities,Electric Utilities
+ETR,Entergy Corp,Mid,Utilities,Electric Utilities
+ES,Eversource Energy,Large,Utilities,Electric Utilities
+EXC,Exelon Corp,Large,Utilities,Electric Utilities
+FE,FirstEnergy Corp,Mid,Utilities,Electric Utilities
+GXP,Great Plains Energy Inc,Mid,Utilities,Electric Utilities
+HE,Hawaiian Electric Industries Inc,Small,Utilities,Electric Utilities
+IDA,Idacorp Inc,Mid,Utilities,Electric Utilities
+ITC,ITC Holdings Corp,Mid,Utilities,Electric Utilities
+MGEE,MGE Energy Inc,Small,Utilities,Electric Utilities
+NEE,NextEra Energy Inc,Large,Utilities,Electric Utilities
+OGE,OGE Energy Corp,Mid,Utilities,Electric Utilities
+OTTR,Otter Tail Corp,Small,Utilities,Electric Utilities
+PCG,PG&E Corp,Large,Utilities,Electric Utilities
+PNW,Pinnacle West Capital Corp,Mid,Utilities,Electric Utilities
+PNM,PNM Resources Inc,Small,Utilities,Electric Utilities
+POR,Portland General Electric Co,Small,Utilities,Electric Utilities
+PPL,PPL Corp,Large,Utilities,Electric Utilities
+SO,Southern Co,Large,Utilities,Electric Utilities
+WR,Westar Energy Inc,Mid,Utilities,Electric Utilities
+XEL,Xcel Energy Inc,Large,Utilities,Electric Utilities
+GAS,AGL Resources Inc,Mid,Utilities,Gas Utilities
+APU,Amerigas Partners LP,Mid,Utilities,Gas Utilities
+ATO,Atmos Energy Corp,Mid,Utilities,Gas Utilities
+FGP,Ferrellgas Partners LP,Small,Utilities,Gas Utilities
+LG,Laclede Group Inc,Small,Utilities,Gas Utilities
+NFG,National Fuel Gas Co,Mid,Utilities,Gas Utilities
+NJR,New Jersey Resources Corp,Small,Utilities,Gas Utilities
+NWN,Northwest Natural Gas Co,Small,Utilities,Gas Utilities
+OGS,ONE Gas Inc,Small,Utilities,Gas Utilities
+PNY,Piedmont Natural Gas Company Inc,Mid,Utilities,Gas Utilities
+STR,Questar Corp,Mid,Utilities,Gas Utilities
+SJI,South Jersey Industries Inc,Small,Utilities,Gas Utilities
+SWX,Southwest Gas Corp,Small,Utilities,Gas Utilities
+SPH,Suburban Propane Partners LP,Small,Utilities,Gas Utilities
+UGI,UGI Corp,Mid,Utilities,Gas Utilities
+WGL,WGL Holdings Inc,Mid,Utilities,Gas Utilities
+CAFD,8Point3 Energy Partners LP,Small,Utilities,Renewables
+ABY,Abengoa Yield PLC,Small,Utilities,Renewables
+AES,AES Corp,Mid,Utilities,Renewables
+CPN,Calpine Corp,Mid,Utilities,Renewables
+DYN,Dynegy Inc,Small,Utilities,Renewables
+NRG,NRG Energy Inc,Mid,Utilities,Renewables
+ORA,Ormat Technologies Inc,Small,Utilities,Renewables
+PEGI,Pattern Energy Group Inc,Small,Utilities,Renewables
+TLN,Talen Energy Corp,Small,Utilities,Renewables
+TERP,TerraForm Power Inc,Small,Utilities,Renewables
+TAC,TransAlta Corp,Small,Utilities,Renewables
+LNT,Alliant Energy Corp,Mid,Utilities,Multi-Utilities
+AEE,Ameren Corp,Mid,Utilities,Multi-Utilities
+AVA,Avista Corp,Small,Utilities,Multi-Utilities
+BKH,Black Hills Corp,Small,Utilities,Multi-Utilities
+CNP,CenterPoint Energy Inc,Mid,Utilities,Multi-Utilities
+CMS,CMS Energy Corp,Mid,Utilities,Multi-Utilities
+ED,Consolidated Edison Inc,Large,Utilities,Multi-Utilities
+D,Dominion Resources Inc,Large,Utilities,Multi-Utilities
+DTE,DTE Energy Co,Mid,Utilities,Multi-Utilities
+MDU,MDU Resources Group Inc,Mid,Utilities,Multi-Utilities
+NI,NiSource Inc,Mid,Utilities,Multi-Utilities
+NWE,NorthWestern Corp,Small,Utilities,Multi-Utilities
+PEG,Public Service Enterprise Group Inc,Large,Utilities,Multi-Utilities
+SCG,SCANA Corp,Mid,Utilities,Multi-Utilities
+SRE,Sempra Energy,Large,Utilities,Multi-Utilities
+TE,TECO Energy Inc,Mid,Utilities,Multi-Utilities
+VVC,Vectren Corp,Mid,Utilities,Multi-Utilities
+WEC,WEC Energy Group Inc,Large,Utilities,Multi-Utilities
+AWR,American States Water Co,Small,Utilities,Water Utilities
+AWK,American Water Works Company Inc,Mid,Utilities,Water Utilities
+WTR,Aqua America Inc,Mid,Utilities,Water Utilities
+CWT,California Water Service Group,Small,Utilities,Water Utilities

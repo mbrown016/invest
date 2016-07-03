@@ -1,0 +1,387 @@
+Ticker,Name
+AAN,Aaron's Inc.
+ABC,AmerisourceBergen Corp.
+ABM,ABM Industries Inc.
+ACN,Accenture plc
+ACU,Acme United Corp.
+ADI,Analog Devices Inc.
+ADM,Archer Daniels Midland
+ADP,Automatic Data Proc.
+AEL,American Equity Investment Life Holding Co.
+AFG,American Financial Group Inc.
+AFL,AFLAC Inc.
+AFSI,AmTrust Financial Services Inc.
+AHGP,Alliance Holdings GP LP
+AIZ,Assurant Inc.
+ALB,Albemarle Corp.
+AMNF,Armanino Foods of Distinction Inc.
+AMP,Ameriprise Financial Inc.
+ANDE,Andersons Inc. (The)
+AOS,A.O. Smith Corp.
+APD,Air Products & Chem.
+APLP,Archrock Partners LP
+APU,AmeriGas Partners LP
+ARG,Airgas Inc.
+ARLP,Alliance Resource Partners LP
+AROW,Arrow Financial Corp.
+ARTNA,Artesian Resources
+ATNI,Atlantic Tele Network Inc.
+ATO,Atmos Energy
+ATR,AptarGroup Inc.
+ATRI,Atrion Corp.
+AUBN,Auburn National Bancorp
+AVA,Avista Corp.
+AWH,Allied World Assurance Co. Holdings AG
+AWK,American Water Works
+AWR,American States Water
+AXS,Axis Capital Holdings Ltd.
+BANF,BancFirst Corp. OK
+BBY,Best Buy Corp.
+BCR,C.R. Bard Inc.
+BDX,Becton Dickinson & Co.
+BEN,Franklin Resources
+BF-B,Brown-Forman Class B
+BG,Bunge Limited
+BHB,Bar Harbor Bankshares
+BIP,Brookfield Infrastructure Partners LP
+BKH,Black Hills Corp.
+BKUTK,Bank of Utica
+BMI,Badger Meter Inc.
+BMRC,Bank of Marin Bancorp
+BMS,Bemis Company
+BOBE,Bob Evans Farms
+BOKF,BOK Financial Corp.
+BPL,Buckeye Partners LP
+BR,Broadridge Financial Solutions Inc.
+BRC,Brady Corp.
+BRO,Brown & Brown Inc.
+BWL-A,Bowl America Class A
+CAH,Cardinal Health Inc.
+CASS,Cass Information Systems Inc.
+CASY,Casey's General Stores Inc.
+CAT,Caterpillar Inc.
+CATC,Cambridge Bancorp
+CB,Chubb Limited
+CBRL,Cracker Barrel Old Country
+CBSH,Commerce Bancshares
+CBU,Community Bank System
+CCE,Coca-Cola Enterprises Inc.
+CCFN,CCFNB Bancorp Inc.
+CFR,Cullen/Frost Bankers
+CHD,Church & Dwight
+CHRW,C.H. Robinson Worldwide
+CINF,Cincinnati Financial
+CL,Colgate-Palmolive Co.
+CLB,Core Laboratories NV
+CLC,Clarcor Inc.
+CLX,Clorox Company
+CMCSA,Comcast Corp.
+CMI,Cummins Inc.
+CMP,Compass Minerals International
+CMS,CMS Energy Corp.
+CNI,Canadian National Railway
+CNP,CenterPoint Energy
+COLM,Columbia Sportswear Co.
+COST,Costco Wholesale
+CPK,Chesapeake Utilities
+CPKF,Chesapeake Financial Shares
+CR,Crane Company
+CSL,Carlisle Companies
+CSVI,Computer Services Inc.
+CSX,CSX Corp.
+CTAS,Cintas Corp.
+CTBI,Community Trust Banc.
+CTWS,Conn. Water Service
+CVS,CVS Health Corp.
+CVX,Chevron Corp.
+CWT,California Water Service
+CZFS,Citizens Financial Services
+D,Dominion Resources
+DAKT,Daktronics Inc.
+DCI,Donaldson Company
+DE,Deere & Company
+DGAS,Delta Natural Gas
+DGICA,Donegal Group Inc. A
+DGICB,Donegal Group Inc. B
+DLR,Digital Realty Trust
+DNB,Dun & Bradstreet Corp.
+DOV,Dover Corp.
+DPM,DCP Midstream Partners LP
+DUK,Duke Energy Corp.
+DV,DeVry Education Group Inc.
+EAT,Brinker International
+EBMT,Eagle Bancorp Montana Inc.
+EBTC,Enterprise Bancorp Inc.
+ECL,Ecolab Inc.
+ED,Consolidated Edison
+EEP,Enbridge Energy Partners LP
+EFSI,Eagle Financial Services
+EIX,Edison International
+ELS,Equity LifeStyle Properties
+EMR,Emerson Electric
+ENB,Enbridge Inc.
+ENSG,Ensign Group Inc.
+EOG,EOG Resources Inc.
+EPD,Enterprise Products Partners LP
+ERIE,Erie Indemnity Company
+ES,Eversource Energy
+ESS,Essex Property Trust
+ETE,Energy Transfer Equity LP
+EV,Eaton Vance Corp.
+EVR,Evercore Partners Inc.
+EXPD,Expeditors International
+FAST,Fastenal Company
+FDS,Factset Research System Inc.
+FDX,FedEx Corp.
+FELE,Franklin Electric Co.
+FINL,Finish Line Inc. (The)
+FKYS,First Keystone Corp.
+FLIC,First of Long Island Corp.
+FLO,Flowers Foods
+FLS,Flowserve Corp.
+FMAO,Farmers and Merchants Bancorp
+FMCB,Farmers & Merchants Bancorp
+FRFC,First Robinson Financial Corp.
+FRT,Federal Realty Inv. Trust
+FUL,H.B. Fuller Company
+GAS,AGL Resources
+GD,General Dynamics
+GEL,Genesis Energy LP
+GGG,Graco Inc.
+GIS,General Mills
+GK,G&K Services Inc.
+GPC,Genuine Parts Co.
+GPS,Gap Inc.
+GRC,Gorman-Rupp Company
+GWW,W.W. Grainger Inc.
+HAS,Hasbro Inc.
+HCN,Welltower Inc.
+HCP,HCP Inc.
+HCSG,Healthcare Services Group Inc.
+HDB,HDFC Bank Limited
+HEI,HEICO Corp.
+HEP,Holly Energy Partners LP
+HI,Hillenbrand Inc.
+HIFS,Hingham Institution for Savings
+HONT,Honat Bancorp Inc.
+HP,Helmerich & Payne Inc.
+HRL,Hormel Foods Corp.
+HRS,Harris Corp.
+HWKN,Hawkins Inc.
+IBM,International Business Machines
+IFF,International Flavors & Fragrances
+IMASF,Inmarsat plc
+IPCC,Infinity Property & Casualty
+ISBA,Isabella Bank Corp.
+ISCA,International Speedway Corp.
+ITC,ITC Holdings Corp.
+ITW,Illinois Tool Works
+JBHT,JB Hunt Transport Services Inc.
+JJSF,J&J Snack Foods Corp.
+JKHY,Jack Henry & Associates
+JNJ,Johnson & Johnson
+JW-A,John Wiley & Sons Inc.
+K,Kellogg Company
+KMB,Kimberly-Clark Corp.
+KO,Coca-Cola Company
+KR,Kroger Company
+KWR,Quaker Chemical Corp.
+LANC,Lancaster Colony Corp.
+LARK,Landmark Bancorp Inc.
+LAZ,Lazard Limited
+LECO,Lincoln Electric Holdings
+LEG,Leggett & Platt Inc.
+LG,Laclede Group Inc.
+LLL,L-3 Communications Holdings Inc.
+LLTC,Linear Technology Corp.
+LMNR,Limoneira Company
+LMT,Lockheed Martin
+LNN,Lindsay Corp.
+LNT,Alliant Energy Corp.
+LOW,Lowe's Companies
+LSTR,Landstar System Inc.
+LYBC,Lyons Bancorp Inc.
+MATW,Matthews International
+MCD,McDonald's Corp.
+MCHP,Microchip Technology Inc.
+MCK,McKesson Corp.
+MCY,Mercury General Corp.
+MDNB,Minden Bancorp Inc.
+MDP,Meredith Corp.
+MDT,Medtronic plc
+MDU,MDU Resources
+MGEE,MGE Energy Inc.
+MGRC,McGrath Rentcorp
+MHFI,McGraw Hill Financial Inc.
+MHLD,Maiden Holdings Ltd.
+MKC,McCormick & Co.
+MKTX,MarketAxess Holdings Inc.
+MLAB,Mesa Laboratories Inc.
+MMM,3M Company
+MMP,Magellan Midstream Partners LP
+MNRO,Monro Muffler Brake Inc.
+MO,Altria Group Inc.
+MON,Monsanto Company
+MSA,MSA Safety Inc.
+MSEX,Middlesex Water Co.
+MSFT,Microsoft Corp.
+MSM,MSC Industrial Direct Co. Inc.
+MUR,Murphy Oil Corp.
+MXIM,Maxim Integrated Products
+MYBF,Muncy Bank Financial Inc.
+NATL,National Interstate Corp.
+NC,NACCO Industries
+NDSN,Nordson Corp.
+NEE,NextEra Energy
+NEU,NewMarket Corp.
+NFG,National Fuel Gas
+NHC,National Healthcare Corp.
+NHI,National Health Investors
+NIDB,Northeast Indiana Bancorp
+NJR,New Jersey Resources
+NKE,Nike Inc.
+NKSH,National Bankshares
+NNN,National Retail Properties
+NOC,Northrop Grumman
+NSC,Norfolk Southern
+NUE,Nucor Corp.
+NUS,Nu Skin Enterprises Inc.
+NWE,NorthWestern Corp.
+NWFL,Norwood Financial
+NWN,Northwest Natural Gas
+O,Realty Income Corp.
+OCBI,Orange County Bancorp Inc.
+ODC,Oil-Dri Corp. of America
+OGE,OGE Energy Corp.
+OHI,Omega Healthcare Investors
+OKE,ONEOK Inc.
+OKS,ONEOK Partners LP
+OMI,Owens & Minor Inc.
+ORI,Old Republic International
+OXY,Occidental Petroleum
+OZRK,Bank of the Ozarks Inc.
+PAA,Plains All American Pipeline LP
+PB,Prosperity Bancshares
+PBCT,People's United Financial
+PDER,Pardee Resource Company Inc.
+PEP,PepsiCo Inc.
+PG,Procter & Gamble Co.
+PH,Parker-Hannifin Corp.
+PII,Polaris Industries
+PM,Philip Morris International
+PNR,Pentair Ltd.
+PNY,Piedmont Natural Gas
+POR,Portland General Electric Co.
+PPG,PPG Industries Inc.
+PPL,PPL Corp.
+PRGO,Perrigo Company plc
+PSBQ,PSB Holdings Inc.
+PX,Praxair Inc.
+QCOM,Qualcomm Inc.
+QNTO,Quaint Oak Bancorp Inc.
+R,Ryder System
+RAI,Reynolds American Inc.
+RAVN,Raven Industries
+RBA,Ritchie Brothers Auctioneers Inc.
+RBC,Regal Beloit Corp.
+RBCAA,Republic Bancorp KY
+RGCO,RGC Resources Inc.
+RGLD,Royal Gold Inc.
+RHI,Robert Half International Inc.
+RLI,RLI Corp.
+RNR,RenaissanceRe Holdings
+ROL,Rollins Inc.
+ROP,Roper Technologies Inc.
+ROST,Ross Stores Inc.
+RPM,RPM International Inc.
+RSG,Republic Services Inc.
+RTN,Raytheon Company
+SBSI,Southside Bancshares
+SCG,SCANA Corp.
+SCL,Stepan Company
+SEIC,SEI Investments Company
+SEP,Spectra Energy Partners LP
+SHLM,A. Schulman Inc.
+SHPG,Shire plc
+SHW,Sherwin-Williams Co.
+SJI,South Jersey Industries
+SJM,J.M. Smucker Co.
+SJW,SJW Corp.
+SKT,Tanger Factory Outlet Centers
+SLGN,Silgan Holdings Inc.
+SNN,Smith & Nephew plc
+SO,Southern Company
+SON,Sonoco Products Co.
+SPAN,Span-America Medical Systems
+SRCE,1st Source Corp.
+SRE,Sempra Energy
+STE,Steris Corp.
+STON,StoneMor Partners LP
+STR,Questar Corp.
+SWK,Stanley Black & Decker
+SWX,Southwest Gas Corp.
+SXL,Sunoco Logistics Partners LP
+SXT,Sensient Technologies Corp.
+SYK,Stryker Corp.
+SYY,Sysco Corp.
+T,AT&T Inc.
+TCAP,Triangle Capital Corp.
+TCP,TC Pipelines LP
+TDS,Telephone & Data Sys.
+TECH,Bio-Techne Corp.
+TGT,Target Corp.
+THFF,First Financial Corp.
+THG,Hanover Insurance Group (The)
+THVB,Thomasville Bancshares Inc.
+TIF,Tiffany & Company
+TJX,TJX Companies Inc.
+TLP,Transmontaigne Partners LP
+TMK,Torchmark Corp.
+TMP,Tompkins Financial Corp.
+TNC,Tennant Company
+TPL,Texas Pacific Land Trust
+TR,Tootsie Roll Industries
+TRI,Thomson Reuters Corp.
+TROW,T. Rowe Price Group
+TRV,Travelers Companies
+TXN,Texas Instruments
+TYC,Tyco International Ltd.
+UBA,Urstadt Biddle Properties
+UBSI,United Bankshares Inc.
+UGI,UGI Corp.
+UHT,Universal Health Realty Trust
+UMBF,UMB Financial Corp.
+UNP,Union Pacific
+UTMD,Utah Medical Products Inc.
+UTX,United Technologies
+UVV,Universal Corp.
+V,Visa Inc.
+VAL,Valspar Corp.
+VFC,VF Corp.
+VGR,Vector Group Ltd.
+VMI,Valmont Industries
+VSEC,VSE Corp.
+VVC,Vectren Corp.
+VZ,Verizon Communications
+WABC,Westamerica Bancorp
+WBA,Walgreens Boots Alliance Inc.
+WEC,Wisconsin Energy
+WES,Western Gas Partners LP
+WEYS,Weyco Group Inc.
+WGL,WGL Holdings Inc.
+WHG,Westwood Holdings Group Inc.
+WLK,Westlake Chemical Corp.
+WM,Waste Management
+WMB,Williams Companies
+WMT,Wal-Mart Stores Inc.
+WPC,W.P. Carey Inc.
+WR,Westar Energy
+WRB,W.R. Berkley Corp.
+WSM,Williams-Sonoma Inc.
+WST,West Pharmaceutical Services
+WTR,Aqua America Inc.
+XEL,Xcel Energy
+XLNX,Xilinx Inc.
+XOM,ExxonMobil Corp.
+YORW,York Water Company
+YUM,Yum! Brands Inc.
