@@ -125,10 +125,15 @@ if __name__ == '__main__':
         start_date = str(input('Start Date: '))
         finish_date = str(input('End Date: '))
         Invest().total_return(ticker, start_date, finish_date)
+    elif arg == '-mom':
+        ticker = str(input('Ticker: '))
+        output = Invest().momentum(ticker)
+        print(output[0], round(output[1], 2), sep ='\t')
     else:
         print('Invalid argument.','', sep ='\n')
         print('Valid arguments:')
         print('[-etf]    Returns positive momentum ETFs')
-        print('[-401k]   Returns positive momentum Funds')  
+        print('[-401k]   Returns positive momentum Funds')
+        print('[-mom]    Returns momentum for a security')
         print('[-tr]     Returns total return for specified period')
     
