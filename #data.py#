@@ -1,0 +1,53 @@
+import requests
+import time
+import csv
+from yahoo_finance import Share
+
+
+class Data():
+
+    
+    def __init__(self):
+        self.user = '4c17b4af06c36748f2517f1651a442ae'
+        self.pw = 'd4391357b369d6288e31652c22e2cc69'
+        self.date = time.strftime('%Y-%m-%d')
+        div_companies = {}
+
+        with open('div_companies.csv', 'r') as f:
+            reader = csv.DictReader(f)
+            for line in reader:
+                ticker = line['Ticker']
+                name = line['Name']
+                div_companies[ticker] = name
+
+        self.div_ticker = list(div_companies.keys())
+
+        
+    def shareholder_yield(self, hurdle):
+        hurdle = float(hurdle)
+        div_comp = Data().div_ticker
+        comp_list = []
+        for ticker in div_comp:
+            try:
+                divyield = float(Share(ticker).get_dividend_yield())
+                if divyield >= hurdle:
+                    comp_list.append(ticker)
+            except:
+                pass
+        
+        for comp in comp_list[:20]:
+            try:
+                
+
+               # if div_yield >= hurdle and shareholder_yield >= hurdle:
+                print(comp, round(shareholder_yield, 2), round(div_yield, 2))
+
+            except:
+                print(ticker)
+                  
+        print(results)
+        
+if __name__ == '__main__':    
+    Data().shareholder_yield(2.75)
+        
+        
