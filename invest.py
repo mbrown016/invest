@@ -122,65 +122,63 @@ class Invest():
     def shareholder_yield(self, ticker):
         ticker = ticker.upper()
         cashflow = Financials().cashflow_statement(ticker)
+
         if cashflow == None:
             shareholder_yield = 0
             div_yield = 0
+            return(shareholder_yield, div_yield)
         else:
             cf_keys = cashflow.keys()
         
-            if 'paymentofdividends' in cf_keys:
-                dividends = cashflow.get('paymentofdividends')
+        if 'paymentofdividends' in cf_keys:
+            dividends = - cashflow.get('paymentofdividends')
+        else:
+            dividends = 0
+
+        if 'repaymentofdebt' in cf_keys:
+            debt_repayment = - cashflow.get('repaymentofdebt')
+        else:
+            debt_repayment = 0
+
+        if 'issuanceofdebt' in cf_keys:
+            debt_issuance = cashflow.get('issuanceofdebt')
+        else:
+            debt_issuance = 0
+
+        if 'issuanceofcommonequity' in cf_keys:
+            common_issued = cashflow.get('issuanceofcommonequity')
+        else:
+            common_issued = 0
+
+        if 'repurchaseofcommonequity' in cf_keys:
+            common_repurchased = - cashflow.get('repurchaseofcommonequity')
+        else:
+            common_repurchased = 0
+            
+        if 'issuanceofpreferredequity' in cf_keys:
+            preferred_issued = - cashflow.get('issuanceofpreferredequity')
+        else:
+            preferred_issued = 0
+
+        if 'repurchaseofpreferredequity' in cf_keys:
+            preferred_repurchased = cashflow.get('repurchaseofpreferredequity')
+        else:
+            preferred_repurchased = 0
+
+        net_debt = (debt_repayment - debt_issuance)
+        net_equity = (common_repurchased - common_issued) + (preferred_repurchased - preferred_issued)
+        mkt_cap = Share(ticker).get_market_cap()
+
+        if mkt_cap != None:
+            if mkt_cap[-1] == 'B':
+                mkt_cap = float(mkt_cap[:-1]) * 1000000000
+            elif mkt_cap[-1] == 'M':
+                mkt_cap = float(mkt_cap[:-1]) * 1000000
             else:
-                dividends = 0
-
-            if 'repaymentofdebt' in cf_keys:
-                debt_repayment = cashflow.get('repaymentofdebt')
-            else:
-                debt_repayment = 0
-
-            if 'issuanceofdebt' in cf_keys:
-                debt_issuance = cashflow.get('issuanceofdebt')
-            else:
-                debt_issuance = 0
-
-            if 'issuanceofcommonequity' in cf_keys:
-                common_issued = cashflow.get('issuanceofcommonequity')
-            else:
-                common_issued = 0
-
-            if 'repurchaseofcommonequity' in cf_keys:
-                common_repurchased = cashflow.get('repurchaseofcommonequity')
-            else:
-                common_repurchased = 0
-
-            if 'issuanceofpreferredequity' in cf_keys:
-                preferred_issued = cashflow.get('issuanceofpreferredequity')
-            else:
-                preferred_issued = 0
-
-            if 'repurchaseofpreferredequity' in cf_keys:
-                preferred_repurchased = cashflow.get('repurchaseofpreferredequity')
-            else:
-                preferred_repurchased = 0
-
-            net_debt = (- debt_repayment + debt_issuance)
-            net_equity = (common_repurchased - common_issued) + (preferred_repurchased - preferred_issued)
-            mkt_cap = Share(ticker).get_market_cap()
-
-            if mkt_cap != None:
-                if mkt_cap[-1] == 'B':
-                    mkt_cap = float(mkt_cap[:-1]) * 1000000000
-                elif mkt_cap[-1] == 'M':
-                    mkt_cap = float(mkt_cap[:-1]) * 1000000
-                else:
-                    mkt_cap = mkt_cap[-1]
+                mkt_cap = mkt_cap[-1]
                     
-                shareholder_yield = (- (dividends + net_debt + net_equity) / mkt_cap) * 100
-                div_yield = (- dividends / mkt_cap) * 100
-                
-            else:
-                shareholder_yield = 0
-                div_yield = 0
+        shareholder_yield = ((dividends + net_debt + net_equity) / mkt_cap) * 100
+        div_yield = (dividends / mkt_cap) * 100
                 
         return(shareholder_yield, div_yield)
 
@@ -210,12 +208,11 @@ class Invest():
                     mom = Invest().momentum(company)
                     if float(mom[1]) > 0:
                         result = Invest().shareholder_yield(company)
-                        if abs(result[1] - div_yield) < 1:
-                            if result[0] >= hurdle and result[1] >= hurdle:
-                                sh_yield_list.append(result[0])
-                                div_yield_list.append(result[1])
-                                mom_list.append(mom[1])
-                                results[company] = ([result[0], result[1], mom[1]])
+                        if result[0] >= hurdle and result[1] >= hurdle:
+                            sh_yield_list.append(result[0])
+                            div_yield_list.append(result[1])
+                            mom_list.append(mom[1])
+                            results[company] = ([result[0], result[1], mom[1]])
 
             except Exception as ex:
                 template = "An exception of type {0} occured. Arguments:\n{1!r}"
@@ -253,15 +250,130 @@ class Invest():
             rank_value = round(val, 2)
             print(symbol, share_yield, div_yield, momentum, rank_value, sep = '\t')
 
+    def div_portfolio(self, hurdle):
+        port_companies = []
+        company_list = []
+        average_cost = {}
+
+        with open('div_transactions.csv', 'r') as f:
+            reader = csv.DictReader(f)
+            for line in reader:
+                ticker = line['Ticker']
+                shares = line['Shares']
+                price = line['Price']
+                port_companies.append([ticker, shares, price])
+                if ticker not in company_list:
+                    company_list.append(ticker)
+
+        for comp in company_list:
+            total_cost = 0
+            total_shares = 0
+            for val in range(len(port_companies)):
+                name = str(port_companies[val][0])
+                num_shares = int(port_companies[val][1])
+                price_pd = float(port_companies[val][2])
+                if name == comp:
+                    total_cost = total_cost + (num_shares * price_pd)
+                    total_shares = total_shares + num_shares
+                    avg_cost = total_cost / total_shares
+                    average_cost[comp] = avg_cost
+
+        print('Ticker', 'SHYOC', 'DVYOC', 'SHPO', 'DVPO', 'REC', sep = '\t')
+
+        for company in company_list:
+            income = Financials().income_statement(company)
+
+            if income == None:
+                shares_outstanding = 0
+                net_income = 0
+            else:
+                keys = income.keys()
+        
+            if 'weightedavedilutedsharesos' in keys:
+                shares_outstanding = income.get('weightedavedilutedsharesos')
+            else:
+                shares_outstanding = 0
+
+            if 'netincome' in keys:
+                net_income = income.get('netincome')
+            else:
+                net_income = 0
+
+
+            cashflow = Financials().cashflow_statement(ticker)
+            
+            if cashflow == None:
+                shareholder_yield = 0
+                div_yield = 0
+            else:
+                cf_keys = cashflow.keys()
+        
+            if 'paymentofdividends' in cf_keys:
+                dividends = - cashflow.get('paymentofdividends')
+            else:
+                dividends = 0
+
+            if 'repaymentofdebt' in cf_keys:
+                debt_repayment = - cashflow.get('repaymentofdebt')
+            else:
+                debt_repayment = 0
+
+            if 'issuanceofdebt' in cf_keys:
+                debt_issuance = cashflow.get('issuanceofdebt')
+            else:
+                debt_issuance = 0
+
+            if 'issuanceofcommonequity' in cf_keys:
+                common_issued = cashflow.get('issuanceofcommonequity')
+            else:
+                common_issued = 0
+
+            if 'repurchaseofcommonequity' in cf_keys:
+                common_repurchased = - cashflow.get('repurchaseofcommonequity')
+            else:
+                common_repurchased = 0
+
+            if 'issuanceofpreferredequity' in cf_keys:
+                preferred_issued = - cashflow.get('issuanceofpreferredequity')
+            else:
+                preferred_issued = 0
+
+            if 'repurchaseofpreferredequity' in cf_keys:
+                preferred_repurchased = cashflow.get('repurchaseofpreferredequity')
+            else:
+                preferred_repurchased = 0
+
+            net_debt = (debt_repayment - debt_issuance)
+            net_equity = (common_repurchased - common_issued) + (preferred_repurchased - preferred_issued)
+            shareholder = (dividends + net_debt + net_equity)
+            shareholder_payout = (shareholder / net_income) * 100
+            div_payout = (dividends / net_income) * 100
+            cost = average_cost.get(company)
+            sh_yield_on_cost = ((shareholder / shares_outstanding) / cost) * 100
+            div_yield_on_cost = ((dividends / shares_outstanding) / cost) * 100
+            hurdle = float(hurdle)
+            if sh_yield_on_cost >= hurdle and div_yield_on_cost >= hurdle:
+                if shareholder_payout < 100 and div_payout < 100:
+                    rec = 'HOLD'
+                else:
+                    rec = 'REVIEW'
+            else:
+                rec = 'SELL'
+            
+
+            print(company, round(sh_yield_on_cost, 2), round(div_yield_on_cost, 2), round(shareholder_payout, 2), round(div_payout, 2), rec, sep = '\t')
+
+            
     def error(self):
         print('Invalid argument.','', sep ='\n')
         print('Valid arguments:')
-        print('[-etf]    Returns positive momentum ETFs')
-        print('[-401k]   Returns positive momentum Funds')
-        print('[-mom]    Returns momentum for a security')
-        print('[-tr]     Returns total return for specified period')
-        print('[-yield]  Returns shareholder & dividend yield for a security')
-        print('[-rank]   Returns ranked list based on shareholder yield')
+        print('[-etf]      Returns positive momentum ETFs')
+        print('[-401k]     Returns positive momentum Funds')
+        print('[-mom]      Returns momentum for a security')
+        print('[-tr]       Returns total return for specified period')
+        print('[-yield]    Returns shareholder & dividend yield for a security')
+        print('[-rank]     Returns ranked list based on shareholder yield')
+        print('[-divport]  Returns current status of divident portfolio')
 
 
 if __name__ == '__main__':
@@ -290,6 +402,9 @@ if __name__ == '__main__':
     elif arg == '-rank':
         hurdle = input('Hurdle Rate: ')
         Invest().shareholder_yield_rank(hurdle)
+    elif arg == '-divport':
+        hurdle = input('Hurdle Rate: ')
+        Invest().div_portfolio(hurdle)
     else:
         Invest().error()
     
