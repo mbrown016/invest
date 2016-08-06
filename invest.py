@@ -75,8 +75,6 @@ class Invest():
         etf_results = {}
         etf_mom = []
         mom_list = []
-        etf_posative = []
-        mom_results = []
         etf = {}
         with open('etf.csv', 'r') as etf_file:
             reader = csv.DictReader(etf_file)
@@ -119,10 +117,13 @@ class Invest():
             print(symbol, round(value, 2), sep = '\t')
 
 
-    def shareholder_yield(self, ticker):
+    def shareholder_yield(self, ticker, yr = None):
         ticker = ticker.upper()
-        cashflow = Financials().cashflow_statement(ticker)
-
+        if year == None:
+            cashflow = Financials().cashflow_statement(ticker)
+        else:
+            cashflow = Financials().cashflow_statement(ticker, year = yr)
+            
         if cashflow == None:
             shareholder_yield = 0
             div_yield = 0
@@ -179,8 +180,9 @@ class Invest():
                     
         shareholder_yield = ((dividends + net_debt + net_equity) / mkt_cap) * 100
         div_yield = (dividends / mkt_cap) * 100
+        shareholder_contribution = dividends + net_debt + net_equity
                 
-        return(shareholder_yield, div_yield)
+        return(shareholder_yield, div_yield, shareholder_contribution)
 
 
     def shareholder_yield_rank(self, hurdle):
@@ -189,7 +191,11 @@ class Invest():
         company_list = []
         sh_yield_list = []
         div_yield_list = []
-        mom_list = []
+        pb_list = []
+        ps_list = []
+        pe_list = []
+        evebitda_list = []
+        evfcf_list = []
         results = {}
         rank = {}
         
@@ -205,14 +211,44 @@ class Invest():
             try:
                 div_yield = float(Share(company).get_dividend_yield())
                 if div_yield >= hurdle:
-                    mom = Invest().momentum(company)
-                    if float(mom[1]) > 0:
-                        result = Invest().shareholder_yield(company)
-                        if result[0] >= hurdle and result[1] >= hurdle:
-                            sh_yield_list.append(result[0])
-                            div_yield_list.append(result[1])
-                            mom_list.append(mom[1])
-                            results[company] = ([result[0], result[1], mom[1]])
+                    result = Invest().shareholder_yield(company)
+                    ratios = Invest().fundamentals(company)
+                        
+                    shareholder_yield = float(result[0])
+                    sh_yield_list.append(shareholder_yield)
+
+                    div_yield_list.append(div_yield)
+
+                    pricetobook = float(ratios[0])
+                    if pricetobook != 0:
+                        pb_list.append(1 / pricetobook)
+
+                    pricetosales = float(ratios[1])
+                    if pricetosales != 0:
+                        ps_list.append(1 / pricetosales)
+
+                    pricetoearnings = float(ratios[2])
+                    if pricetoearnings != 0:
+                        pe_list.append(1 / pricetoearnings)
+
+                    evtoebitda = float(ratios[3])
+                    if evtoebitda != 0:
+                        evebitda_list.append(1/ evtoebitda)
+                    
+                    evtofcf = float(ratios[4])                    
+                    if evtofcf != 0:
+                        evfcf_list.append(1 / evtofcf)
+
+                    divpayoutratio = float(ratios[5])
+                    altzscore = float(ratios[6])
+
+                    if shareholder_yield >= hurdle and divpayoutratio < 0.9 and pricetoearnings > 0:
+                        results[company] = ([pricetobook, pricetosales, pricetoearnings, evtoebitda, evtofcf, shareholder_yield, div_yield, divpayoutratio, altzscore])
+                    elif shareholder_yield >= hurdle and divpayoutratio > 0.9 and altzscore > 2.99 and pricetoearnings > 0:
+                        results[company] = ([pricetobook, pricetosales, pricetoearnings, evtoebitda, evtofcf, shareholder_yield, div_yield, divpayoutratio, altzscore])
+                    
+                        ###  z-score < 1.81 is distressed  ###
+                        ###  z-score > 2.99 is stable      ###
 
             except Exception as ex:
                 template = "An exception of type {0} occured. Arguments:\n{1!r}"
@@ -222,33 +258,64 @@ class Invest():
                 
         company_out = list(results.keys())
         max_sh_yield = max(sh_yield_list)
-        max_div_yield = max(div_yield_list)
-        max_mom = max(mom_list)
+        max_pb = max(pb_list)
+        max_ps = max(ps_list)
+        max_pe = max(pe_list)
+        max_evebitda = max(evebitda_list)
+        max_evfcf = max(evfcf_list)
 
         for comp in company_out:
-            sh_y = results.get(comp)[0]
-            div_y = results.get(comp)[1]
-            momen = results.get(comp)[2]
+            pb = results.get(comp)[0]
+            ps = results.get(comp)[1]
+            pe = results.get(comp)[2]
+            evebitda = results.get(comp)[3]
+            evfcf = results.get(comp)[4]
+            sh_y = results.get(comp)[5]
 
             sh_yield_norm = sh_y / max_sh_yield
-            div_yield_norm = div_y / max_div_yield
-            mom_norm = momen / max_mom
-            rank_val = sh_yield_norm + div_yield_norm + mom_norm
+            
+            if pb != 0:
+                pb_norm = (1 / pb) / max_pb
+            else: 
+                pb_norm = 0
+
+            if ps != 0:
+                ps_norm = (1 / ps) / max_ps
+            else:
+                ps_norm = 0
+
+            if pe != 0:
+                pe_norm = (1 / pe) / max_pe
+            else:
+                pe_norm = 0
+
+            if evebitda != 0:
+                evebitda_norm = (1 / evebitda) / max_evebitda
+            else:
+                evebitda_norm = 0
+
+            if evfcf != 0:
+                evfcf_norm = (1 / evfcf) / max_evfcf
+            else:
+                evfcf_norm = 0
+
+            rank_val = sh_yield_norm + pb_norm + ps_norm + pe_norm + evebitda_norm + evfcf_norm
             
             rank[rank_val] = comp
 
         ranked_list = list(rank.keys())
-        ranked_list.sort()
+        ranked_list.sort(reverse = True)
 
-        print('Ticker', 'SH Yld', 'DIV Yld', 'MOM', 'Rank', sep = '\t')        
+        print('Ticker', 'SH Yld', 'DIV Yld', 'Pay %', 'Alt-Z', 'Rank', sep = '\t')  
+        for v in ranked_list:
+            symbol = rank.get(v)
+            shareholder = round(results.get(symbol)[5], 2)
+            div_yield = round(results.get(symbol)[6], 2)
+            payout = round((results.get(symbol)[7] * 100), 2)
+            zscore = round(results.get(symbol)[8], 2)
+            rank_value = round(v, 2)
+            print(symbol, shareholder, div_yield, payout, zscore, rank_value, sep = '\t')
 
-        for val in ranked_list[::-1]:
-            symbol = rank.get(val)
-            share_yield = round(results.get(symbol)[0], 2)
-            div_yield = round(results.get(symbol)[1], 2)
-            momentum = round(results.get(symbol)[2], 2)
-            rank_value = round(val, 2)
-            print(symbol, share_yield, div_yield, momentum, rank_value, sep = '\t')
 
     def div_portfolio(self, hurdle):
         port_companies = []
@@ -303,8 +370,8 @@ class Invest():
             cashflow = Financials().cashflow_statement(ticker)
             
             if cashflow == None:
-                shareholder_yield = 0
-                div_yield = 0
+                shareholder_payout = 0
+                div_payout = 0
             else:
                 cf_keys = cashflow.keys()
         
@@ -363,7 +430,85 @@ class Invest():
 
             print(company, round(sh_yield_on_cost, 2), round(div_yield_on_cost, 2), round(shareholder_payout, 2), round(div_payout, 2), rec, sep = '\t')
 
-            
+
+    def fundamentals(self, ticker, yr = None):
+        if yr == None:
+            ratios = Financials().fundamentals(ticker)
+        else:
+            ratios = Financials().fundamentals(ticker, year = yr)
+
+        if ratios == None:
+            shareholder_yield = 0
+            div_yield = 0
+            return(shareholder_yield, div_yield)
+        else:
+            keys = ratios.keys()
+
+        ### List of keys can be found @ http://community.intrinio.com/docs/industrial-tags/ ###
+        
+        if 'divpayoutratio' in keys:
+            try:
+                div_payout = float(ratios.get('divpayoutratio'))
+            except:
+                div_payout = 0
+        else:
+            div_payout = 0
+
+        if 'altmanzscore' in keys:
+            try:
+                z_score = float(ratios.get('altmanzscore'))
+            except:
+                z_score = 0
+        else:
+            z_score = 0
+
+        ### z_score < 1.81 = distress   ###
+        ### z_score > 2.99 = safe       ###
+        ### otherwise = grey zone       ###
+
+        if 'pricetobook' in keys:
+            try:
+                price_book = float(ratios.get('pricetobook'))
+            except:
+                price_book = 0
+        else:
+            price_book = 0
+
+        if 'evtorevenue' in keys:
+            try:
+               price_sales = float(ratios.get('evtorevenue'))
+            except:
+               price_sales = 0
+        else:
+            price_sales = 0
+
+        if 'pricetoearnings' in keys:
+            try:
+                price_earnings = float(ratios.get('pricetoearnings'))
+            except:
+                price_earnings = 0
+        else:
+            price_earnings = 0
+
+        if 'evtoebitda' in keys:
+            try:
+                ev_ebitda = float(ratios.get('evtoebitda'))
+            except:
+                ev_ebitda = 0
+        else:
+            ev_ebitda = 0
+
+        if 'evtofcff' in keys:
+            try:
+                ev_fcf = float(ratios.get('evtofcff'))
+            except:
+                ev_fcf = 0
+        else:
+            ev_fcf = 0
+
+        return(price_book, price_sales, price_earnings, ev_ebitda, ev_fcf, div_payout, z_score)
+
+                
     def error(self):
         print('Invalid argument.','', sep ='\n')
         print('Valid arguments:')

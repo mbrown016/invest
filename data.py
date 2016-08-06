@@ -35,7 +35,7 @@ class Data():
             except:
                 pass
         
-        for comp in comp_list[:20]:
+        for comp in comp_list:
             try:
                 url = 'https://www.intrinio.com/api/financials/standardized'
                 payload = {'ticker': comp, 'statement': 'cash_flow_statement', 'type': 'TTM', 'date': Data().date}
@@ -96,8 +96,8 @@ class Data():
                 shareholder_yield = (- (dividends + net_debt + net_equity) / mkt_cap) * 100
                 div_yield = (- dividends / mkt_cap) * 100
 
-               # if div_yield >= hurdle and shareholder_yield >= hurdle:
-                print(comp, round(shareholder_yield, 2), round(div_yield, 2))
+                if div_yield >= hurdle and shareholder_yield >= hurdle:
+                    results.append([comp, round(shareholder_yield, 2), round(div_yield, 2)])
 
             except:
                 print(ticker)
