@@ -1,0 +1,87 @@
+from tinydb import TinyDB, Query
+
+transaction_db = TinyDB('db.json')
+
+class DB():
+
+    def __init__(self):
+        pass
+
+    def add(self, trans_type):
+        date = input('Date of Transaction (YYYY-MM-DD): ')
+        ticker = input('Ticker: ').upper()
+        shares = int(input('# of Shares: '))
+        price = float(input('Price: '))
+        trans_type = str(trans_type).lower()
+        record = {'date': date, 'security': ticker, 'shares': shares, 'price': price, 'trans_type': trans_type}
+        
+        if trans_type == 'buy':
+            transaction_db.insert(record)
+            
+        elif trans_type == 'sell':
+           owned_shares = DB().num_shares(ticker)
+           if owned_shares >= shares:
+               transaction_db.insert(record)
+           else:
+               print('Sell amt > owned shares')
+
+    def num_shares(self, ticker):
+        ticker = ticker.upper()
+        buys = transaction_db.search((Query().security == ticker) & (Query().trans_type == 'buy'))
+        sold = transaction_db.search((Query().security == ticker) & (Query().trans_type == 'sell'))
+        buy_count = len(buys)
+        sell_count = len(sold)
+
+        if buy_count == 0:
+            print('No record of security in DB')
+                
+        elif buy_count > 0:
+            owned_shares = 0
+            for x in range(buy_count):
+                buy_amt = int(buys[x].get('shares'))
+                owned_shares += buy_amt
+
+            for y in range(sell_count):
+                sell_amt = int(sold[y].get('shares'))
+                owned_shares += -sell_amt
+
+        return(owned_shares)
+
+    def avg_cost(self, ticker):
+        ticker = ticker.upper()
+        buys = transaction_db.search((Query().security == ticker) & (Query().trans_type == 'buy'))
+        sold = transaction_db.search((Query().security == ticker) & (Query().trans_type == 'sell'))
+        buy_count = len(buys)
+        sell_count = len(sold)
+
+        if buy_count == 0:
+            print('No record of security in DB')
+
+        elif buy_count > 0:
+            owned_shares = 0
+            total_spend = 0
+            for x in range(buy_count):
+                buy_number = int(buys[x].get('shares'))
+                buy_cost = float(buys[x].get('price')) * buy_number
+
+                owned_shares += buy_number
+                total_spend += buy_cost
+
+            for y in range(sell_count):
+                sell_number = int(sold[y].get('shares'))
+                sell_cost = float(sold[y].get('price')) * sell_number
+
+                owned_shares += -sell_number
+                total_spend += -sell_cost
+
+            average_cost = round((total_spend / owned_shares), 2)
+
+        return(average_cost)
+
+    def transactions(self, ticker = None):
+        ticker = ticker.upper()
+        if ticker == None:
+            print(transaction_db.all())
+        else:
+            print(transaction_db.search(Query().security == ticker))
+                

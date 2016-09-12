@@ -1,0 +1,133 @@
+Category,Name,Ticker
+Alternative Energy,Carbon,GRN
+Alternative Energy,Clean Energy,PBD
+Alternative Energy,Environmental Services,EVX
+Alternative Energy,Nuclear,NLR
+Alternative Energy,Solar,TAN
+Alternative Energy,Wind,FAN
+Benchmark,Equal Weighted S&P500,RSP
+Bonds,Convertible Bonds,CWB
+Bonds,Emerging Mkt Govt Bonds,PCY
+Bonds,Intl Corp Bonds,PICB
+Bonds,Intl Govt Bonds,BWX
+Bonds,Intl Govt Bonds Inflation Protected,WIP
+Bonds,Intl ST Govt Bonds,BWZ
+Bonds,Mortgage Bonds,MBG
+Bonds,Senior Loans,BKLN
+Bonds,US 1-30 Yr Treasurys,PLW
+Bonds,US High Yield Bonds,PHB
+Bonds,US Invest Grade Bonds,PFIG
+Bonds,US IT Muni Bonds,ITM
+Bonds,US Long Term Treasurys,TLO
+Bonds,US LT Corp Bonds,CLY
+Bonds,US LT Muni Bonds,MLN
+Bonds,US Med Term Treasurys,ITE
+Bonds,US MT Corp Bonds,CIU
+Bonds,US Muni Bonds,TFI
+Bonds,US Short Term Treasurys,BIL
+Bonds,US ST Corp Bonds,LDRI
+Bonds,US ST Muni Bonds,SHM
+Bonds,US TIPS,TIP
+Commodities,Agriculture,DBA
+Commodities,Energy,DBE
+Commodities,Gold,GLD
+Commodities,Industrial Metals,DBB
+Consumer,Automotive,CARZ
+Consumer,Food & Beverage,PBJ
+Consumer,Gaming,BJK
+Consumer,Homebuilders,XHB
+Consumer,Leisure,PEJ
+Consumer,Media,PBS
+Consumer,Retail,PMR
+Currencies,Australian Dollar,FXA
+Currencies,Brazilian Real,BZF
+Currencies,British Pound,FXB
+Currencies,Canadian Dollar,FXC
+Currencies,Chinese Renminbi,CYB
+Currencies,Euro,FXE
+Currencies,Indian Rupee,ICN
+Currencies,Japanese Yen,FXY
+Currencies,Singapore Dollar,FXSG
+Currencies,Swedish Krona,FXSG
+Currencies,Swiss Franc,FXF
+Developed Markets,Austria,EWO
+Developed Markets,France,EWQ
+Developed Markets,Germany,EWG
+Developed Markets,Ireland,EIRL
+Developed Markets,Israel,EIS
+Developed Markets,Japan,JPP
+Developed Markets,Netherlands,EWN
+Developed Markets,Sweden,EWD
+Developed Markets,Switzerland,EWL
+Developed Markets,UK,EWU
+Emerging Markets,Argentina,ARGT
+Emerging Markets,Australia,EWA
+Emerging Markets,Belgium,EWK
+Emerging Markets,Brazil,EWZ
+Emerging Markets,Canada,EWC
+Emerging Markets,Chile,ECH
+Emerging Markets,China,GXC
+Emerging Markets,Colombia,GXG
+Emerging Markets,Egypt,EGPT
+Emerging Markets,Greece,GREK
+Emerging Markets,Hong Kong,EWH
+Emerging Markets,India,PIN
+Emerging Markets,Indonesia,IDX
+Emerging Markets,Italy,EWI
+Emerging Markets,Malaysia,EWM
+Emerging Markets,Mexico,EWW
+Emerging Markets,New Zealand,ENZL
+Emerging Markets,Nigeria,NGE
+Emerging Markets,Norway,NORW
+Emerging Markets,Peru,EPU
+Emerging Markets,Philippines,EPHE
+Emerging Markets,Poland,PLND
+Emerging Markets,Portugal,PGAL
+Emerging Markets,Russia,RBL
+Emerging Markets,Singapore,EWS
+Emerging Markets,South Africa,EZA
+Emerging Markets,South Korea,EWY
+Emerging Markets,Spain,EWP
+Emerging Markets,Taiwan,EWT
+Emerging Markets,Thailand,THD
+Emerging Markets,Turkey,TUR
+Emerging Markets,UAE,UAE
+Emerging Markets,Vietnam,VNM
+Energy,Fracking,FRAK
+Energy,Oil & Gas Equipment,PXJ
+Energy,Oil & Gas Exploration,PXE
+Financials,Banks,KBWB
+Financials,Brokers,AIA
+Financials,Insurance,KBWP
+Financials,Private Equity,PSP
+Financials,Regional Banks,KBWR
+Healthcare,Biotech,PBE
+Healthcare,Healthcare Providers,IHF
+Healthcare,Medical Devices,IHI
+Healthcare,Pharmaceuticals,PJP
+Industrials,Aerospace & Defense,PPA
+Industrials,Global Infrastructure,GII
+Industrials,Global Water Resources,PIO
+Industrials,Shipping,SEA
+Industrials,Transport,IYT
+Metals & Mining,Coal Producers,KOL
+Metals & Mining,Gold Miners,GDX
+Metals & Mining,Hard Assets Producers,HAP
+Metals & Mining,Metals & Mining,XME
+Metals & Mining,Steel Production,SLX
+Preferred Equity,Preferred Stocks,PFF
+Real Estate,China REIT,TAO
+Real Estate,Emerging REIT,EMRE
+Real Estate,Europe REIT,IFEU
+Real Estate,Japan REIT,DXJR
+Real Estate,US REIT,PSR
+Technology,Cloud Computing,SKYY
+Technology,Internet,PNQI
+Technology,Networking,PXQ
+Technology,Robotics,ROBO
+Technology,Semiconductors,PSI
+Technology,Smartphones,FONE
+Technology,Social Media,SOCL
+Technology,Software,PSJ
+Utilities,Smart Grid,GRID
+Utilities,Utilities,XLU

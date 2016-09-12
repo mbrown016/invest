@@ -4,6 +4,7 @@ import csv
 import sys
 from financials import Financials
 from yahoo_finance import Share
+from transactions import DB
 
 today = datetime.date.today()
 year = datetime.timedelta(days = 365)
@@ -83,38 +84,331 @@ class Invest():
                 name = line['Fund_Name']
                 etf[ticker] = name
         
+        sp500 = Invest().momentum('VOO')[1]
+        bond = Invest().momentum('VGSH')[1]
+        intl = Invest().momentum('VEU')[1]
+        benchmark = {sp500: 'VOO', bond: 'VGSH', intl: 'VEU'}
+        max_bench = max(list(benchmark.keys()))
+        max_fund = benchmark[max_bench]
+                
         for fund in etf:
             mom = Invest().momentum(fund)
             etf_mom.append(mom)
             etf_results[mom[1]] = fund
-            if mom[1] > 0 and mom[2] > 0:
+            if mom[1] > 0 and mom[2] > 0 and mom[1] > max_bench:
                 mom_list.append(mom[1])
 
         mom_list.sort(reverse = True)
+
+        print('', 'IRA:', sep = '\n')
+        print('Fund', 'MOM', '%', 'Type', sep = '\t')
+
+        if len(mom_list) == 0:
+            fund_type = etf[max_fund]
+            print(max_fund, round(max_bench, 2), 100, fund_type, sep = '\t')
+        elif len(mom_list) >= 4:
+            percent = 25
+            for val in mom_list[:4]:
+                symbol = etf_results[val]
+                fund_type = etf[symbol]
+                print(symbol, round(val, 2), percent, fund_type, sep = '\t')
+        else:
+            percent = int(100.0 / (len(mom_list) + 1))
+            for val in mom_list:
+                symbol = etf_results[val]
+                fund_type = etf[symbol]
+                print(symbol, round(val, 2), percent, fund_type, sep = '\t')
+                types = etf[max_fund]
+                print(max_fund, round(max_bench, 2), percent, types, sep = '\t')        
                 
+
+
+    def etf_rank(self, number, amt):
+        etf_results = {}
+        etf_mom = []
+        mom_list = []
+        etf = {}
+        etf_type = {}
+        results = []
+
+        benchmark = Invest().momentum('RSP')[1]
+        
+        with open('ETF_list.csv', 'r') as etf_file:
+            reader = csv.DictReader(etf_file)
+            for line in reader:
+                ticker = line['Ticker']
+                name = line['Name']
+                category = line['Category']
+                etf[ticker] = name
+                etf_type[ticker] = category
+        
+        for fund in etf:
+            try:
+                mom = Invest().momentum(fund)
+                etf_mom.append(mom)
+                etf_results[mom[1]] = fund
+                if mom[1] >= benchmark and mom[1] > 0 and mom[2] > 0:
+                    mom_list.append(mom[1])
+            except:
+                print(fund)
+
+                    
+        mom_list.sort(reverse = True)
+
+        number = float(number)
+        amt = float(amt)
+        std_threshold = 30  ### % max allocation to one standard fund category
+        alt_threshold = 10  ### % max allocation to one alternative fund category
+        allocation = 100 / number  ### % allocated to each investment
+        count = 0
+        std_count = 0
+        alt_count = 0
+        max_alt = .4 * number  ### max portfolio allocation to alternative assets
+        allocate = amt / number
+
+        alt_energy = 0
+        bonds = 0
+        commodities = 0
+        consumer = 0
+        currencies = 0
+        dev_markets = 0
+        emerg_markets = 0
+        energy = 0
+        financials = 0
+        healthcare = 0
+        industrials = 0
+        mining = 0
+        preferred = 0
+        real_estate = 0
+        tech = 0
+        utilities = 0
+        
         for value in mom_list:
             symbol = etf_results[value]
-            fund_type = etf[symbol]
+            fund_name = etf[symbol]
+            fund_type = etf_type[symbol]
             momentum = value
-            print(symbol, round(momentum,2), fund_type, sep = '\t')
-                
+
+            count = std_count + alt_count
+
+            if count >= number:
+                break
+            else:
+            
+                if fund_type == 'Alternative Energy':
+                    if (alt_energy * (allocation + 1)) >= alt_threshold or (alt_count + 1) >= max_alt:
+                        pass
+                    else:
+                        alt_energy += 1
+                        alt_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Bonds':
+                    if (bonds * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        bonds += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Commodities':
+                    if (commodities * (allocation + 1)) >= alt_threshold or (alt_count + 1) >= max_alt:
+                        pass
+                    else:
+                        commodities += 1
+                        alt_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Consumer':
+                    if (consumer * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        consumer += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Currencies':
+                    if (currencies * (allocation + 1)) >= alt_threshold or (alt_count + 1) >= max_alt:
+                        pass
+                    else:
+                        currencies += 1
+                        alt_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Developed Markets':
+                    if (dev_markets * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        dev_markets += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Emerging Markets':
+                    if (emerg_markets * (allocation + 1)) >= alt_threshold or (alt_count + 1) >= max_alt:
+                        pass
+                    else:
+                        emerg_markets += 1
+                        alt_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Energy':
+                    if (energy * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        energy += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Financials':
+                    if (financials * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        financials += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Healthcare':
+                    if (healthcare * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        healthcare += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Industrials':
+                    if (industrials * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        industrials += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Metals & Mining':
+                    if (mining * (allocation + 1)) >= alt_threshold or (alt_count + 1) >= max_alt:
+                        pass
+                    else:
+                        mining += 1
+                        alt_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Preferred Equity':
+                    if (preferred * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        preferred += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Real Estate':
+                    if (real_estate * (allocation + 1)) >= alt_threshold or (alt_count + 1) >= max_alt:
+                        pass
+                    else:
+                        real_estate += 1
+                        alt_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Technology':
+                    if (tech * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        tech += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+                if fund_type == 'Utilities':
+                    if (utilities * (allocation + 1)) >= std_threshold:
+                        pass
+                    else:
+                        utilities += 1
+                        std_count += 1
+                        results.append([symbol, round(momentum,2), fund_name, fund_type, allocate])
+
+        if count < number:
+            if benchmark > 0:
+                diff = number - count
+                results.append(['RSP', round(benchmark), 'S&P 500 Eq Weight', 'Index', (diff * allocate)])
+            else:
+                results.append(['CASH', '', '', '', (diff * allocate)])
+                        
+        for v in results:
+            print(v[0], v[1], v[2], v[3], round(v[4], 2), sep = '\t')
 
     def four01k(self):
-        fidelity = ('RGAGX', 'FXSIX', 'VWNAX', 'FSEVX', 'RTRIX', 'VEXRX', 'RERGX', 'FSIVX', 'FINPX', 'MWTSX', 'PHYIX')		
+        fidelity = ('RGAGX', 'VWNAX', 'FSEVX', 'RTRIX', 'VEXRX', 'RERGX', 'FINPX', 'PHYIX')		
 
         fund_mom = {}
-        mom_list= []
+        mom_list = []
+        matt_mom = {}
+        matt_mom_list = []
+
+        sp500 = Invest().momentum('FXSIX')[1]
+        intl = Invest().momentum('FSIVX')[1]
+        bonds = Invest().momentum('MWTSX')[1]
+        benchmark = {sp500: 'FXSIX', intl: 'FSIVX', bonds: 'MWTSX'}
+        max_bench = max(list(benchmark.keys()))
+        max_fund = benchmark[max_bench]
 
         for fund in fidelity:
             mom = Invest().momentum(fund)[1]
-            if mom > 0:
-                fund_mom[mom] = fund
+            if mom > 0 and mom > max_bench:
                 mom_list.append(mom)
+                fund_mom[mom] = fund
 
+        print('', 'Maxi 401k:', sep = '\n')
+        print('Fund', 'MOM', '%', sep = '\t')
         mom_list.sort(reverse = True)
-        for value in mom_list:
-            symbol = fund_mom[value]
-            print(symbol, round(value, 2), sep = '\t')
+        
+        if len(mom_list) == 0:
+           print(max_fund, round(max_bench, 2), 100, sep = '\t')
+        elif len(mom_list) >= 4:
+            percent = 25
+            for val in mom_list[:4]:
+                symbol = fund_mom[val]
+                print(symbol, round(val, 2), percent, sep = '\t')
+        else:
+            percent = int(100.0 / (len(mom_list) + 1))
+            for val in mom_list:
+                symbol = fund_mom[val]
+                print(symbol, round(val, 2), percent, sep = '\t')
+                print(max_fund, round(max_bench, 2), percent, sep = '\t')
+
+
+        principal = ('PFMRX', 'PLFNX', 'PINNX', 'PEASX')
+        ### PFMRX = Short term bond
+        ### PLFNX = S&P 500
+        ### PINNX = International stocks
+        ### PEASX = Emerging market stocks
+
+        for fund in principal:
+            momentum = Invest().momentum(fund)[1]
+            if momentum > 0:
+                matt_mom[fund] = momentum
+                matt_mom_list.append(momentum)
+
+        matt_mom_list.sort(reverse = True)
+
+        percentage = 100
+            
+        bond = matt_mom['PFMRX']
+        sp500 = matt_mom['PLFNX']
+        intl = matt_mom['PINNX'] 
+        emerg = matt_mom['PEASX']
+
+        print('', 'Matt 401k:', sep = '\n')
+        print('Fund', 'Type', 'MOM', '%', sep = '\t')
+
+        if emerg == max(matt_mom_list):
+            percentage = 80
+            print('PEASX', 'Emerg', round(emerg, 2), '20', sep = '\t')
+
+        if bond == max(matt_mom_list):
+            print('PFMRX', 'Bonds', round(bond, 2), percentage, sep = '\t')
+        elif sp500 == max(matt_mom_list):
+            print('PLFNX', 'SP500', round(sp500, 2), percentage, sep = '\t')
+        elif intl == max(matt_mom_list):
+            print('PINNX', 'Intl', round(intl, 2), percentage, sep = '\t')
+        else:
+            print('CASH', '', '', 100, sep = '\t')
 
 
     def shareholder_yield(self, ticker, yr = None):
@@ -185,7 +479,7 @@ class Invest():
         return(shareholder_yield, div_yield, shareholder_contribution)
 
 
-    def shareholder_yield_rank(self, hurdle):
+    def dividend_rank(self, hurdle):
         hurdle = float(hurdle)
         div_companies = {}
         company_list = []
@@ -207,45 +501,51 @@ class Invest():
                 div_companies[ticker] = name
                 company_list.append(ticker)
                 
+        spy_div = float(Share('SPY').get_dividend_yield())
+        spy_mom = float(Invest().momentum('SPY')[1])
+
         for company in company_list:
             try:
                 div_yield = float(Share(company).get_dividend_yield())
-                if div_yield >= hurdle:
-                    result = Invest().shareholder_yield(company)
-                    ratios = Invest().fundamentals(company)
-                        
-                    shareholder_yield = float(result[0])
-                    sh_yield_list.append(shareholder_yield)
-
-                    div_yield_list.append(div_yield)
-
-                    pricetobook = float(ratios[0])
-                    if pricetobook != 0:
-                        pb_list.append(1 / pricetobook)
-
-                    pricetosales = float(ratios[1])
-                    if pricetosales != 0:
-                        ps_list.append(1 / pricetosales)
-
-                    pricetoearnings = float(ratios[2])
-                    if pricetoearnings != 0:
-                        pe_list.append(1 / pricetoearnings)
-
-                    evtoebitda = float(ratios[3])
-                    if evtoebitda != 0:
-                        evebitda_list.append(1/ evtoebitda)
+                if div_yield >= hurdle and div_yield >= spy_div:
                     
-                    evtofcf = float(ratios[4])                    
-                    if evtofcf != 0:
-                        evfcf_list.append(1 / evtofcf)
+                    momentum = float(Invest().momentum(company)[1])
+                    if momentum > spy_mom:
+                        result = Invest().shareholder_yield(company)
+                        ratios = Invest().fundamentals(company)
+                        
+                        shareholder_yield = float(result[0])
+                        sh_yield_list.append(shareholder_yield)
 
-                    divpayoutratio = float(ratios[5])
-                    altzscore = float(ratios[6])
+                        div_yield_list.append(div_yield)
 
-                    if shareholder_yield >= hurdle and divpayoutratio < 0.9 and pricetoearnings > 0:
-                        results[company] = ([pricetobook, pricetosales, pricetoearnings, evtoebitda, evtofcf, shareholder_yield, div_yield, divpayoutratio, altzscore])
-                    elif shareholder_yield >= hurdle and divpayoutratio > 0.9 and altzscore > 2.99 and pricetoearnings > 0:
-                        results[company] = ([pricetobook, pricetosales, pricetoearnings, evtoebitda, evtofcf, shareholder_yield, div_yield, divpayoutratio, altzscore])
+                        pricetobook = float(ratios[0])
+                        if pricetobook != 0:
+                            pb_list.append(1 / pricetobook)
+
+                        pricetosales = float(ratios[1])
+                        if pricetosales != 0:
+                            ps_list.append(1 / pricetosales)
+
+                        pricetoearnings = float(ratios[2])
+                        if pricetoearnings != 0:
+                            pe_list.append(1 / pricetoearnings)
+
+                        evtoebitda = float(ratios[3])
+                        if evtoebitda != 0:
+                            evebitda_list.append(1/ evtoebitda)
+                    
+                        evtofcf = float(ratios[4])                    
+                        if evtofcf != 0:
+                            evfcf_list.append(1 / evtofcf)
+
+                        divpayoutratio = float(ratios[5])
+                        altzscore = float(ratios[6])
+
+                        if shareholder_yield >= hurdle and divpayoutratio < 0.9 and pricetoearnings > 0:
+                            results[company] = ([pricetobook, pricetosales, pricetoearnings, evtoebitda, evtofcf, shareholder_yield, div_yield, divpayoutratio, altzscore, momentum])
+                        elif shareholder_yield >= hurdle and divpayoutratio > 0.9 and altzscore > 2.99 and pricetoearnings > 0:
+                            results[company] = ([pricetobook, pricetosales, pricetoearnings, evtoebitda, evtofcf, shareholder_yield, div_yield, divpayoutratio, altzscore, momentum])
                     
                         ###  z-score < 1.81 is distressed  ###
                         ###  z-score > 2.99 is stable      ###
@@ -299,55 +599,56 @@ class Invest():
             else:
                 evfcf_norm = 0
 
-            rank_val = sh_yield_norm + pb_norm + ps_norm + pe_norm + evebitda_norm + evfcf_norm
+            rank_val = sh_yield_norm + ps_norm + pe_norm + evebitda_norm + evfcf_norm
             
             rank[rank_val] = comp
 
         ranked_list = list(rank.keys())
         ranked_list.sort(reverse = True)
 
-        print('Ticker', 'SH Yld', 'DIV Yld', 'Pay %', 'Alt-Z', 'Rank', sep = '\t')  
+        print('Ticker', 'SH Yld', 'DIV Yld', 'Pay %', 'Alt-Z', 'Rank', 'MOM', sep = '\t')  
         for v in ranked_list:
             symbol = rank.get(v)
             shareholder = round(results.get(symbol)[5], 2)
             div_yield = round(results.get(symbol)[6], 2)
             payout = round((results.get(symbol)[7] * 100), 2)
             zscore = round(results.get(symbol)[8], 2)
+            mom = round(results.get(symbol)[9], 2)
             rank_value = round(v, 2)
-            print(symbol, shareholder, div_yield, payout, zscore, rank_value, sep = '\t')
+            print(symbol, shareholder, div_yield, payout, zscore, rank_value, mom, sep = '\t')
 
 
     def div_portfolio(self, hurdle):
         port_companies = []
         company_list = []
         average_cost = {}
+        investment_date = {}
 
-        with open('div_transactions.csv', 'r') as f:
-            reader = csv.DictReader(f)
-            for line in reader:
-                ticker = line['Ticker']
-                shares = line['Shares']
-                price = line['Price']
-                port_companies.append([ticker, shares, price])
-                if ticker not in company_list:
-                    company_list.append(ticker)
+        company_list = DB().securities()
 
         for comp in company_list:
-            total_cost = 0
-            total_shares = 0
-            for val in range(len(port_companies)):
-                name = str(port_companies[val][0])
-                num_shares = int(port_companies[val][1])
-                price_pd = float(port_companies[val][2])
-                if name == comp:
-                    total_cost = total_cost + (num_shares * price_pd)
-                    total_shares = total_shares + num_shares
-                    avg_cost = total_cost / total_shares
-                    average_cost[comp] = avg_cost
-
-        print('Ticker', 'SHYOC', 'DVYOC', 'SHPO', 'DVPO', 'REC', sep = '\t')
+            average_cost[comp] = DB().avg_cost(comp)
+        
+        print('', 'Dividend Portfolio', sep = '\n')
+        print('Ticker', 'SHYOC', 'DVYOC', 'SHPO', 'DVPO', 'COST', 'PRICE', 'STOP', 'REC', sep = '\t')
 
         for company in company_list:
+            transactions = DB().transactions(company)
+            start_date = None
+            for v in range(len(transactions)):
+                trans_date = datetime.datetime.strptime(transactions[v]['date'], '%Y-%m-%d')
+                if start_date == None:
+                    start_date = trans_date
+                else:
+                    if trans_date < start_date:
+                        start_date = trans_date
+            start_date = str(start_date)[:10]
+            price_history = Share(company).get_historical(Invest().weekday(start_date), Invest().weekday(today))
+            adj_close = [float(price_history[x].get('Adj_Close')) for x in range(len(price_history))]
+            max_price = max(adj_close)
+            stop_loss = round(max_price * .8, 2)
+            current_price = round(adj_close[0], 2)
+
             income = Financials().income_statement(company)
 
             if income == None:
@@ -367,7 +668,7 @@ class Invest():
                 net_income = 0
 
 
-            cashflow = Financials().cashflow_statement(ticker)
+            cashflow = Financials().cashflow_statement(company)
             
             if cashflow == None:
                 shareholder_payout = 0
@@ -419,8 +720,8 @@ class Invest():
             sh_yield_on_cost = ((shareholder / shares_outstanding) / cost) * 100
             div_yield_on_cost = ((dividends / shares_outstanding) / cost) * 100
             hurdle = float(hurdle)
-            if sh_yield_on_cost >= hurdle and div_yield_on_cost >= hurdle:
-                if shareholder_payout < 100 and div_payout < 100:
+            if sh_yield_on_cost >= hurdle and div_yield_on_cost >= hurdle and current_price > stop_loss:
+                if shareholder_payout < 100 and div_payout < 100 and current_price > stop_loss:
                     rec = 'HOLD'
                 else:
                     rec = 'REVIEW'
@@ -428,7 +729,7 @@ class Invest():
                 rec = 'SELL'
             
 
-            print(company, round(sh_yield_on_cost, 2), round(div_yield_on_cost, 2), round(shareholder_payout, 2), round(div_payout, 2), rec, sep = '\t')
+            print(company, round(sh_yield_on_cost, 2), round(div_yield_on_cost, 2), round(shareholder_payout, 2), round(div_payout, 2), cost, current_price, stop_loss, rec, sep = '\t')
 
 
     def fundamentals(self, ticker, yr = None):
@@ -512,13 +813,19 @@ class Invest():
     def error(self):
         print('Invalid argument.','', sep ='\n')
         print('Valid arguments:')
-        print('[-etf]      Returns positive momentum ETFs')
-        print('[-401k]     Returns positive momentum Funds')
-        print('[-mom]      Returns momentum for a security')
-        print('[-tr]       Returns total return for specified period')
-        print('[-yield]    Returns shareholder & dividend yield for a security')
-        print('[-rank]     Returns ranked list based on shareholder yield')
-        print('[-divport]  Returns current status of divident portfolio')
+        print('[-rebalance]  Returns tax deferred recommendations')
+        print('[-divrank]    Returns ranked list based on shareholder yield')
+        print('[-etfrank]    Returns ranked list of ETFs based on momentum')
+        print('')
+        print('[-buy]        Add a buy transaction to DB')
+        print('[-sell]       Add a sell transaciton to DB')
+        print('[-dividend]   Add a dividend transaction to DB')
+        print('')
+        print('[-mom]        Returns momentum for a security')
+        print('[-tr]         Returns total return for specified period')
+        print('[-yield]      Returns shareholder & dividend yield for a security')
+          
+        
 
 
 if __name__ == '__main__':
@@ -544,12 +851,27 @@ if __name__ == '__main__':
         ticker = str(input('Ticker: '))
         output = Invest().shareholder_yield(ticker)
         print(ticker.upper(), round(output[0], 2), round(output[1], 2), sep = '\t')
-    elif arg == '-rank':
-        hurdle = input('Hurdle Rate: ')
-        Invest().shareholder_yield_rank(hurdle)
+    elif arg == '-divrank':
+        hurdle = float(input('DIV Hurdle Rate: '))
+        Invest().dividend_rank(hurdle)
     elif arg == '-divport':
         hurdle = input('Hurdle Rate: ')
         Invest().div_portfolio(hurdle)
+    elif arg == '-etfrank':
+        number = input('# of Funds: ')
+        amt = input('Amt to Invest: ')
+        Invest().etf_rank(number, amt)
+    elif arg == '-rebalance':
+        hurdle = float(input('DIV Hurdle Rate: '))
+        Invest().four01k()
+        Invest().etf()
+        Invest().div_portfolio(hurdle)
+    elif arg == '-buy':
+        DB().add('buy')
+    elif arg == '-sell':
+        DB().add('sell')
+    elif arg == '-dividend':
+        DB().add('dividend')
     else:
         Invest().error()
     

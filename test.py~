@@ -1,5 +1,0 @@
-import requests
-
-comp = input("Ticker: ")
-
-                
